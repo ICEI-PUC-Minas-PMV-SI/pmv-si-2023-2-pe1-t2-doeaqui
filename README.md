@@ -14,7 +14,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Isaac Samuel de Carvalho
 * Bruno Alfeu Mendes de Araújo
 * Caio Vinicius Mangueira Magalhães de Sousa Melo
-* Nome completo do aluno 5
+* Gabriel Amâncio de Oliveira
 
 ## Orientador
 
