@@ -13,7 +13,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Guilherme de Souza Mendonça Silva
 * Isaac Samuel de Carvalho
 * Bruno Alfeu Mendes de Araújo
-* Nome completo do aluno 4
+* Caio Vinicius Mangueira Magalhães de Sousa Melo
 * Nome completo do aluno 5
 
 ## Orientador
