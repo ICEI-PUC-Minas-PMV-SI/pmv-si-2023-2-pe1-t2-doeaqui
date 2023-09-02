@@ -42,13 +42,43 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+1. **Doadores** Individuais: 
+- **Descrição**: Pessoas de todas as idades e origens que desejam fazer doações para causas que lhes são importantes, como instituições de caridade, projetos sociais e organizações sem fins lucrativos.
+- **Conhecimentos Prévios**: Varia amplamente, desde pessoas com um entendimento profundo das causas e organizações até aquelas que estão apenas começando a se envolver em atividades de caridade.
+- **Relação com a Tecnologia**: Diversificada, desde doadores proficientes em tecnologias até aquelas que podem ter dificuldades com plataformas online.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+2. **Voluntários**: 
+- **Descrição**: Indivíduos dispostos a oferecer seu tempo e habilidades para apoiar causas e organizações, realizando tarefas como trabalho voluntário, arrecações de fundos e divulgações.
+- **Conhecimentos Prévios**: Variados, com alguns vonluntários tendo experiência prévia em trabalho voluntário e outros novatos dispostos a aprender.
+- **Relação com a Tecnologia**: Geralmente, têm um nível moderado em relação à habilidades tecnológicas, pois muitas vezes precisam se inscrever e se comunicar por meio de plataformas online.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
+3. **Organizações** Sem Fins Lucrativos:
+- **Descrição**: Entidades que buscam apoio financeiros e de vonluntários para suas causas. Isso inclui instituições de caridade, abrigos de animais, organizações de ajuda humanitária, entre outras. 
+- **Conhecimentos Prévios**: Muitas organizações possuem uma compreensão sólida de suas necessidaes, embora algumas possuem precisar de orientações para aproveitar ao máximo a plataforma de doações.
+- **Relação com a Tecnologia**: Variável, com algumas organizações bem familiarizadas com tecnologias de captação de recursos online e outras precisando de suporte técnico.
+
+## Diagrama de Personas 
+1. Doadora Danielle:
+- *Descrição*: Danielle é uma mulher de 35 anos, bem-sucedida em sua carreira, que tem interesse em causas sociais. Ela já doa para várias organizações e procura maneiras eficazes de contribuir financeiramente. Danielle está confortável com a tecnologia e usa aplicativos móveis para doações.
+
+2. Voluntário Victor:
+- *Descrição*: Victor, um estudante universitário de 22 anos, está ansioso para se envolver em trabalho voluntário para ganhar experiência e ajudar comunidades carentes. Ele é tecnicamente competente e usa as redes sociais para se manter informado sobre oportunidades de voluntariado.
+
+3. ONG Olivia: 
+- *Descrição*: Olivia representa uma organização sem fins lucrativos que luta pela preservação do meio ambiente. Como diretora-executiva, ela está em busca de doações para apoiar suas iniciativas. Olivia é experiente em captação de recursos online, mas procura uma plataforma eficaz para aumentar o financiamento de suas atividades.
+
+## Mapa de Stakeholders
+- Doadores Individuais
+- Voluntários
+- Organizações Sem Fins Lucrativos
+- Administradores do Site
+- Equipe de Suporte ao Usuário
+- Desenvolvedores e Mantenedores da Plataforma
+- Parceiros Corporativos (patrocinadores e empresas parceiras) Governo (em casos de organizações com fins sociais reconhecidas pelo governo)
+
+> **Links Úteis**: 
+> - [Para entender melhor o setor de filantropia e causas sociais](https://philanthropynewsdigest.org/)
+> - [Para aprender sobre práticas de design de UX/UI](https://www.smashingmagazine.com/)
 > - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
 > - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
 > - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
