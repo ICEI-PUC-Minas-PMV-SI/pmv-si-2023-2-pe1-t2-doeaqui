@@ -11,16 +11,8 @@ Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Em nossa sociedade, é notável que muitas pessoas têm o desejo de fazer doações para ajudar aqueles que estão em situação de necessidade. No entanto, enfrentamos um desafio significativo em saber como e onde fazer isso. A maior dificuldade é a falta de clareza em relação a dois aspectos fundamentais: onde encontrar ONGs em nossa cidade que realizam essas campanhas de caridade, e como saber para onde foram as doações. Assim, as pessoas que desejam doar, tem dificuldade sobre onde podem entregar seus itens ou recursos. Isso resulta em um dilema sobre como e onde fazer as ações de forma rápida, segura e eficaz.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
