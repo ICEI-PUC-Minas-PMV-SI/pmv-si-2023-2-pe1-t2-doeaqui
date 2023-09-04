@@ -25,12 +25,9 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Após uma pandemia, percebe-se que as ONGs enfrentam um problema de captação de doações, pois após a pandemia, houve uma redução significativa no número de doações e de volúntarios, o que tornou ainda mais dificil uma tarefa que deveria ser mais fácil.  Um problema que vale ressaltar é a dificuldade de saber aonde doar, pois na maioria das vezes o doador quer saber aonde será o ponto final da sua doação, pensando nisso criamos o doeaqui. 
+	Em uma matéria no G1 mostrou que com a queda nas doações as ONGs enfrentam dificuldades em ajudar as familias carentes, seria de extrema importancia ter algo reunido de onde existe pontos de doações
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
