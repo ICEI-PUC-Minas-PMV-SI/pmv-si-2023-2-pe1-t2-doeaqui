@@ -25,7 +25,10 @@ Em nossa sociedade, é notável que muitas pessoas têm o desejo de fazer doaç�
 
 ## Justificativa
 
-Após uma pandemia, é evidente que as organizações não governamentais (ONGs) estão enfrentando desafios significativos na obtenção de ações. A crise pandêmica investigada em uma redução específica no número de doações e contribuições disponíveis, tornando uma tarefa que normalmente seria mais simples agora mais complexa. É importante destacar um problema adicional, que é a incerteza sobre o destino das ações. Muitas vezes, os doadores desejam ter uma compreensão clara de como sua contribuição será utilizada. Com base nesse contexto, desenvolvemos o "DoeAqui". Em uma matéria recente no portal G1, foi destacado como a diminuição das doações está afetando a capacidade das ONGs em auxiliar as famílias em situação de vulnerabilidade.
+	Após uma pandemia, é evidente que as organizações não governamentais (ONGs) estão enfrentando desafios significativos no recebimento de doações, ja que a crise gerada é o principal fator na redução específica no número de doações e contribuições disponíveis. 
+	Segundo uma matéria no portal G1 de junho de 2022, foi destacado como a diminuição das doações está afetando a capacidade das ONGs em auxiliar as famílias em situação de vulnerabilidade.
+	Adicionalmente a incerteza sobre o destino das doações é um problema a ser destacado, afinal, doadores tem a necessidade de entender como os recursos serão utilizados.
+	Com base nesse contexto, desenvolvemos o "DoeAqui", que permitirá transformar a complexidade dessas problemáticas em tarefas simples novamente
 
 
 ## Público-Alvo
