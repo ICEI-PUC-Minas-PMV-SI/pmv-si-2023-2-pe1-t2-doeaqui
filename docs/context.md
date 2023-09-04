@@ -25,8 +25,7 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Após uma pandemia, percebe-se que as ONGs enfrentam um problema de captação de doações, pois após a pandemia, houve uma redução significativa no número de doações e de volúntarios, o que tornou ainda mais dificil uma tarefa que deveria ser mais fácil.  Um problema que vale ressaltar é a dificuldade de saber aonde doar, pois na maioria das vezes o doador quer saber aonde será o ponto final da sua doação, pensando nisso criamos o doeaqui. 
-	Em uma matéria no G1 mostrou que com a queda nas doações as ONGs enfrentam dificuldades em ajudar as familias carentes, seria de extrema importancia ter algo reunido de onde existe pontos de doações
+Após uma pandemia, é evidente que as organizações não governamentais (ONGs) estão enfrentando desafios significativos na obtenção de ações. A crise pandêmica investigada em uma redução específica no número de doações e contribuições disponíveis, tornando uma tarefa que normalmente seria mais simples agora mais complexa. É importante destacar um problema adicional, que é a incerteza sobre o destino das ações. Muitas vezes, os doadores desejam ter uma compreensão clara de como sua contribuição será utilizada. Com base nesse contexto, desenvolvemos o "DoeAqui". Em uma matéria recente no portal G1, foi destacado como a diminuição das doações está afetando a capacidade das ONGs em auxiliar as famílias em situação de vulnerabilidade.
 
 
 ## Público-Alvo
