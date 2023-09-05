@@ -11,7 +11,11 @@ Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
 
 ## Problema
 
-Em nossa sociedade, é notável que muitas pessoas têm o desejo de fazer doações para ajudar aqueles que estão em situação de necessidade. No entanto, enfrentamos um desafio significativo em saber como e onde fazer isso. A maior dificuldade é a falta de clareza em relação a dois aspectos fundamentais: onde encontrar ONGs em nossa cidade que realizam essas campanhas de caridade, e como saber para onde foram as doações. Assim, as pessoas que desejam doar, tem dificuldade sobre onde podem entregar seus itens ou recursos. Isso resulta em um dilema sobre como e onde fazer as ações de forma rápida, segura e eficaz.
+Após uma pandemia, é evidente que as organizações não governamentais (ONGs) estão enfrentando desafios significativos no recebimento de doações.
+ja que a crise gerada é o principal fator na redução específica no número de doações e contribuições disponíveis.
+Segundo uma matéria no portal G1 de junho de 2022, foi destacado como a diminuição das doações está afetando a capacidade das ONGs em auxiliar as famílias em situação de vulnerabilidade.
+Adicionalmente a incerteza sobre o destino das doações é um problema a ser destacado, afinal, doadores tem a necessidade de entender como os recursos serão utilizados.
+Com base nesse contexto, desenvolvemos o "DoeAqui", que permitirá transformar a complexidade dessas problemáticas em tarefas simples novamente
 
 
 ## Objetivos
@@ -25,10 +29,11 @@ Em nossa sociedade, é notável que muitas pessoas têm o desejo de fazer doaç�
 
 ## Justificativa
 
-	Após uma pandemia, é evidente que as organizações não governamentais (ONGs) estão enfrentando desafios significativos no recebimento de doações, ja que a crise gerada é o principal fator na redução específica no número de doações e contribuições disponíveis. 
-	Segundo uma matéria no portal G1 de junho de 2022, foi destacado como a diminuição das doações está afetando a capacidade das ONGs em auxiliar as famílias em situação de vulnerabilidade.
-	Adicionalmente a incerteza sobre o destino das doações é um problema a ser destacado, afinal, doadores tem a necessidade de entender como os recursos serão utilizados.
-	Com base nesse contexto, desenvolvemos o "DoeAqui", que permitirá transformar a complexidade dessas problemáticas em tarefas simples novamente
+Após uma pandemia, é evidente que as organizações não governamentais (ONGs) estão enfrentando desafios significativos no recebimento de doações, 
+ja que a crise gerada é o principal fator na redução específica no número de doações e contribuições disponíveis. 
+Segundo uma matéria no portal G1 de junho de 2022, foi destacado como a diminuição das doações está afetando a capacidade das ONGs em auxiliar as famílias em situação de vulnerabilidade.
+Adicionalmente a incerteza sobre o destino das doações é um problema a ser destacado, afinal, doadores tem a necessidade de entender como os recursos serão utilizados.
+Com base nesse contexto, desenvolvemos o "DoeAqui", que permitirá transformar a complexidade dessas problemáticas em tarefas simples novamente
 
 
 ## Público-Alvo
