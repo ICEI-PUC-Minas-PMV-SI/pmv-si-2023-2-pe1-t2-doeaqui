@@ -1,13 +1,6 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
-
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
-
-
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+Nos dias de hoje, a vontade de ajudar é evidente, mas muitos se deparam com o desafio de não saber onde ou como direcionar sua generosidade. Além disso, a falta de transparência nas organizações, ONGs e entidades que arrecadam doações levanta preocupações sobre a eficácia desses esforços em atender às necessidades reais. Nesse contexto, nosso projeto busca simplificar o processo de doação, estabelecendo uma conexão direta entre doadores e destinatários, ao mesmo tempo que esclarece para o público em geral o funcionamento das doações, os tipos de contribuições necessárias e muito mais. Nosso objetivo é oferecer uma solução prática e transparente que não apenas facilita as doações, mas também fortalece a confiança na generosidade compartilhada, fazendo com que cada contribuição faça a diferença onde é mais necessária.
 
 ## Problema
 
