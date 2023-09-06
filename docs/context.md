@@ -65,9 +65,3 @@ Com base nesse contexto, desenvolvemos o "DoeAqui", que permitirá transformar a
 - Desenvolvedores e Mantenedores da Plataforma
 - Parceiros Corporativos (patrocinadores e empresas parceiras) Governo (em casos de organizações com fins sociais reconhecidas pelo governo)
 
-> **Links Úteis**: 
-> - [Para entender melhor o setor de filantropia e causas sociais](https://philanthropynewsdigest.org/)
-> - [Para aprender sobre práticas de design de UX/UI](https://www.smashingmagazine.com/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
