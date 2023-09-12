@@ -23,6 +23,33 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 **Hobbies e interesses:** Nos momentos de lazer, Jorge gosta de explorar novos restaurantes com sua esposa. Além disso, é apaixonado por música e toca piano nas horas vagas, instrumento que aprendeu com seu avô. Jorge também pratica beach tennis regularmente com seus antigos colegas de faculdade.
 
 
+**Persona 2:**
+
+**Nome:** Ana Santos
+
+**Idade:** 32 anos
+
+**Profissão:** Diretora de Comunicações da ONG "Mãos Solidárias"
+
+Sobre Ana:
+
+Ana Santos é uma mulher apaixonada por causas sociais. Ela cresceu em uma família que valorizava a solidariedade e o voluntariado, o que a influenciou seguir esse caminho. Ana formou-se em Comunicação Social e, depois de trabalhar alguns anos em uma agência de publicidade, decidiu dedicar sua carreira à área de filantropia.
+Como diretora de comunicações da ONG "Mãos Solidárias", Ana é a responsável por desenvolver estratégias de divulgação e captação de recursos para apoiar as diversas iniciativas da organização. 
+
+Características:
+Empatia: Ana é uma pessoa bastante empática, sempre disposta a ouvir e entender as necessidades das pessoas que a ONG atende. Sua empatia a torna uma defensora dedicada das causas em que acredita.
+
+Determinação: Ana é determinada e perseverante em sua missão de arrecadar doações para a ONG. Ela não se deixa abalar por obstáculos e está constantemente em busca de maneiras criativas de aumentar o impacto da organização.
+
+Criatividade: Como diretora de comunicações, Ana é altamente criativa e sabe como criar campanhas de sensibilização eficazes. Ela utiliza as mídias sociais, vídeos emocionantes e histórias inspiradoras para envolver a comunidade e atrair doadores.
+
+Colaborativa: Ana entende a importância da colaboração e trabalha em estreita parceria com a equipe da ONG, outros voluntários e organizações parceiras para maximizar o alcance das iniciativas de arrecadação de fundos.
+
+Compromisso social: A dedicação de Ana ao bem-estar da comunidade e sua paixão por causas sociais são evidentes em tudo o que faz. Ela é uma líder inspiradora para sua equipe e uma porta-voz apaixonada para a ONG.
+
+Ana Santos é um exemplo de uma pessoa que desempenha um papel crucial na arrecadação de doações para uma ONG, contribuindo para tornar o mundo um lugar melhor por meio de sua paixão, empatia e compromisso com a causa.
+
+
 > **Links Úteis**:
 > - [Rock Content](https://rockcontent.com/blog/personas/)
 > - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
