@@ -68,9 +68,7 @@ adquiriu habilidades valiosas em organização, liderança e gestão de recursos
 Motivações para ser doadora: Joyce após o ensino médio começou a acreditar mais que, além do tempo dedicado ao voluntariado, a doação financeira é uma forma eficaz de apoiar as
 organizações sem fins lucrativos que compartilham suas causas. Ela sabe que suas contribuições podem ter um impacto real em projetos de educação. 
 
-**Causas que apoia:**
-
-**Educação:** Joyce acredita que a educação é a chave para um futuro melhor e está comprometida em apoiar projetos que proporcionem acesso à educação de qualidade para crianças carentes.
+**Causas que apoia:** Joyce acredita que a educação é a chave para um futuro melhor e está comprometida em apoiar projetos que proporcionem acesso à educação de qualidade para crianças carentes.
 
 **Metas como doadora:** Joyce deseja aumentar gradualmente suas contribuições ao longo do tempo e se envolver mais ativamente com a organização em que acredita. Ela também pretende
 incentivar seus amigos, familiares e colegas a se juntarem a ela nessa jornada de apoio às causas em que acredita.
