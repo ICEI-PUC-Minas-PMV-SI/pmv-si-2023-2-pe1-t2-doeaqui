@@ -133,6 +133,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-004    |Criar uma interface que centralize em um mapa o CEP informado pelo usuário “Doador”. | Alta |  |
 |RF-005a   | Exibir no mapa ao redor do ponto central os possíveis locais de doação em um raio de X km. | Médio |  |
 |RF-005b   | Exibir em uma lista lateral os possíveis locais de doação em um raio de X km. | Médio |  |
+|RF-006| Permitir que os usuários do tipo “Receptor” criem campanhas para publicar doações que estão precisando e os locais que serão recebidos os itens. | Médio |  |
+|RF-007| Permitir que ao cadastrar campanhas, sejam inseridas juntamente palavras-chave que identifiquem os tipos de doações que são aceitas. | Médio | |
+|RF-008 | Permitir que o usuário “Doador” filtre instituições a partir de itens específicos de doação. | Baixo |  |
+
 
 
 
