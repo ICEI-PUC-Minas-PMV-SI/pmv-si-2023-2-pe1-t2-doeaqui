@@ -127,7 +127,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário do sistema (Ana) | Cadastrar as localizações de suas campanhas de arrecadação em um software. | Para que doadores consigam visualizar a campanha em sua região e consigam contribuir de forma prática. |
 |Usuário do sistema (Joyce) | Preciso de dados bancários das instituições. | Realizar doações monetárias. |
 |Usuário do sistema (Joyce) | Preciso de uma lista de instituições que eu possa doar. | Saber quais eu posso ajudar mais vezes e ter o controle de quais já doei.|
-
+|Usuário do sistema (Maria)  | Preciso de algo um portal/plataforma que me permita cadastrar itens que necessito de doação. |Para aumentar minha arrecadação de doações. |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
