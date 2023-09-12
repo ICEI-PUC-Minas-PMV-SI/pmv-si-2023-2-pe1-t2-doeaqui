@@ -126,10 +126,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 ### Requisitos Funcionais
 
 |ID     | Descrição do Requisito  | Prioridade | Responsável |
-|-------|-----------------------------------------|----|----|
-|RF-001 | Permitir que o usuário crie uma conta própria (login), perfil “Doador” e perfil “Receptor”. | Alta |  |
-|RF-002 | Permitir que o usuário do tipo “Doador” coloque em seu cadastro os dados: Nome completo, CPF, localização por CEP, e-mail, telefone. | Alta |  |
-|RF-003 | Permitir que o usuário do tipo “Receptor” coloque em seu cadastro os dados: Nome social, CNPJ (opcional), localização por CEP, e-mail, telefone, redes sociais, causas que apoiam. | Alta |  |
+|----------|-----------------------------------------|----|----|
+|RF-001    | Permitir que o usuário crie uma conta própria (login), perfil “Doador” e perfil “Receptor”. | Alta |  |
+|RF-002    | Permitir que o usuário do tipo “Doador” coloque em seu cadastro os dados: Nome completo, CPF, localização por CEP, e-mail, telefone. | Alta |  |
+|RF-003    | Permitir que o usuário do tipo “Receptor” coloque em seu cadastro os dados: Nome social, CNPJ (opcional), localização por CEP, e-mail, telefone, redes sociais, causas que apoiam. | Alta |  |
+|RF-004    |Criar uma interface que centralize em um mapa o CEP informado pelo usuário “Doador”. | Alta |  |
+|RF-005a   | Exibir no mapa ao redor do ponto central os possíveis locais de doação em um raio de X km. | Médio |  |
+|RF-005b   | Exibir em uma lista lateral os possíveis locais de doação em um raio de X km. | Médio |  |
+
 
 
 ### Requisitos não Funcionais
