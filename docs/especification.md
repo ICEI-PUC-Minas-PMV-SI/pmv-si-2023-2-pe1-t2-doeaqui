@@ -53,6 +53,7 @@ Ana Santos é um exemplo de uma pessoa que desempenha um papel crucial na arreca
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Persona 3**
+
 **Nome:** Joyce Camargo
 
 **Idade:** 32 anos
@@ -68,6 +69,7 @@ Motivações para ser doadora: Joyce após o ensino médio começou a acreditar 
 organizações sem fins lucrativos que compartilham suas causas. Ela sabe que suas contribuições podem ter um impacto real em projetos de educação. 
 
 **Causas que apoia:**
+
 **Educação:** Joyce acredita que a educação é a chave para um futuro melhor e está comprometida em apoiar projetos que proporcionem acesso à educação de qualidade para crianças carentes.
 
 **Metas como doadora:** Joyce deseja aumentar gradualmente suas contribuições ao longo do tempo e se envolver mais ativamente com a organização em que acredita. Ela também pretende
