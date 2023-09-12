@@ -22,6 +22,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 **Hobbies e interesses:** Nos momentos de lazer, Jorge gosta de explorar novos restaurantes com sua esposa. Além disso, é apaixonado por música e toca piano nas horas vagas, instrumento que aprendeu com seu avô. Jorge também pratica beach tennis regularmente com seus antigos colegas de faculdade.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Persona 2:**
 
