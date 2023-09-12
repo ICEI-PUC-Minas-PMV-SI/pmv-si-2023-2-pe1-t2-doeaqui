@@ -6,9 +6,21 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Persona 1:
+Nome: Jorge Silveira
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Idade: 40 anos
+
+Profissão: Diretor jurídico-financeiro
+
+História de vida: Jorge Silveira cresceu em uma família de classe média em sua cidade natal, Belo Horizonte. Desde jovem, demonstrou interesse em participar de discussões e foi membro do movimento estudantil durante sua graduação. É casado com Leila e é muito apegado aos seus pais e avós.
+
+Educação e carreira: Jorge graduou-se em Direito em uma universidade de sua cidade e posteriormente obteve um mestrado em Finanças Corporativas. Iniciou sua carreira como advogado em um escritório de advocacia, local em que fez seu estágio. Ganhou vasta experiência em direito empresarial. Eventualmente, foi contratado pela empresa de fraldas geriátricas Bubu Guardians, onde progrediu até se tornar Diretor Jurídico Financeiro devido à sua sólida compreensão das complexidades legais e financeiras.
+
+Motivações para ser doador: Jorge acredita firmemente que as empresas têm a responsabilidade de contribuir para o bem-estar da comunidade em que operam. Ele vê a doação de fraldas para asilos como uma maneira de fazer a diferença na vida dos idosos necessitados, ao mesmo tempo em que reforça a imagem de responsabilidade social de sua empresa. Jorge compreende que essa ação não apenas beneficia a causa social, mas também fortalece as relações da empresa com a prefeitura, abrindo portas para colaborações futuras e criando uma imagem positiva no mercado.
+
+Hobbies e interesses: Nos momentos de lazer, Jorge gosta de explorar novos restaurantes com sua esposa. Além disso, é apaixonado por música e toca piano nas horas vagas, instrumento que aprendeu com seu avô. Jorge também pratica beach tennis regularmente com seus antigos colegas de faculdade.
+
 
 > **Links Úteis**:
 > - [Rock Content](https://rockcontent.com/blog/personas/)
