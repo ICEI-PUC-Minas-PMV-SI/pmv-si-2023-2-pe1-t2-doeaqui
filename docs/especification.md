@@ -32,12 +32,13 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 **Profissão:** Diretora de Comunicações da ONG "Mãos Solidárias"
 
-Sobre Ana:
+**Sobre Ana:**
 
 Ana Santos é uma mulher apaixonada por causas sociais. Ela cresceu em uma família que valorizava a solidariedade e o voluntariado, o que a influenciou seguir esse caminho. Ana formou-se em Comunicação Social e, depois de trabalhar alguns anos em uma agência de publicidade, decidiu dedicar sua carreira à área de filantropia.
 Como diretora de comunicações da ONG "Mãos Solidárias", Ana é a responsável por desenvolver estratégias de divulgação e captação de recursos para apoiar as diversas iniciativas da organização. 
 
-Características:
+**Características:**
+
 Empatia: Ana é uma pessoa bastante empática, sempre disposta a ouvir e entender as necessidades das pessoas que a ONG atende. Sua empatia a torna uma defensora dedicada das causas em que acredita.
 
 Determinação: Ana é determinada e perseverante em sua missão de arrecadar doações para a ONG. Ela não se deixa abalar por obstáculos e está constantemente em busca de maneiras criativas de aumentar o impacto da organização.
