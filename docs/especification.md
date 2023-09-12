@@ -106,16 +106,6 @@ Organizada e Determinada: Maria é altamente organizada e determinada a fazer a 
 
 Conexões Comunitárias: Ela tem uma ampla rede de contatos na comunidade local, incluindo empresários, líderes religiosos e profissionais de saúde, o que a ajuda a criar parcerias valiosas para apoiar as iniciativas de caridade.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
-
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
@@ -129,25 +119,17 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário do sistema (Joyce) | Preciso de uma lista de instituições que eu possa doar. | Saber quais eu posso ajudar mais vezes e ter o controle de quais já doei.|
 |Usuário do sistema (Maria)  | Preciso de algo um portal/plataforma que me permita cadastrar itens que necessito de doação. |Para aumentar minha arrecadação de doações. |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
-
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade | Responsável |
-|------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
+|ID     | Descrição do Requisito  | Prioridade | Responsável |
+|-------|-----------------------------------------|----|----|
+|RF-001 | Permitir que o usuário crie uma conta própria (login), perfil “Doador” e perfil “Receptor”. | Alta |  |
+|RF-002 | Permitir que o usuário do tipo “Doador” coloque em seu cadastro os dados: Nome completo, CPF, localização por CEP, e-mail, telefone. | Alta |  |
+|RF-003 | Permitir que o usuário do tipo “Receptor” coloque em seu cadastro os dados: Nome social, CNPJ (opcional), localização por CEP, e-mail, telefone, redes sociais, causas que apoiam. | Alta |  |
 
 
 ### Requisitos não Funcionais
