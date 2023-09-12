@@ -80,6 +80,7 @@ explorar novas culturas através da culinária e de viagens.
 nós temos a responsabilidade de tornar o mundo um lugar melhor, e a doação é uma maneira eficaz de fazer isso. Espero inspirar outras pessoas a se envolverem e fazerem a diferença também."
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Persona 4**
 
 **Nome**: Maria Silva
 
@@ -91,6 +92,8 @@ nós temos a responsabilidade de tornar o mundo um lugar melhor, e a doação é
  Maria nasceu em uma família que sempre valorizou a importância de ajudar os necessitados. Ela cresceu em uma comunidade religiosa engajada em atividades de caridade e aprendeu desde cedo os valores de compaixão, solidariedade e serviço aos outros. Maria estudou Serviço Social na universidade, o que aprofundou seu compromisso com causas sociais.
 
 **Características**:
+
+
 Compromisso Religioso: Maria é profundamente religiosa e vê sua missão de liderar o comitê de caridade como uma extensão de sua fé. Ela acredita que é um dever religioso ajudar os menos afortunados e está comprometida em promover os valores de sua fé através do trabalho do comitê.
 
 Liderança Empática: Maria é uma líder empática que se preocupa genuinamente com as pessoas que a organização ajuda. Ela sempre está disposta a ouvir suas histórias e necessidades, o que a ajuda a direcionar recursos de forma mais eficaz.
