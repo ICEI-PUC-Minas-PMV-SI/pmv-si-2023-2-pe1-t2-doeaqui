@@ -7,7 +7,8 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 ## Personas
 
 **Persona 1:**
-**Nome:** Jorge Silveira
+
+**Nome:** Jorge Silveira (representante de uma empresa privada)
 
 **Idade:** 40 anos
 
