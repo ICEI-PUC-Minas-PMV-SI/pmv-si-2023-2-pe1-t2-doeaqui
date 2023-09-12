@@ -79,6 +79,29 @@ explorar novas culturas através da culinária e de viagens.
 **Mensagem de Ana:** "Tenho a sorte de estar em uma posição em que posso contribuir de forma financeira e com doações de roupas para causas que são importantes para mim. Acredito que todos
 nós temos a responsabilidade de tornar o mundo um lugar melhor, e a doação é uma maneira eficaz de fazer isso. Espero inspirar outras pessoas a se envolverem e fazerem a diferença também."
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Nome**: Maria Silva
+
+**Idade**: 45 anos
+
+**Profissão**: Lider do comitê de caridade
+
+**Sobre Maria Silva**: 
+ Maria nasceu em uma família que sempre valorizou a importância de ajudar os necessitados. Ela cresceu em uma comunidade religiosa engajada em atividades de caridade e aprendeu desde cedo os valores de compaixão, solidariedade e serviço aos outros. Maria estudou Serviço Social na universidade, o que aprofundou seu compromisso com causas sociais.
+
+**Características**:
+Compromisso Religioso: Maria é profundamente religiosa e vê sua missão de liderar o comitê de caridade como uma extensão de sua fé. Ela acredita que é um dever religioso ajudar os menos afortunados e está comprometida em promover os valores de sua fé através do trabalho do comitê.
+
+Liderança Empática: Maria é uma líder empática que se preocupa genuinamente com as pessoas que a organização ajuda. Ela sempre está disposta a ouvir suas histórias e necessidades, o que a ajuda a direcionar recursos de forma mais eficaz.
+
+Especialista em Serviço Social: Com sua formação em Serviço Social, Maria possui um profundo conhecimento das questões sociais e das melhores práticas para abordá-las. Ela utiliza esse conhecimento para orientar as atividades do comitê e garantir que elas tenham o maior impacto possível.
+
+Comunicadora Habilidosa: Maria é uma comunicadora habilidosa que sabe como inspirar outros a se envolverem em atividades de caridade. Ela utiliza sua capacidade de fala para sensibilizar a comunidade e arrecadar fundos para causas importantes.
+
+Organizada e Determinada: Maria é altamente organizada e determinada a fazer a diferença. Ela trabalha incansavelmente para garantir que todas as atividades do comitê sejam bem planejadas e executadas com eficácia.
+
+Conexões Comunitárias: Ela tem uma ampla rede de contatos na comunidade local, incluindo empresários, líderes religiosos e profissionais de saúde, o que a ajuda a criar parcerias valiosas para apoiar as iniciativas de caridade.
 
 > **Links Úteis**:
 > - [Rock Content](https://rockcontent.com/blog/personas/)
