@@ -178,7 +178,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... | QUERO/PRECISO ...  |PARA ... |
 |--------------------|------------------------------------|----------------------------------------|
 |Usuário do sistema (Jorge)  | Encontrar instituições ou organizações que recebam doações de fraldas geriátricas.  | Destinar para asilos e lares para idosos produtos que minha empresa produz, de forma a honrar a contrapartida social com a prefeitura e manter uma boa imagem da marca. |
-|Administrador       | Inserir palavras-chave em instituições cadastradas. | Permitir que usuários consigam identificar instituições pelo tipo de doação aceita. |
 |Usuário do sistema (Ana) | Cadastrar as localizações de suas campanhas de arrecadação em um software. | Para que doadores consigam visualizar a campanha em sua região e consigam contribuir de forma prática. |
 |Usuário do sistema (Joyce) | Preciso de dados bancários das instituições. | Realizar doações monetárias. |
 |Usuário do sistema (Joyce) | Preciso de uma lista de instituições que eu possa doar. | Saber quais eu posso ajudar mais vezes e ter o controle de quais já doei.|
