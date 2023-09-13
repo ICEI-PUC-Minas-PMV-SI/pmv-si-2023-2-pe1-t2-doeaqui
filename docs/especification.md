@@ -1,6 +1,6 @@
 # Especificações do Projeto
 
-1 **Objetivos do Projeto:**
+1. **Objetivos do Projeto:**
 
 Facilitar a Doação e Encontrar Instituições: O principal objetivo do projeto é auxiliar as pessoas a aprenderem como doar de forma mais eficiente e a encontrar instituições locais que estejam realizando campanhas de caridade. Isso permitirá que mais indivíduos contribuam para causas nobres de maneira fácil e direta. 
 
