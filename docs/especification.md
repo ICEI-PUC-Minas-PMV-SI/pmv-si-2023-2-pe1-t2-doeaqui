@@ -136,6 +136,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-006| Permitir que os usuários do tipo “Receptor” criem campanhas para publicar doações que estão precisando e os locais que serão recebidos os itens. | Médio |  |
 |RF-007| Permitir que ao cadastrar campanhas, sejam inseridas juntamente palavras-chave que identifiquem os tipos de doações que são aceitas. | Médio | |
 |RF-008 | Permitir que o usuário “Doador” filtre instituições a partir de itens específicos de doação. | Baixo |  |
+|RF-009 | Permitir que o usuário “Doador” clique na instituição desejada para ver mais informações. | Baixo |  |
+|RF-010 | Armazenar em um registro as doações que o usuário já fez e para qual(is) instituição(ões). | Baixo |  |
 
 
 
