@@ -205,7 +205,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-009 | Permitir que o usuário “Doador” clique na instituição desejada para ver mais informações. | Baixo |  |
 |RF-010 | Armazenar em um registro as doações que o usuário já fez e para qual(is) instituição(ões). | Baixo |  |
 |RF-011 | Permitir que o usuário possa realizar busca de causas e organizações. | Alta |  |
-|RF-012 | Permitir que o usuário possa vizualizar histórico de doações do usuário. | Média |  |
+|RF-012 | Permitir vizualização do histórico de doações do usuário/ONGs. | Média |  |
 
 
 
