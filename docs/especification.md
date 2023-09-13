@@ -213,16 +213,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-003| Segurança dos Dados |  Alta |
-|RNF-008| O sistema deve suportar x usuarios ao mesmo tempo |  Alta |
-|RNF-001| O sistema deve ser responsivo para executar em qualquer plataforma. | Média | 
+|RNF-001| Segurança dos Dados |  Alta |
+|RNF-002| O sistema deve suportar x usuarios ao mesmo tempo |  Alta |
+|RNF-003| O sistema deve ser responsivo para executar em qualquer plataforma. | Média | 
 |RNF-004| Usabilidade |  Média |
 |RNF-004b| possibiltar a realização de tarefas em no max. X cliques |  Média |
 |RNF-004c| Acessibilidade: Fontes de letra grandes, contraste |  Média |
 |RNF-005| O sistema deverá ser desenvolvido nas tecnologias HTML, CSS e JavaScript. |  Média | 
 |RNF-006| Reunião de acompanhamento toda quarta-feira. |  Média | 
 |RNF-007| cobertura de teste: pelo menos 20% da plataforma deve deve passar em testes. |  Média |
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  Baixa |
+|RNF-008| Deve processar requisições do usuário em no máximo 3s |  Baixa |
 
 ## Restrições
 
