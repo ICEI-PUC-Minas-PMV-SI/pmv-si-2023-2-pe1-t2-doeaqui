@@ -1,8 +1,44 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+**Objetivos do Projeto:**
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Facilitar a Doação e Encontrar Instituições: O principal objetivo do projeto é auxiliar as pessoas a aprenderem como doar de forma mais eficiente e a encontrar instituições locais que estejam realizando campanhas de caridade. Isso permitirá que mais indivíduos contribuam para causas nobres de maneira fácil e direta. 
+
+Elevar as Taxas de Doações: Buscamos aumentar as taxas de doações direcionadas às pessoas necessitadas, incentivando um maior engajamento da comunidade. Queremos criar um ambiente em que a doação se torne uma ação acessível e encorajadora para todos. 
+
+Aumentar a Eficiência das Doações: Além de incentivar mais doações, o projeto visa aprimorar a eficiência do sistema de doação, garantindo que os recursos sejam direcionados para os lugares que mais precisam. Isso maximizará o impacto das doações, beneficiando as comunidades carentes de forma mais eficaz. 
+
+**2. Funcionalidades do sistema:** 
+
+2.1. Usuário do Sistema - Encontrar Instituições: Pesquisar e encontrar instituições ou organizações que aceitem doações de fraldas geriátricas produzidas pela empresa. Filtrar instituições com base em palavras-chave inseridas pelo administrador para identificar as instituições pelo tipo de doação aceita.  
+
+2.2. Administrador - Gerenciamento de Palavras-chave: Inserir palavras-chave nas instituições cadastradas para categorizá-las e permitir que os usuários as identifiquem de acordo com o tipo de doação aceita.  
+
+2.3. Usuário do Sistema - Cadastro de Campanhas: Cadastrar as localizações das campanhas de arrecadação em um software. Tornar as campanhas visíveis aos doadores em suas regiões, facilitando contribuições práticas.  
+
+2.4. Usuário do Sistema - Doações Monetárias: Acessar dados bancários das instituições cadastradas para realizar doações monetárias de maneira segura.  
+
+2.5. Usuário do Sistema - Lista de Instituições: Criar uma lista personalizada de instituições para controle das doações efetuadas.  
+
+2.6. Usuário do Sistema - Cadastro de Itens Necessários: Utilizar um portal/plataforma para cadastrar itens que necessita de doação, visando aumentar sua arrecadação.  
+
+2.7. Usuário do Sistema - Realizar Doações: Efetuar doações para causas e organizações de sua escolha por meio da plataforma.  
+
+2.8. Usuário do Sistema - Organização de Eventos e Projetos: Usar ferramentas da plataforma para organizar eventos e projetos sociais de forma eficiente, incluindo gerenciamento de participantes, calendário de eventos e comunicação interna.  
+
+3. Integrações e Tecnologias: Implementar um sistema de banco de dados seguro para armazenar informações das instituições, campanhas e doações. Garantir a segurança dos dados financeiros e pessoais dos usuários. Utilizar tecnologias web e mobile para acessibilidade em diferentes dispositivos.  
+
+4. Benefícios Esperados: Facilitação da doação de fraldas geriátricas e recursos para instituições de apoio a idosos. Promoção da transparência e controle das doações para os usuários. Coordenação eficaz de campanhas de arrecadação e eventos sociais. Contribuição para a responsabilidade social da empresa, cumprindo a contrapartida com a prefeitura.  
+
+5. Cronograma: O projeto será dividido em fases, cada uma com prazo estimado de desenvolvimento e implantação.  
+
+6. Equipe de Desenvolvimento: Especificar a equipe de desenvolvimento, incluindo programadores, designers, testadores e administradores do sistema.  
+
+7. Orçamento: Determinar os custos estimados para o desenvolvimento, manutenção e suporte da plataforma.  
+
+8. Avaliação e Feedback: Implementar um sistema de avaliação e feedback dos usuários para aprimorar continuamente a plataforma.  
+
+9. Considerações Finais: Este projeto busca facilitar a doação e a coordenação de ações sociais, promovendo a solidariedade e a responsabilidade social da empresa em conformidade com as diretrizes da prefeitura. 
 
 ## Personas
 
