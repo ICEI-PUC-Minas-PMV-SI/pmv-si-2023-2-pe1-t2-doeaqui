@@ -40,7 +40,7 @@ Aumentar a Eficiência das Doações: Além de incentivar mais doações, o proj
 8. Avaliação e Feedback: Implementar um sistema de avaliação e feedback dos usuários para aprimorar continuamente a plataforma.  
 
 9. Considerações Finais: Este projeto busca facilitar a doação e a coordenação de ações sociais, promovendo a solidariedade e a responsabilidade social da empresa em conformidade com as diretrizes da prefeitura. 
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Personas
 
 **Persona 1:**
@@ -214,12 +214,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para executar em qualquer plataforma. | Média | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  Baixa | 
 |RNF-003| Segurança dos Dados |  Alta |
-|RNF-004| Usabilidade |  Média |  
+|RNF-008| O sistema deve suportar x usuarios ao mesmo tempo |  Alta |
+|RNF-001| O sistema deve ser responsivo para executar em qualquer plataforma. | Média | 
+|RNF-004| Usabilidade |  Média |
+|RNF-004b| possibiltar a realização de tarefas em no max. X cliques |  Média |
+|RNF-004c| Acessibilidade: Fontes de letra grandes, contraste |  Média |
 |RNF-005| O sistema deverá ser desenvolvido nas tecnologias HTML, CSS e JavaScript. |  Média | 
 |RNF-006| Reunião de acompanhamento toda quarta-feira. |  Média | 
+|RNF-007| cobertura de teste: pelo menos 20% da plataforma deve deve passar em testes. |  Média |
+|RNF-002| Deve processar requisições do usuário em no máximo 3s |  Baixa |
 
 ## Restrições
 
