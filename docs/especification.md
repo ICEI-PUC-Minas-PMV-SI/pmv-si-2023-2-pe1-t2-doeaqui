@@ -1,6 +1,6 @@
 # Especificações do Projeto
 
-**Objetivos do Projeto:**
+1 **Objetivos do Projeto:**
 
 Facilitar a Doação e Encontrar Instituições: O principal objetivo do projeto é auxiliar as pessoas a aprenderem como doar de forma mais eficiente e a encontrar instituições locais que estejam realizando campanhas de caridade. Isso permitirá que mais indivíduos contribuam para causas nobres de maneira fácil e direta. 
 
@@ -27,6 +27,7 @@ Aumentar a Eficiência das Doações: Além de incentivar mais doações, o proj
 2.8. Usuário do Sistema - Organização de Eventos e Projetos: Usar ferramentas da plataforma para organizar eventos e projetos sociais de forma eficiente, incluindo gerenciamento de participantes, calendário de eventos e comunicação interna.  
 
 3. Integrações e Tecnologias: Implementar um sistema de banco de dados seguro para armazenar informações das instituições, campanhas e doações. Garantir a segurança dos dados financeiros e pessoais dos usuários. Utilizar tecnologias web e mobile para acessibilidade em diferentes dispositivos.  
+
 
 4. Benefícios Esperados: Facilitação da doação de fraldas geriátricas e recursos para instituições de apoio a idosos. Promoção da transparência e controle das doações para os usuários. Coordenação eficaz de campanhas de arrecadação e eventos sociais. Contribuição para a responsabilidade social da empresa, cumprindo a contrapartida com a prefeitura.  
 
