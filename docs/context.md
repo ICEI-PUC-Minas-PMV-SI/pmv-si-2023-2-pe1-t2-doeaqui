@@ -24,8 +24,8 @@ Com base nesse contexto, desenvolvemos o "DoeAqui", que permitirá transformar a
 
 Após uma pandemia, é evidente que as organizações não governamentais (ONGs) estão enfrentando desafios significativos no recebimento de doações, 
 ja que a crise gerada é o principal fator na redução específica no número de doações e contribuições disponíveis, isso se explica também pela quantidade de ONGs existentes,
-atualmente existem 815.676 ONGs espalhas pelo Brasil, onde apenas 24% da população presta serviços voluntários e 36% doam em forma de dinheiro<sup>[1]</sup>.
-Segundo uma matéria no portal G1 de junho de 2022<sup>[2]</sup>, foi destacado como a diminuição das doações está afetando a capacidade das ONGs em auxiliar as famílias em situação de vulnerabilidade.
+atualmente existem 815.676 ONGs espalhas pelo Brasil, onde apenas 24% da população presta serviços voluntários e 36% doam em forma de dinheiro[1].
+Segundo uma matéria no portal G1 de junho de 2022[2], foi destacado como a diminuição das doações está afetando a capacidade das ONGs em auxiliar as famílias em situação de vulnerabilidade.
 Adicionalmente a incerteza sobre o destino das doações é um problema a ser destacado, afinal, doadores tem a necessidade de entender como os recursos serão utilizados.
 Com base nesse contexto, desenvolvemos o "DoeAqui", que permitirá transformar a complexidade dessas problemáticas em tarefas simples novamente
 
