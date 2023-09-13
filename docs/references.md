@@ -5,9 +5,9 @@ Inclua todas as referências (livros, artigos, sites, etc) utilizadas no desenvo
 > **Links Úteis**:
 > - [Formato ABNT](https://www.normastecnicas.com/referencias/)
 
-Exemplos de referências bibliográficas:
+Referências bibliográficas:
 
-**[1]** - _ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019. E-book. ISBN 9788543025001._
+**[1]** - Com queda nas doações, ONGs enfrentam dificuldades para ajudar famílias carentes no RJ, G1, 2019, disponivel <https://g1.globo.com/rj/rio-de-janeiro/noticia/2022/06/20/com-queda-nas-doacoes-ongs-enfrentam-dificuldades-para-ajudar-familias-carentes-no-rj.ghtml>. Acesso em: 5/09/2002 
 
 **[2]** - _COPPIN, Ben. **Inteligência artificial**. Rio de Janeiro, RJ: LTC, c2010. E-book. ISBN 978-85-216-2936-8._
 
