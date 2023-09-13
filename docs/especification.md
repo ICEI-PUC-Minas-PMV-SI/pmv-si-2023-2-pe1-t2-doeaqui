@@ -168,8 +168,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-008 | Permitir que o usuário “Doador” filtre instituições a partir de itens específicos de doação. | Baixo |  |
 |RF-009 | Permitir que o usuário “Doador” clique na instituição desejada para ver mais informações. | Baixo |  |
 |RF-010 | Armazenar em um registro as doações que o usuário já fez e para qual(is) instituição(ões). | Baixo |  |
-|RF-011 | permitir que o usuário possa realizar busca de causas e organizações. | Alta |  |
-|RF-012 | permitir que o usuário possa vizualizar histórico de doações do usuário. | Média |  |
+|RF-011 | Permitir que o usuário possa realizar busca de causas e organizações. | Alta |  |
+|RF-012 | Permitir que o usuário possa vizualizar histórico de doações do usuário. | Média |  |
 
 
 
@@ -179,6 +179,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-003| Segurança dos Dados |  Alta | Equipe de Segurança 
+|RNF-004| Usabilidade |  Média | Equipe de Design de Experiência do Usuário  
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
