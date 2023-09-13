@@ -106,6 +106,34 @@ Organizada e Determinada: Maria é altamente organizada e determinada a fazer a 
 
 Conexões Comunitárias: Ela tem uma ampla rede de contatos na comunidade local, incluindo empresários, líderes religiosos e profissionais de saúde, o que a ajuda a criar parcerias valiosas para apoiar as iniciativas de caridade.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Persona 5**
+
+**Nome**: Roberta Matheson
+
+**Idade**: 37 anos
+
+**Profissão**: Professora de matemática
+
+**Descrição da Persona**:
+Roberta é uma mulher de 37 anos apaixonada por ajudar os outros e dedicar seu tempo e habilidades para causas humanitárias e organizações sem fins lucrativos. Ela é uma professora de matemática talentosa, mas sempre sentiu que sua vida tinha um propósito maior do que apenas ensinar equações e fórmulas. Isso a levou a se tornar uma voluntária ativa em diversas causas.
+
+**Habilidades e Interesses**:
+
+1. **Habilidades de Ensino:** Como professora de matemática, Roberta possui habilidades de comunicação e ensino excepcionais. Ela utiliza essas habilidades para educar crianças carentes em matemática e ciências, ajudando a aumentar suas perspectivas de futuro.
+2. **Engajamento Comunitário:** Roberta é ativa em sua comunidade local e acredita na importância de construir laços e apoiar os vizinhos. Ela organiza eventos de limpeza, campanhas de arrecadação de fundos para instituições de caridade locais e promove a conscientização sobre questões sociais.
+3. **Habilidades em Organização de Eventos:** Roberta é habilidosa na organização de eventos, desde pequenas reuniões de arrecadação de fundos até grandes eventos de conscientização. Ela coordena voluntários, define metas e garante que todos os detalhes sejam tratados com cuidado.
+4. **Conhecimento de Primeiros Socorros:** Roberta é certificada em primeiros socorros e sabe como agir em situações de emergência. Ela está disponível para oferecer assistência em eventos públicos, garantindo que todos estejam seguros.
+5. **Mentoria:** Além de ensinar matemática, Roberta também atua como mentora para adolescentes em situações vulneráveis. Ela orienta jovens a desenvolverem habilidades essenciais para a vida e a tomar decisões positivas.
+6. **Sensibilidade Social:** Roberta é altamente sensível às questões sociais, como igualdade de gênero, educação, meio ambiente e bem-estar animal. Ela se envolve em projetos relacionados a essas causas e usa sua voz para promover mudanças positivas.
+
+**Motivação**: 
+Roberta acredita que todos têm a capacidade de fazer a diferença no mundo, independentemente de seus recursos financeiros ou posição na sociedade. Ela é motivada pela empatia e pelo desejo de criar um impacto positivo na vida das pessoas. Sua paixão por voluntariado a impulsiona a continuar oferecendo seu tempo e habilidades para causas e organizações que estão trabalhando para melhorar a sociedade. 
+
+Roberta Voluntária é um exemplo inspirador de alguém que se dedica ao serviço comunitário, usando suas habilidades e paixões para causar um impacto significativo no mundo ao seu redor. Ela é uma verdadeira defensora das causas em que acredita e um modelo a ser seguido para outros que desejam fazer a diferença.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
@@ -118,6 +146,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário do sistema (Joyce) | Preciso de dados bancários das instituições. | Realizar doações monetárias. |
 |Usuário do sistema (Joyce) | Preciso de uma lista de instituições que eu possa doar. | Saber quais eu posso ajudar mais vezes e ter o controle de quais já doei.|
 |Usuário do sistema (Maria)  | Preciso de algo um portal/plataforma que me permita cadastrar itens que necessito de doação. |Para aumentar minha arrecadação de doações. |
+|Usuário do sistema (Roberta)  | Preciso de algo que me permita fazer doações. |Para contribuir para causas e organizações. |
+|Usuário do sistema (Roberta)  | Preciso de algo que me permita organizar eventos e projetos. |Para coordenar com eficiência as atividades. |
 
 ## Requisitos
 
@@ -138,7 +168,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-008 | Permitir que o usuário “Doador” filtre instituições a partir de itens específicos de doação. | Baixo |  |
 |RF-009 | Permitir que o usuário “Doador” clique na instituição desejada para ver mais informações. | Baixo |  |
 |RF-010 | Armazenar em um registro as doações que o usuário já fez e para qual(is) instituição(ões). | Baixo |  |
-
+|RF-011 | permitir que o usuário possa realizar busca de causas e organizações. | Alta |  |
+|RF-012 | permitir que o usuário possa vizualizar histórico de doações do usuário. | Média |  |
 
 
 
