@@ -213,10 +213,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| Segurança dos Dados |  Alta |
+|RNF-001| O sistema deve ter mecanismos rigorosos de controle de acesso, garantindo que apenas usuários autorizados tenham acesso aos dados e funcionalidades relevantes. |  Alta |
 |RNF-002| O sistema deve suportar x usuarios ao mesmo tempo |  Alta |
 |RNF-003| O sistema deve ser responsivo para executar em qualquer plataforma. | Média | 
-|RNF-004| Usabilidade |  Média |
+|RNF-004|O software deve fornecer feedback claro e informativo aos usuários sobre o que está acontecendo no sistema, como confirmações, mensagens de erro e indicadores de progresso. |  Média |
 |RNF-004b| possibiltar a realização de tarefas em no max. X cliques |  Média |
 |RNF-004c| Acessibilidade: Fontes de letra grandes, contraste |  Média |
 |RNF-005| O sistema deverá ser desenvolvido nas tecnologias HTML, CSS e JavaScript. |  Média | 
