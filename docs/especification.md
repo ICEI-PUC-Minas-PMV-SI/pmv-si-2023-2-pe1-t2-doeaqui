@@ -123,25 +123,20 @@ nós temos a responsabilidade de tornar o mundo um lugar melhor, e a doação é
 
 **Idade**: 45 anos
 
-**Profissão**: Lider do comitê de caridade
+**Profissão**: Líder do Comitê de Caridade
 
-**Sobre Maria Silva**: 
- Maria nasceu em uma família que sempre valorizou a importância de ajudar os necessitados. Ela cresceu em uma comunidade religiosa engajada em atividades de caridade e aprendeu desde cedo os valores de compaixão, solidariedade e serviço aos outros. Maria estudou Serviço Social na universidade, o que aprofundou seu compromisso com causas sociais.
+**História de vida**:
+Maria nasceu em uma família que sempre valorizou a importância de ajudar os necessitados. Cresceu em uma comunidade religiosa engajada em atividades de caridade, aprendendo desde cedo os valores de compaixão, solidariedade e serviço aos outros. Essa infância moldou seu compromisso com causas sociais e aprofundou sua conexão com a fé.
 
-**Características**:
+**Educação e carreira**:
+Com uma paixão pelo serviço aos outros, Maria estudou Serviço Social na universidade, consolidando seu compromisso com a transformação social. Sua formação a equipou com conhecimento profundo das questões sociais e as melhores práticas para abordá-las. Atualmente, ela lidera o Comitê de Caridade de nossa comunidade, aplicando seu conhecimento e experiência para orientar as atividades do grupo e alcançar resultados impactantes.
 
+**Motivações para ser doador**:
+Maria considera sua liderança no Comitê de Caridade como uma extensão de sua fé. Ela acredita que é seu dever religioso ajudar os menos afortunados e tem um forte compromisso em promover os valores de sua fé por meio do trabalho do comitê. Sua motivação é impulsionada pela convicção de que todos têm a responsabilidade de contribuir para o bem-estar da comunidade.
 
-Compromisso Religioso: Maria é profundamente religiosa e vê sua missão de liderar o comitê de caridade como uma extensão de sua fé. Ela acredita que é um dever religioso ajudar os menos afortunados e está comprometida em promover os valores de sua fé através do trabalho do comitê.
+**Hobbies e interesses**:
+Fora de seu trabalho dedicado ao comitê de caridade, Maria encontra tempo para seus hobbies e interesses. Ela adora ler, especialmente livros que exploram questões sociais e espirituais. Além disso, gosta de jardinagem, encontrando paz na conexão com a natureza. Maria também é uma cozinheira entusiasta e gosta de preparar refeições caseiras para sua família e amigos, promovendo laços e compartilhando momentos significativos.
 
-Liderança Empática: Maria é uma líder empática que se preocupa genuinamente com as pessoas que a organização ajuda. Ela sempre está disposta a ouvir suas histórias e necessidades, o que a ajuda a direcionar recursos de forma mais eficaz.
-
-Especialista em Serviço Social: Com sua formação em Serviço Social, Maria possui um profundo conhecimento das questões sociais e das melhores práticas para abordá-las. Ela utiliza esse conhecimento para orientar as atividades do comitê e garantir que elas tenham o maior impacto possível.
-
-Comunicadora Habilidosa: Maria é uma comunicadora habilidosa que sabe como inspirar outros a se envolverem em atividades de caridade. Ela utiliza sua capacidade de fala para sensibilizar a comunidade e arrecadar fundos para causas importantes.
-
-Organizada e Determinada: Maria é altamente organizada e determinada a fazer a diferença. Ela trabalha incansavelmente para garantir que todas as atividades do comitê sejam bem planejadas e executadas com eficácia.
-
-Conexões Comunitárias: Ela tem uma ampla rede de contatos na comunidade local, incluindo empresários, líderes religiosos e profissionais de saúde, o que a ajuda a criar parcerias valiosas para apoiar as iniciativas de caridade.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Persona 5**
