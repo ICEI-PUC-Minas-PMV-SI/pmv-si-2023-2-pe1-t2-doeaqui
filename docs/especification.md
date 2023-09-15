@@ -69,22 +69,19 @@ Aumentar a Eficiência das Doações: Além de incentivar mais doações, o proj
 
 **Profissão:** Diretora de Comunicações da ONG "Mãos Solidárias"
 
-**Sobre Ana:**
+**História de vida:**
 
 Ana Santos é uma mulher apaixonada por causas sociais. Ela cresceu em uma família que valorizava a solidariedade e o voluntariado, o que a influenciou seguir esse caminho. Ana formou-se em Comunicação Social e, depois de trabalhar alguns anos em uma agência de publicidade, decidiu dedicar sua carreira à área de filantropia.
 Como diretora de comunicações da ONG "Mãos Solidárias", Ana é a responsável por desenvolver estratégias de divulgação e captação de recursos para apoiar as diversas iniciativas da organização. 
 
-**Características:**
+**Educação e carreira**
 
-Empatia: Ana é uma pessoa bastante empática, sempre disposta a ouvir e entender as necessidades das pessoas que a ONG atende. Sua empatia a torna uma defensora dedicada das causas em que acredita.
+Após sua formatura, Ana iniciou sua carreira trabalhando em uma agência de publicidade. Nesse ambiente, ela teve a oportunidade de aplicar suas habilidades de comunicação e marketing para promover produtos e serviços de várias empresas.
+Ana rapidamente se destacou em sua nova função como Diretora de Comunicações da organização. Nesse cargo, ela é responsável por desenvolver estratégias de divulgação e captação de recursos para apoiar as diversas iniciativas da ONG. Isso inclui o uso de mídias sociais, relações públicas, campanhas de marketing e eventos para aumentar a visibilidade da organização e angariar fundos para projetos de filantropia.
 
-Determinação: Ana é determinada e perseverante em sua missão de arrecadar doações para a ONG. Ela não se deixa abalar por obstáculos e está constantemente em busca de maneiras criativas de aumentar o impacto da organização.
+**Motivações para ser doador**
 
-Criatividade: Como diretora de comunicações, Ana é altamente criativa e sabe como criar campanhas de sensibilização eficazes. Ela utiliza as mídias sociais, vídeos emocionantes e histórias inspiradoras para envolver a comunidade e atrair doadores.
-
-Colaborativa: Ana entende a importância da colaboração e trabalha em estreita parceria com a equipe da ONG, outros voluntários e organizações parceiras para maximizar o alcance das iniciativas de arrecadação de fundos.
-
-Compromisso social: A dedicação de Ana ao bem-estar da comunidade e sua paixão por causas sociais são evidentes em tudo o que faz. Ela é uma líder inspiradora para sua equipe e uma porta-voz apaixonada para a ONG.
+A dedicação de Ana ao bem-estar da comunidade e sua paixão por causas sociais são evidentes em tudo o que faz. Ela é uma líder inspiradora para sua equipe e uma porta-voz apaixonada para a ONG.
 
 Ana Santos é um exemplo de uma pessoa que desempenha um papel crucial na arrecadação de doações para uma ONG, contribuindo para tornar o mundo um lugar melhor por meio de sua paixão, empatia e compromisso com a causa.
 
