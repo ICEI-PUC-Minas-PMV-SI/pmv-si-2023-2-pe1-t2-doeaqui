@@ -147,22 +147,21 @@ Fora de seu trabalho dedicado ao comitê de caridade, Maria encontra tempo para 
 
 **Profissão**: Professora de matemática
 
-**Descrição da Persona**:
-Roberta é uma mulher de 37 anos apaixonada por ajudar os outros e dedicar seu tempo e habilidades para causas humanitárias e organizações sem fins lucrativos. Ela é uma professora de matemática talentosa, mas sempre sentiu que sua vida tinha um propósito maior do que apenas ensinar equações e fórmulas. Isso a levou a se tornar uma voluntária ativa em diversas causas.
+**História de vida**:
+A vida de Roberta é marcada por sua paixão pela matemática e pelo voluntariado. Desde jovem, destacou-se na matemática e, após obter uma bolsa de estudos, cursou matemática na universidade. Ela se tornou professora de matemática em uma escola local, inspirando seus alunos a amar a disciplina.
+Roberta também dedicou seu tempo ao voluntariado, oferecendo aulas gratuitas para estudantes carentes e melhorando a educação matemática em escolas desfavorecidas. Sua paixão e serviço à comunidade a tornaram uma influência inspiradora, mostrando como a matemática e o voluntariado podem transformar vidas.
 
-**Habilidades e Interesses**:
+**Educação e carreira**:
+A educação e carreira de Roberta são marcadas por sua paixão pela matemática e pelo compromisso com o voluntariado. Ela nasceu em uma cidade pequena e modesta, onde demonstrou talento para a matemática desde cedo. Após obter uma bolsa de estudos, frequentou a universidade, formando-se em matemática.
+Roberta escolheu se tornar professora de matemática em uma escola local, onde se destacou por seu estilo de ensino inspirador. Além disso, ela sempre encontrou tempo para o voluntariado, oferecendo aulas particulares gratuitas para estudantes carentes e trabalhando em projetos para melhorar a educação matemática em escolas desfavorecidas.
+Sua carreira como professora e seu compromisso com o voluntariado a tornaram uma figura respeitada e inspiradora em sua comunidade, mostrando como a matemática e o serviço à comunidade podem se unir para criar um impacto positivo na vida das pessoas.
 
-1. **Habilidades de Ensino:** Como professora de matemática, Roberta possui habilidades de comunicação e ensino excepcionais. Ela utiliza essas habilidades para educar crianças carentes em matemática e ciências, ajudando a aumentar suas perspectivas de futuro.
-2. **Engajamento Comunitário:** Roberta é ativa em sua comunidade local e acredita na importância de construir laços e apoiar os vizinhos. Ela organiza eventos de limpeza, campanhas de arrecadação de fundos para instituições de caridade locais e promove a conscientização sobre questões sociais.
-3. **Habilidades em Organização de Eventos:** Roberta é habilidosa na organização de eventos, desde pequenas reuniões de arrecadação de fundos até grandes eventos de conscientização. Ela coordena voluntários, define metas e garante que todos os detalhes sejam tratados com cuidado.
-4. **Conhecimento de Primeiros Socorros:** Roberta é certificada em primeiros socorros e sabe como agir em situações de emergência. Ela está disponível para oferecer assistência em eventos públicos, garantindo que todos estejam seguros.
-5. **Mentoria:** Além de ensinar matemática, Roberta também atua como mentora para adolescentes em situações vulneráveis. Ela orienta jovens a desenvolverem habilidades essenciais para a vida e a tomar decisões positivas.
-6. **Sensibilidade Social:** Roberta é altamente sensível às questões sociais, como igualdade de gênero, educação, meio ambiente e bem-estar animal. Ela se envolve em projetos relacionados a essas causas e usa sua voz para promover mudanças positivas.
-
-**Motivação**: 
+**Motivação para ser voluntário**: 
 Roberta acredita que todos têm a capacidade de fazer a diferença no mundo, independentemente de seus recursos financeiros ou posição na sociedade. Ela é motivada pela empatia e pelo desejo de criar um impacto positivo na vida das pessoas. Sua paixão por voluntariado a impulsiona a continuar oferecendo seu tempo e habilidades para causas e organizações que estão trabalhando para melhorar a sociedade. 
-
 Roberta Voluntária é um exemplo inspirador de alguém que se dedica ao serviço comunitário, usando suas habilidades e paixões para causar um impacto significativo no mundo ao seu redor. Ela é uma verdadeira defensora das causas em que acredita e um modelo a ser seguido para outros que desejam fazer a diferença.
+
+**Hobbies e interesses**:
+Além de sua paixão pela matemática e pelo voluntariado, Roberta tem hobbies como leitura, música, atividades ao ar livre, culinária, viagens e artesanato. Essas atividades enriquecem sua vida e lhe proporcionam momentos de relaxamento e criatividade.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -177,8 +176,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário do sistema (Joyce) | Preciso de dados bancários das instituições. | Realizar doações monetárias. |
 |Usuário do sistema (Joyce) | Preciso de uma lista de instituições que eu possa doar. | Saber quais eu posso ajudar mais vezes e ter o controle de quais já doei.|
 |Usuário do sistema (Maria)  | Preciso de algo um portal/plataforma que me permita cadastrar itens que necessito de doação. |Para aumentar minha arrecadação de doações. |
-|Usuário do sistema (Roberta)  | Preciso de algo que me permita fazer doações. |Para contribuir para causas e organizações. |
-|Usuário do sistema (Roberta)  | Preciso de algo que me permita organizar eventos e projetos. |Para coordenar com eficiência as atividades. |
+|Usuário do sistema (Roberta)  | Preciso de algo que me permita pesquisar quais escolas precisam de ajuda. |Para contribuir com o ensino em comunidades carentes. |
+|Usuário do sistema (Roberta)  | Preciso de algo que me permita organizar aulas de matemática de forma voluntária. |Para coordenar com eficiência as aulas durante a semana. |
 
 ## Requisitos
 
