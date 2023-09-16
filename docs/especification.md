@@ -187,20 +187,21 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  | Prioridade | Responsável |
 |----------|-----------------------------------------|----|----|
-|RF-001    | Permitir que o usuário crie uma conta própria (login), perfil “Doador” e perfil “Receptor”. | Alta |  |
-|RF-002    | Permitir que o usuário do tipo “Doador” coloque em seu cadastro os dados: Nome completo, CPF, localização por CEP, e-mail, telefone. | Alta |  |
-|RF-003| Permitir que o usuário do tipo “Receptor” coloque em seu cadastro os dados: Nome social, CNPJ (opcional), localização por CEP, e-mail, telefone, redes sociais, causas que apoiam, dados bancários para doação. | Alta |  |
-|RF-004    |Criar uma interface que centralize em um mapa o CEP informado pelo usuário “Doador”. | Alta |  |
-|RF-005a   | Exibir no mapa ao redor do ponto central os possíveis locais de doação em um raio de X km. | Médio |  |
-|RF-005b   | Exibir em uma lista lateral os possíveis locais de doação em um raio de X km. | Médio |  |
-|RF-006| Permitir que os usuários do tipo “Receptor” criem campanhas para publicar doações que estão precisando e os locais que serão recebidos os itens. | Médio |  |
-|RF-007| Permitir que ao cadastrar campanhas, sejam inseridas juntamente palavras-chave que identifiquem os tipos de doações que são aceitas. | Médio | |
-|RF-008 | Permitir que o usuário “Doador” filtre instituições a partir de itens específicos de doação. | Baixo |  |
-|RF-009 | Permitir que o usuário “Doador” clique na instituição desejada para ver mais informações. | Baixo |  |
-|RF-010 | Armazenar em um registro as doações que o usuário já fez e para qual(is) instituição(ões). | Baixo |  |
-|RF-011 | Permitir que o usuário possa realizar busca de causas e organizações. | Alta |  |
-|RF-012 | Permitir vizualização do histórico de doações do usuário/ONGs. | Média |  |
+|RF-001    | O sistema deve ter uma página inicial que contenha com conteúdo explicativo sobre doações, botões de "Quero doar" e de "Quero arrecadar". | Alta |  |
+|RF-002    | O sistema deve ter uma página de login que é exibida após o usuário clicar em "Quero arrecadar" forneceça as opções de inserir login e senha e a opção de se cadastrar. | Alta |  |
+|RF-003    | O sistema deve permitir ao usuário que representa uma instituição ou organização que tem campanhas de arrecadação, crie uma conta própria e coloque em seu cadastro os dados: Nome/Razão social, CNPJ (opcional), localização/endereço, e-mail, senha, telefone, redes sociais, causas que apoiam, dados bancários para doação.  | Alta |  |
+|RF-004    | O sistema deve ter uma interface que permita ao usuário que contém uma conta registrada poder acessar as ferramentas "Editar perfil", "Gerenciamento de Campanhas". | Média |  |
+|RF-005    | O sistema deve redirecionar o usuário que clicar em "Editar perfil" para uma tela em que seja permitido alterar os dados inseridos durante o cadastro. | Média |  |
+|RF-006    | O sistema deve redirecionar o usuário que clicar em "Gerenciamento de Campanhas" para uma tela em que seja permitido acessar os botões "Criar campanha", "Editar campanha", "Excluir campanha". | Média |  |
+|RF-007    | O sistema deve ter uma ferramenta que é acessada ao clicar em "Criar campanha", que permita que o usuário insira os dados: Nome da Campanha (Campo de Texto), Causa apoiada (Campo de Texto), Vigência (seleção entre contínua ou temporária), Itens a serem arrecadados (Campo de palavras chaves múltiplas).  | Média |  |
+|RF-008    | O sistema deve redirecionar o usuário ao clicar em "Editar campanha" para uma tela que permita que o usuário alterar os dados inseridos da campanha criada.  | Baixa |  |
+|RF-009    | O sistema deve validar com o usuário que clicar em "Excluir campanha" se ele realmente deseja apagar a campanha. Caso o usuário confirme, a campanha criada deverá ser apagada.  | Baixa |  |
+|RF-010   | O sistema deve ter uma caixa de mensagem que é exibida após o usuário visitante clicar em "Quero doar" que pergunta ao usuário o seu "CEP". | Médio |  |
+|RF-011   | O sistema deve, após o usuário visitante inserir um CEP válido, exibir uma interface em formato de mapa, centralizada no CEP informado, e que exiba todas as instituições cadastradas num raio de 40km do ponto escolhido. As instituições devem ser clicláveis e ao serem clicadas, devem exibir as informações: Nome/Razão social, CNPJ (se houver), localização/endereço, e-mail, telefone, redes sociais, causas que apoiam, dados bancários para doação e campanhas ativas.  | Médio |  |
+|RF-012   | O sistema deve, na mesma página da interface de mapa, exibir uma lista que contenha todas as instituições exibidas no mapa dentro do raio. As instituições devem ser clicláveis e ao serem clicadas, devem exibir as informações: Nome/Razão social, CNPJ (se houver), localização/endereço, e-mail, telefone, redes sociais, causas que apoiam, dados bancários para doação e campanhas ativas.  | Médio |  |
 
+|RF-013   | O sistema deve, na mesma página da interface de mapa, exibir uma caixa de texto com uma lupa. Essa caixa de texto deverá permitir que o usuário insira palavras de itens de doação ou de causas de apoio. Ao inserir as palavras, o mapa e a lista lateral devem ser ajustadas para ser exibidas somente as organizações que tenham nos campos "Causas que apoia", em seu cadastro, e no campo "Itens a serem arrecadados", em sua campanha, a palavra pesquisada pelo usuário. | Baixo |  |
+|RF-014   | O sistema deve, na mesma página da interface de mapa, exibir um botão "Formulário de doações". Ao clicar no botão, o usuário deverá ter acesso a um formulário que pode ser preenchido informando os dados "Nome completo", "Telefone", "E-mail", "Descreva os itens que você pode doar". | Baixo |  |
 
 
 ### Requisitos não Funcionais
