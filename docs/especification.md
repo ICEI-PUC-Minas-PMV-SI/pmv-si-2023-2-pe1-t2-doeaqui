@@ -91,30 +91,19 @@ Ana é uma ávida leitora e adora mergulhar em livros de ficção. Ela acredita 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Persona 3**
 
-**Nome:** Joyce Camargo
+Nome: Joyce Camargo
 
-**Idade:** 32 anos
+Idade: 32 anos
 
-**Profissão:** Gerente de Projetos
+Profissão: Gerente de Projetos
 
-**História de vida:** Joyce Camargo cresceu em uma família que sempre valorizou o voluntariado e o apoio às comunidades menos favorecidas. Desde jovem, ela via seu professor do ensino
-médio pegar uma criança em situação de vulnerabilidade e dar ela uma bolsa de 100% para a escola onde ele dava aula, dando tudo o que a criança precisava para estudar como: caderno,
-roupas, passagem, comida durantes os horários de refeição, fazendo assim joyce ter uma empatia melhor sobre as dificuldades da educação.
-Educação e carreira: Joyce estudou Administração na universidade e, após a formatura, dedicou-se a uma carreira bem-sucedida como gerente de projetos em uma empresa de tecnologia. Ela
-adquiriu habilidades valiosas em organização, liderança e gestão de recursos, que acredita serem transferíveis para sua paixão pelo voluntariado.
-Motivações para ser doadora: Joyce após o ensino médio começou a acreditar mais que, além do tempo dedicado ao voluntariado, a doação financeira é uma forma eficaz de apoiar as
-organizações sem fins lucrativos que compartilham suas causas. Ela sabe que suas contribuições podem ter um impacto real em projetos de educação. 
+História de vida: Joyce Camargo cresceu em uma família que sempre valorizou o voluntariado e o apoio às comunidades menos favorecidas. Desde jovem, ela testemunhou seu professor do ensino médio acolher uma criança em situação de vulnerabilidade, oferecendo-lhe uma bolsa de estudos integral, além de suprir todas as necessidades básicas, como materiais escolares, roupas, transporte e alimentação. Esse gesto inspirador deixou uma marca profunda em Joyce, ampliando sua empatia pelas dificuldades enfrentadas na educação.
 
-**Causas que apoia:** Joyce acredita que a educação é a chave para um futuro melhor e está comprometida em apoiar projetos que proporcionem acesso à educação de qualidade para crianças carentes.
+Educação e carreira: Joyce obteve seu diploma em Administração na universidade e, após a graduação, lançou-se em uma carreira de sucesso como gerente de projetos em uma empresa de tecnologia. Ao longo dos anos, desenvolveu habilidades cruciais em organização, liderança e gestão de recursos, competências que ela acredita poderem ser aplicadas de maneira valiosa em sua paixão pelo voluntariado.
 
-**Metas como doadora:** Joyce deseja aumentar gradualmente suas contribuições ao longo do tempo e se envolver mais ativamente com a organização em que acredita. Ela também pretende
-incentivar seus amigos, familiares e colegas a se juntarem a ela nessa jornada de apoio às causas em que acredita.
+Motivações para ser doadora: Após o ensino médio, Joyce começou a reconhecer ainda mais a importância da doação financeira como uma forma eficaz de apoiar organizações sem fins lucrativos alinhadas com suas causas. Ela compreende que suas contribuições têm o potencial de gerar um impacto real em projetos de educação que compartilham sua missão.
 
-**Hobbies e interesses:** Fora do trabalho e do voluntariado, Ana adora praticar esportes ao ar livre, especialmente trilhas e escaladas. Ela também é uma ávida leitora e gosta de
-explorar novas culturas através da culinária e de viagens.
-
-**Mensagem de Ana:** "Tenho a sorte de estar em uma posição em que posso contribuir de forma financeira e com doações de roupas para causas que são importantes para mim. Acredito que todos
-nós temos a responsabilidade de tornar o mundo um lugar melhor, e a doação é uma maneira eficaz de fazer isso. Espero inspirar outras pessoas a se envolverem e fazerem a diferença também."
+Hobbies e interesses: Além de suas atividades profissionais e de voluntariado, Joyce tem uma paixão por esportes ao ar livre, especialmente trilhas e escaladas. Ela também é uma ávida leitora, sempre em busca de conhecimento e histórias inspiradoras. Além disso, gosta de explorar novas culturas por meio da culinária e de suas viagens, enriquecendo assim seu entendimento do mundo.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Persona 4**
