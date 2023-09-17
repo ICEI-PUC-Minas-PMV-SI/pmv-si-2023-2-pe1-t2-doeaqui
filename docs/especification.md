@@ -69,41 +69,36 @@ Usuário do Sistema - Organização de Eventos e Projetos: Usar ferramentas da p
 **Profissão:** Diretora de Comunicações da ONG "Mãos Solidárias"
 
 **História de vida:**
-
 Ana Santos é uma mulher apaixonada por causas sociais. Ela cresceu em uma família que valorizava a solidariedade e o voluntariado, o que a influenciou seguir esse caminho. Ana formou-se em Comunicação Social e, depois de trabalhar alguns anos em uma agência de publicidade, decidiu dedicar sua carreira à área de filantropia.
 Como diretora de comunicações da ONG "Mãos Solidárias", Ana é a responsável por desenvolver estratégias de divulgação e captação de recursos para apoiar as diversas iniciativas da organização. 
 
 **Educação e carreira**
-
 Após sua formatura, Ana iniciou sua carreira trabalhando em uma agência de publicidade. Nesse ambiente, ela teve a oportunidade de aplicar suas habilidades de comunicação e marketing para promover produtos e serviços de várias empresas.
 Ana rapidamente se destacou em sua nova função como Diretora de Comunicações da organização. Nesse cargo, ela é responsável por desenvolver estratégias de divulgação e captação de recursos para apoiar as diversas iniciativas da ONG. Isso inclui o uso de mídias sociais, relações públicas, campanhas de marketing e eventos para aumentar a visibilidade da organização e angariar fundos para projetos de filantropia.
 
 **Motivações para ser doador**
-
 A dedicação de Ana ao bem-estar da comunidade e sua paixão por causas sociais são evidentes em tudo o que faz. Ela é uma líder inspiradora para sua equipe e uma porta-voz apaixonada para a ONG.
-
 Ana Santos é um exemplo de uma pessoa que desempenha um papel crucial na arrecadação de doações para uma ONG, contribuindo para tornar o mundo um lugar melhor por meio de sua paixão, empatia e compromisso com a causa.
 
 **Hobbies e interesses:**
-
 Ana é uma ávida leitora e adora mergulhar em livros de ficção. Ela acredita que a leitura é uma maneira poderosa de aprender, se inspirar e se conectar com diferentes perspectivas além de realizar atividades ao ar livre para equilibrar sua vida agitada na cidade, Ana gosta de passar tempo ao ar livre. Ela faz caminhadas, acampa ocasionalmente e se reconecta com a natureza sempre que possível.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Persona 3**
 
-Nome: Joyce Camargo
+**Nome:** Joyce Camargo
 
-Idade: 32 anos
+**Idade:** 32 anos
 
-Profissão: Gerente de Projetos
+**Profissão:** Gerente de Projetos
 
-História de vida: Joyce Camargo cresceu em uma família que sempre valorizou o voluntariado e o apoio às comunidades menos favorecidas. Desde jovem, ela testemunhou seu professor do ensino médio acolher uma criança em situação de vulnerabilidade, oferecendo-lhe uma bolsa de estudos integral, além de suprir todas as necessidades básicas, como materiais escolares, roupas, transporte e alimentação. Esse gesto inspirador deixou uma marca profunda em Joyce, ampliando sua empatia pelas dificuldades enfrentadas na educação.
+**História de vida:** Joyce Camargo cresceu em uma família que sempre valorizou o voluntariado e o apoio às comunidades menos favorecidas. Desde jovem, ela testemunhou seu professor do ensino médio acolher uma criança em situação de vulnerabilidade, oferecendo-lhe uma bolsa de estudos integral, além de suprir todas as necessidades básicas, como materiais escolares, roupas, transporte e alimentação. Esse gesto inspirador deixou uma marca profunda em Joyce, ampliando sua empatia pelas dificuldades enfrentadas na educação.
 
-Educação e carreira: Joyce obteve seu diploma em Administração na universidade e, após a graduação, lançou-se em uma carreira de sucesso como gerente de projetos em uma empresa de tecnologia. Ao longo dos anos, desenvolveu habilidades cruciais em organização, liderança e gestão de recursos, competências que ela acredita poderem ser aplicadas de maneira valiosa em sua paixão pelo voluntariado.
+**Educação e carreira:** Joyce obteve seu diploma em Administração na universidade e, após a graduação, lançou-se em uma carreira de sucesso como gerente de projetos em uma empresa de tecnologia. Ao longo dos anos, desenvolveu habilidades cruciais em organização, liderança e gestão de recursos, competências que ela acredita poderem ser aplicadas de maneira valiosa em sua paixão pelo voluntariado.
 
-Motivações para ser doadora: Após o ensino médio, Joyce começou a reconhecer ainda mais a importância da doação financeira como uma forma eficaz de apoiar organizações sem fins lucrativos alinhadas com suas causas. Ela compreende que suas contribuições têm o potencial de gerar um impacto real em projetos de educação que compartilham sua missão.
+**Motivações para ser doadora:** Após o ensino médio, Joyce começou a reconhecer ainda mais a importância da doação financeira como uma forma eficaz de apoiar organizações sem fins lucrativos alinhadas com suas causas. Ela compreende que suas contribuições têm o potencial de gerar um impacto real em projetos de educação que compartilham sua missão.
 
-Hobbies e interesses: Além de suas atividades profissionais e de voluntariado, Joyce tem uma paixão por esportes ao ar livre, especialmente trilhas e escaladas. Ela também é uma ávida leitora, sempre em busca de conhecimento e histórias inspiradoras. Além disso, gosta de explorar novas culturas por meio da culinária e de suas viagens, enriquecendo assim seu entendimento do mundo.
+**Hobbies e interesses:** Além de suas atividades profissionais e de voluntariado, Joyce tem uma paixão por esportes ao ar livre, especialmente trilhas e escaladas. Ela também é uma ávida leitora, sempre em busca de conhecimento e histórias inspiradoras. Além disso, gosta de explorar novas culturas por meio da culinária e de suas viagens, enriquecendo assim seu entendimento do mundo.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Persona 4**
@@ -120,7 +115,7 @@ Maria nasceu em uma família que sempre valorizou a importância de ajudar os ne
 **Educação e carreira**:
 Com uma paixão pelo serviço aos outros, Maria estudou Serviço Social na universidade, consolidando seu compromisso com a transformação social. Sua formação a equipou com conhecimento profundo das questões sociais e as melhores práticas para abordá-las. Atualmente, ela lidera o Comitê de Caridade de nossa comunidade, aplicando seu conhecimento e experiência para orientar as atividades do grupo e alcançar resultados impactantes.
 
-**Motivações para ser doador**:
+**Motivações para ser doadora**:
 Maria considera sua liderança no Comitê de Caridade como uma extensão de sua fé. Ela acredita que é seu dever religioso ajudar os menos afortunados e tem um forte compromisso em promover os valores de sua fé por meio do trabalho do comitê. Sua motivação é impulsionada pela convicção de que todos têm a responsabilidade de contribuir para o bem-estar da comunidade.
 
 **Hobbies e interesses**:
@@ -145,7 +140,7 @@ A educação e carreira de Roberta são marcadas por sua paixão pela matemátic
 Roberta escolheu se tornar professora de matemática em uma escola local, onde se destacou por seu estilo de ensino inspirador. Além disso, ela sempre encontrou tempo para o voluntariado, oferecendo aulas particulares gratuitas para estudantes carentes e trabalhando em projetos para melhorar a educação matemática em escolas desfavorecidas.
 Sua carreira como professora e seu compromisso com o voluntariado a tornaram uma figura respeitada e inspiradora em sua comunidade, mostrando como a matemática e o serviço à comunidade podem se unir para criar um impacto positivo na vida das pessoas.
 
-**Motivação para ser voluntário**: 
+**Motivação para ser voluntária**: 
 Roberta acredita que todos têm a capacidade de fazer a diferença no mundo, independentemente de seus recursos financeiros ou posição na sociedade. Ela é motivada pela empatia e pelo desejo de criar um impacto positivo na vida das pessoas. Sua paixão por voluntariado a impulsiona a continuar oferecendo seu tempo e habilidades para causas e organizações que estão trabalhando para melhorar a sociedade. 
 Roberta Voluntária é um exemplo inspirador de alguém que se dedica ao serviço comunitário, usando suas habilidades e paixões para causar um impacto significativo no mundo ao seu redor. Ela é uma verdadeira defensora das causas em que acredita e um modelo a ser seguido para outros que desejam fazer a diferença.
 
