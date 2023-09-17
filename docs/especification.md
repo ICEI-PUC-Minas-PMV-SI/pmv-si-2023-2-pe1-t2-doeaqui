@@ -191,16 +191,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ter mecanismos rigorosos de controle de acesso, garantindo que apenas usuários autorizados tenham acesso aos dados e funcionalidades relevantes. |  Alta |
-|RNF-002| O sistema deve suportar x usuarios ao mesmo tempo |  Alta |
-|RNF-003| O sistema deve ser responsivo para executar em qualquer plataforma. | Média | 
-|RNF-004|O software deve fornecer feedback claro e informativo aos usuários sobre o que está acontecendo no sistema, como confirmações, mensagens de erro e indicadores de progresso. |  Média |
-|RNF-004b| possibiltar a realização de tarefas em no max. X cliques |  Média |
-|RNF-004c| Acessibilidade: Fontes de letra grandes, contraste |  Média |
-|RNF-005| O sistema deverá ser desenvolvido nas tecnologias HTML, CSS e JavaScript. |  Média | 
-|RNF-006| Reunião de acompanhamento toda quarta-feira. |  Média | 
-|RNF-007| cobertura de teste: pelo menos 20% da plataforma deve deve passar em testes. |  Média |
-|RNF-008| Deve processar requisições do usuário em no máximo 3s |  Baixa |
+|RNF-001| O sistema deve garantir a segurança dos dados de acordo com a LGPD. |  Alta |
+|RNF-002| O sistema deve suportar até 10.000 usuários ao mesmo tempo. | Média | 
+|RNF-003| O sistema deve ser responsivo para executar em qualquer plataforma. |  Média |
+|RNF-004| O sistema deve possibilitar qualquer realização de tarefas em no máximo 4 cliques. |  Média |
+|RNF-005| O sistema deve ser desenvolvido na tecnologia HTML, CSS e Java Script. |  Média |
+|RNF-006| Cobertura de teste: pelo menos 20% da plataforma deve passar em testes. |  Média | 
+|RNF-007| O sistema deve processar requisições dos usuários de no máximo 3 segundos. |  Média | 
+|RNF-008| O sistema deve emitir o tempo todo mensagens de confirmação para que o usuário saiba o status do sistema. |  Média |
+|RNF-009| Acessibilidade: fontes de letras grandes, alto contraste. |  Baixa |
 
 ## Restrições
 
