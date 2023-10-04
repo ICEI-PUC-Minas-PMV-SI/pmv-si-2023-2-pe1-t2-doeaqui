@@ -22,10 +22,17 @@ Apresente as fontes que serão utilizadas e sua função no site. As principais 
 
 ## Iconografia
 
-Defina os ícones que serão utilizados e suas respectivas funções.
+![padlock](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-doeaqui/assets/142449392/122c4374-e37e-4b3c-9b33-0ce3dc3b32e7)
+icone usado para indicar preenchimento de senhas
 
-Apresente os estilos CSS criados para cada um dos elementos apresentados.
-Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
+![profile-user](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-doeaqui/assets/142449392/6ff52ca2-364c-4e1f-b7f3-c50cf3dcd61c)
+icone usado para indicar o preenchimento do usuario
+
+![email](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-doeaqui/assets/142449392/3c333436-cdbb-4160-88e4-93f6a3c64ca6)
+Indicação para preencher o campo email
+
+![telephone-call](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-doeaqui/assets/142449392/aa23ec93-9a11-4265-afc3-8f7680d88a98)
+icone usado para preencher telefone 
 
 
 > **Links Úteis**:
