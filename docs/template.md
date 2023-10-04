@@ -10,8 +10,9 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 
 ## Cores
+![AdobeColor-PALETA DOEAQUI](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-doeaqui/assets/142449392/fda5e8ce-3e8e-49e7-b020-bff021e35492)
 
-Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
+
 
 
 ## Tipografia
