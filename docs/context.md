@@ -6,7 +6,7 @@ Nos dias de hoje, a vontade de ajudar é evidente, mas muitos se deparam com o d
 
 Após uma pandemia, é evidente que as organizações não governamentais (ONGs) estão enfrentando desafios significativos no recebimento de doações.
 ja que a crise gerada é o principal fator na redução específica no número de doações e contribuições disponíveis.
-Segundo uma matéria no portal G1 de junho de 2022, foi destacado como a diminuição das doações está afetando a capacidade das ONGs em auxiliar as famílias em situação de vulnerabilidade.
+Segundo uma matéria no portal G1 de junho de 2022[2], foi destacado como a diminuição das doações está afetando a capacidade das ONGs em auxiliar as famílias em situação de vulnerabilidade.
 Adicionalmente a incerteza sobre o destino das doações é um problema a ser destacado, afinal, doadores tem a necessidade de entender como os recursos serão utilizados.
 Com base nesse contexto, desenvolvemos o "DoeAqui", que permitirá transformar a complexidade dessas problemáticas em tarefas simples novamente
 
