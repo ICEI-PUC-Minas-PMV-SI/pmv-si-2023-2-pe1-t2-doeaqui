@@ -148,6 +148,23 @@ Roberta Voluntária é um exemplo inspirador de alguém que se dedica ao serviç
 Além de sua paixão pela matemática e pelo voluntariado, Roberta tem hobbies como leitura, música, atividades ao ar livre, culinária, viagens e artesanato. Essas atividades enriquecem sua vida e lhe proporcionam momentos de relaxamento e criatividade.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Persona 6**
+
+**Nome:** Carlos Ferreira
+
+**Idade:** 45 anos
+
+**Profissão:** Engenheiro de Software
+
+**História de vida:** A vida de Carlos é marcada por sua paixão pela tecnologia e por matemática. Desde jovem, ele demonstrou um interesse profundo por lógica, computadores e programação. No entanto, aos 18 anos, Carlos sofreu um acidente que resultou em uma deficiência física que afetou sua mobilidade nas pernas. Apesar dessa adversidade, ele não desistiu de seus sonhos e perseverou em sua educação. Carlos se casou com Patrícia, que conheceu na universidade, e é pai de dois filhos.
+
+**Educação e carreira:** A jornada educacional e profissional de Carlos foi marcada por muita determinação em superar obstáculos de mobilidade, dado que o ano de seu acidente coincidiu com seu ingresso na universidade.  Se formou em engenharia de software com honras, demonstrando um talento excepcional em seu campo. Hoje, ele trabalha como engenheiro de software e está muito interessado em aprender mais sobre inteligências artificiais. 
+
+**Motivação para ser doador:** Carlos acredita profundamente na importância de dar e ajudar os outros, especialmente aqueles que enfrentam desafios semelhantes aos que ele enfrentou devido às consequências de seu acidente. Sua experiência pessoal o sensibilizou para as dificuldades que as pessoas com deficiência enfrentam diariamente. Como resultado, ele se sente motivado a contribuir para causas que promovem a inclusão e a acessibilidade. Carlos vê a doação como uma maneira significativa de fazer a diferença na vida das pessoas e de criar um impacto positivo em suas comunidades. Sua motivação para ser um doador ativo é impulsionada por seu desejo de tornar o mundo um lugar mais inclusivo e igualitário para todos, e prestar apoio a pessoas que passam por situações similares às que passou.
+
+**Hobbies e interesses:** Carlos tem interesse por astronomia, fotografia, filmes de ficção científica, música eletrônico e culinária. Ele aproveita seu tempo livre explorando o cosmos por meio de um telescópio adaptado para sua necessidade e contando histórias de alienígenas para seus filhos. 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Histórias de Usuários
 
