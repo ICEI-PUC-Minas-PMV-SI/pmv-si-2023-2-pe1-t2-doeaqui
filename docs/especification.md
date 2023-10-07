@@ -173,12 +173,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... | QUERO/PRECISO ...  |PARA ... |
 |--------------------|------------------------------------|----------------------------------------|
 |Usuário do sistema (Jorge)  | Encontrar instituições ou organizações que recebam doações de fraldas geriátricas.  | Destinar para asilos e lares para idosos produtos que minha empresa produz, de forma a honrar a contrapartida social com a prefeitura e manter uma boa imagem da marca. |
-|Usuário do sistema (Ana) | Cadastrar as localizações de suas campanhas de arrecadação em um software. | Para que doadores consigam visualizar a campanha em sua região e consigam contribuir de forma prática. |
-|Usuário do sistema (Joyce) | Preciso de dados bancários das instituições. | Realizar doações monetárias. |
-|Usuário do sistema (Joyce) | Preciso de uma lista de instituições que eu possa doar. | Saber quais eu posso ajudar mais vezes e ter o controle de quais já doei.|
-|Usuário do sistema (Maria)  | Preciso de algo um portal/plataforma que me permita cadastrar itens que necessito de doação. |Para aumentar minha arrecadação de doações. |
-|Usuário do sistema (Roberta)  | Preciso de algo que me permita pesquisar quais escolas precisam de ajuda. |Para contribuir com o ensino em comunidades carentes. |
-|Usuário do sistema (Roberta)  | Preciso de algo que me permita organizar aulas de matemática de forma voluntária. |Para coordenar com eficiência as aulas durante a semana. |
+|Usuário do sistema (Ana) | Ampliar a rede de doadores e o alcance de seus eventos na ONG. | Aumentar o número de doações para as campanhas de arrecadação da ONG e fazer crescer o engajamento da comunidade local com sua causa. |
+|Usuário do sistema (Joyce) | Saber meios adquirir informações bancárias de locais que apoiam minha causa. | Realizar doações monetárias para causas que eu apoio. |
+|Usuário do sistema (Joyce) | Descobrir instituições e organizações que precisam de doação. | Saber quais eu posso ajudar mais vezes e conseguir desfazer de alguns itens que não preciso mais e podem servir para alguém. |
+|Usuário do sistema (Maria)  | Divulgar os itens que o comitê de caridade está em falta. | Aumentar minha arrecadação de doações pontuais. |
+|Usuário do sistema (Roberta)  | Saber quais escolas precisam de doações. | Contribuir com os materiais básicos do ensino em comunidades carentes. |
+|Usuário do sistema (Carlos)  | Achar instituições ou organizações dispostas a coletar itens de doação em meu domicílio. | Conseguir apoiar pessoas com deficiência e dificuldade de locomoção por meio de doações. |
 
 ## Requisitos
 
