@@ -190,7 +190,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |----------|-----------------------------------------|----|----|
 |RF-001    | O sistema deve ter uma página inicial que contenha com conteúdo explicativo sobre doações, botões de "Quero doar" e de "Quero arrecadar". | Alta |  |
 |RF-002    | O sistema deve ter uma página de login que é exibida após o usuário clicar em "Quero arrecadar" forneceça as opções de inserir login e senha e a opção de se cadastrar. | Alta |  |
-|RF-002    | O sistema deve ter uma página de cadastro que é exibida após o usuário clicar em "Cadastrar" e coloque em seu cadastro os dados: Nome/Razão social, CNPJ (opcional), localização/endereço, e-mail, senha, telefone, redes sociais, causas que apoiam, dados bancários para doação.  | Alta |  |
+|RF-003    | O sistema deve ter uma página de cadastro que é exibida após o usuário clicar em "Cadastrar" e coloque em seu cadastro os dados: Nome/Razão social, CNPJ (opcional), localização/endereço, e-mail, senha, telefone, redes sociais, causas que apoiam, dados bancários para doação.  | Alta |  |
 |RF-004    | O sistema deve ter uma interface que permita ao usuário que contém uma conta registrada poder acessar a ferramenta "Editar perfil". | Média |  |
 |RF-005    | O sistema deve ter uma interface que permita ao usuário que contém uma conta registrada poder acessar a ferramenta "Gerenciamento de Campanhas". | Média |  |
 |RF-006    | O sistema deve redirecionar o usuário que clicar em "Gerenciamento de Campanhas" para uma tela em que seja permitido acessar os botões "Criar campanha", "Editar campanha", "Excluir campanha". | Média |  |
