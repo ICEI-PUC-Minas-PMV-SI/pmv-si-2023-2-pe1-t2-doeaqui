@@ -39,3 +39,27 @@ A tela Inicial apresenta um menu lateral com as principais seções do portal, e
 > - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
 > - [Axure](https://www.axure.com/edu) (Licença Educacional)
 > - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+
+## Wireframes - DoeAqui
+
+**Wireframe 01**
+
+![Wireframe 01](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-doeaqui/blob/main/docs/img/Wireframe%201.png?raw=true)
+
+A tela descreve o requisito RF-001, disponibilizando no _header_ da página os botões "Quero Doar" e "Quero arrecadar". Além disso, é exibido ao usuário um texto informativo a respeito da importância das doações e como eles devem/podem ser feitas. Ao lado, é
+exibida uma imagem de apoio. O botão "Quero Doar" redireciona o usuário para a tela de inserção de CEP (Wireframe 02) e o botão "Quero arrecadar" redireciona o usuário à tela login Wireframe 05). 
+
+**Wireframe 02**
+
+![Wireframe 02](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-doeaqui/blob/main/docs/img/Wireframe%202.png)
+
+A tela descreve o início do requisito RF-008 e algumas informações sobre a plataforma e sobre doações. Existe um campo numérico com validador de CEPs em que o usuário pode entrar com seu CEP.
+
+**Wireframe 03**
+
+![Wireframe 03](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-doeaqui/blob/main/docs/img/Wireframe%203.png)
+
+
+
+
+
