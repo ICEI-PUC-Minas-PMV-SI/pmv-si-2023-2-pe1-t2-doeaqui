@@ -1,5 +1,9 @@
 # Template padrão do site
 
+Layout padrão do site:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-doeaqui/assets/143445321/4b65c1b2-b12f-4db3-b0a8-57ba961766ad)
+
 Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
 Explique as guias de estilo utilizadas no seu projeto.
@@ -8,9 +12,11 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
 
+
 ## Cores
 
 Cores ultilizadas no projeto.
+
 
 ## Tipografia
 
