@@ -15,14 +15,26 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Cores
 
-Cores ultilizadas no projeto.
+Cores ultilizadas no projeto:
 
 
 ## Tipografia
 
 Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
 
+Fontes:
+
+Logo - Oneste, sans-serif
+
+Botões - Arial, Helvetica, sans-serif
+
+Texto Central - Segoe UI, Tahoma, Geneva, Verdana, sans-serif
+
+Texto gerais - Arial, Helvetica, sans-serif
+
 ## Iconografia
+
+
 
 > **Links Úteis**:
 >
