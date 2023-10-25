@@ -51,11 +51,11 @@ header {
   background-color: #f3f3f3;
 }
 
-.content {
+.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 50px;
 }
 
 .text {
@@ -112,4 +112,16 @@ footer {
   color: #ffffff;
   text-align: center;
   padding: 0.5rem;
+}
+
+.col-button {
+  position: relative;
+  bottom: 150px;
+}
+
+/* se a tela tiver menos de 425px remove campo de pesquisa */
+@media screen and (max-width: 425px) {
+  .pesquisar {
+    display: none;
+  }
 }
