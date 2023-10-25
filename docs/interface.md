@@ -60,7 +60,7 @@ A tela exibe a funcionalidade de alteração dos dados cadastrados da conta, com
 
 ![Wireframe 08](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-doeaqui/blob/main/docs/img/Wireframe%208.png)
 
-A tela descreve o Gerenciamento de Campanhas, como prevê o requisito RF-006. Aqui ele tem acesso à ferramenta que permite criar, editar ou excluir uma campanha. Também é possível acessar a edição de perfil.
+A tela descreve o Gerenciamento de Campanhas, como prevê o requisito RF-005 E RF-006. Aqui ele tem acesso à ferramenta que permite criar, editar ou excluir uma campanha. Também é possível acessar a edição de perfil.
 
 **Wireframe 09**
 
