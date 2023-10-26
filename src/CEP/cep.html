@@ -36,14 +36,21 @@
     </script>
 
 </head>
-<body>
-    <content>
-        <label for="cep">CEP:</label>
-        <input type="text" id="cep" oninput="mascaraCep(this)" placeholder="Digite seu CEP">
-        <a href="#"><button>Buscar</button></a>
-    </content>
 
-    
+<body>
+    <div class="imagem3">
+    <img src="../img/imagemilustrativa3.png" alt="imagem3">
+    </div>
+
+    <div>
+    <h5>Antes de realizar sua doação, vamos ajudá-lo a encontrar pontos de coleta ou campanhas próximas à sua região. Para isso, insira seu CEP no campo abaixo.</h5>
+
+    <content class= "campo">
+        <input type="text" id="cep" oninput="mascaraCep(this)" placeholder="Digite seu CEP">
+        <a href="../Mapa/index.html"><button id="botaoBuscar">Buscar</button></a>
+    </content>
+    </div>
+
     <footer class="py-1 my-1">
         <ul class="nav justify-content-center border-bottom pb-1 mb-1">
             <li class="nav-item"><a href="../home/index.html" class="nav-link px-2 text-body-secondary">Início</a></li>

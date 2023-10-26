@@ -99,13 +99,54 @@ footer {
 
   }
 
-
-  .content {
-    text-align: center;
-    position:
-    top: 50%;
-    left: 50%;
+.campo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 60%;
+    left: 69%;
     transform: translate(-50%, -50%);
+}
 
-  }
+#botaoBuscar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: #283618;
+    color: #EDEDE9;
+    border: none;
+    padding: 6px 15px;
+    margin-left: 10px;
+    margin-right: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+}
 
+#botaoBuscar:hover {
+    color: #283618;
+    background-color: #A3B18A;
+}
+
+#cep {
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+::placeholder {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h5 {
+    color: #283618;
+    padding-top: 6%;
+    padding-right: 2%;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 40%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+}
+
+.imagem3 {
+    
+    margin-left: 150px;
+    margin-top: 80px;
+}
