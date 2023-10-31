@@ -117,3 +117,17 @@ footer {
 
   }
 
+  form {
+    width: 600px; /* Largura do formulário (ajuste conforme necessário) */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 60px;
+    background-color: #f0f1f0cd;
+    border: 1px solid #71816D;
+    
+}
+input{margin: 50%;}
+.container {
+    text-align:center ;
+    margin-top: 5%;
+     /* Centraliza horizontalmente o conteúdo dentro do container */
+}
