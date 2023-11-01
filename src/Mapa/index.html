@@ -46,10 +46,10 @@
                             <span class="list-group-item list-group-item-action active" aria-current="true" style="background-color: #71816d; border-color: #71816d;">
                                 Lista de locais de doação
                             </span>
-                            <a href="#" class="list-group-item list-group-item-action">Local de doação 1</a>
-                            <a href="#" class="list-group-item list-group-item-action">Local de doação 2</a>
-                            <a href="#" class="list-group-item list-group-item-action">Local de doação 3</a>
-                            <a class="list-group-item list-group-item-action disabled" aria-disabled="true">Local de doação 4</a>
+                            <button data-bs-target="#modalLocais" data-bs-toggle="modal" class="list-group-item list-group-item-action">Local de doação 1</button>
+                            <button data-bs-target="#modalLocais" data-bs-toggle="modal" class="list-group-item list-group-item-action">Local de doação 2</button>
+                            <button data-bs-target="#modalLocais" data-bs-toggle="modal" class="list-group-item list-group-item-action">Local de doação 3</button>
+                            <button data-bs-target="#modalLocais" data-bs-toggle="modal" class="list-group-item list-group-item-action disabled" aria-disabled="true">Local de doação 4</button>
                         </div>
                     </div>
                 </div>
@@ -82,21 +82,30 @@
                 </div>
             </section>
 
-            <div class="row container col-sm">
-                <div class="col-button">
-                    <div class="overflow-hidden rounded-1">
-                        <div class="">
-                            <button type="button" class="btn" style="background-color: #71816d; color: #EDEDE9;" data-bs-target="#exampleModal">
-                                Formulario de doacões
-                            </button>
+            <div class="modalLocais">
+                <!-- Modal -->
+                <div class="modal fade" id="modalLocais" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Local de doação</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+
+                                <p>Endereço: Rua dos Bobos, nº 0</p>
+                                <p>Telefone: (00) 00000-0000</p>
+                                <p>Horário de funcionamento: 00:00 às 00:00</p>
+                                <p>Descrição: Lorem ipsum dolor sit amet consectetur adipi</p>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
-
     </div>
-
     <footer class="py-1 my-1">
         <ul class="nav justify-content-center border-bottom pb-1 mb-1">
             <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-body-secondary">Início</a></li>
@@ -105,7 +114,6 @@
         </ul>
         <p class="text-center text-body-secondary">Doe Aqui - 2023 </p>
     </footer>
-
 </body>
 
 </html>
