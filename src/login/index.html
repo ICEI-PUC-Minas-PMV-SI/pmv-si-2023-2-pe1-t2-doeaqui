@@ -20,31 +20,36 @@
 <body>
     <header>
         <div class="logo">
-            <img src="./img/logoc.png" alt="Logo">
+            <img src="../img/logoc.png" alt="Logo">
             <h1>Doe Aqui</h1>
         </div>
         <div class="buttons">
-            <a href="./CEP/cep.html"><button class="button">Quero Doar</button></a>
-            <a href="./login/index.html"><button class="button">Quero Arrecadar</button></a>
+            <a href="../CEP/cep.html"><button class="button">Quero Doar</button></a>
+            <button class="button">Quero Arrecadar</button>
+            <div class="row container col-sm">
         </div>
     </header>
     <!-- daqui pra baixo é o conteúdo -->
-    <div class="content">
-        <div class="text">
-            <h2>Doações transformam o nosso mundo.</h2>
-            <p>Conectamos corações generosos às ONGs que fazem a diferença, tornando a doação um ato mais simples e fácil, transformando vidas e construindo um mundo mais solidário!</p>
-        </div>
-        <div class="image">
-            <picture>
-                <source media="(max-width: 800px)" srcset="imagens\imagemilustrativa500.png">
-                <img src="./img/imagemilustrativa500.png" alt="Imagem">
-            </picture>
+
+    <div class="container">
+        <form action="processar.php" method="post">
+            <h2>Insira os dados para acessar</h2>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+    
+            <label for="Senha">Senha:</label>
+            <input type="password" id="password" name="password" required><br><br>
+    
+    
+            <input type="button" value="Entrar"> <br>
+          <a href="../Cadastro/FormUsuario.html" class="link-button">Cadastre-se</a>
+        </form>
         </div>
     </div>
 
     <footer class="py-1 my-1">
         <ul class="nav justify-content-center border-bottom pb-1 mb-1">
-            <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-body-secondary">Início</a></li>
+            <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-body-secondary">Início</a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Funcionalidades</a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Sobre</a></li>
         </ul>
