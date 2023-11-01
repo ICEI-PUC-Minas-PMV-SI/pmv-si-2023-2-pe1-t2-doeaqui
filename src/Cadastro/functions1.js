@@ -2,8 +2,8 @@
 
     const password = document.querySelector("#password");
     const confirm_password = document.querySelector("#confirm_password");
-    const btn_proximo1= document.querySelector("#btn_proximo1");
-    btn_proximo1.addEventListener("click", proximo);
+    const FormUsuario= document.querySelector("#FormUsuario");
+    FormUsuario.addEventListener("click", proximo);
 
     function senha()
 { 
@@ -21,7 +21,7 @@
 
 function proximo() {
 
-    window.location.href ="../Cadastro/index2.html"; 
+    window.location.href ="../Cadastro/FormEndereco.html"; 
 
 }
 

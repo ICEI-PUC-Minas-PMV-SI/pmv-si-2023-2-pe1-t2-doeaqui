@@ -6,7 +6,7 @@ body {
 header {
     font-family: 'Onest', sans-serif;
     font-size: 12px;
-    background-color: #A3B18A;
+    background-color: #71874a;
     color: #ffffff;
     padding: 8px 0;
     display: flex;
@@ -48,7 +48,7 @@ header {
 
 .button:hover {
     color: #283618;
-    background-color: #f3f3f3;
+    background-color: #cbbdbd;
 }
 
 .content {
@@ -65,7 +65,7 @@ header {
     flex: 1;
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #283618;
+    color: #4a573a;
 }
 
 .image {
@@ -80,7 +80,7 @@ header {
 h2 {
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #71816D;
+    color: #e2e4e1;
 }
 
 p {

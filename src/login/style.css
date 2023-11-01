@@ -37,7 +37,7 @@ header {
 .button {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #283618;
-    color: #EDEDE9;
+    color: #ffffff;
     border: none;
     padding: 10px 20px;
     margin-left: 10px;
@@ -47,8 +47,8 @@ header {
 }
 
 .button:hover {
-    color: #283618;
-    background-color: #f3f3f3;
+    color: #e5e5e5;
+    background-color: #848484;
 }
 
 .content {
@@ -80,7 +80,7 @@ header {
 h2 {
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #71816D;
+    color: #b0b0b0;
 }
 
 p {
@@ -111,7 +111,7 @@ footer {
     bottom: 50px;
     width: 100%;
     height: 2.5rem;
-    color: #ffffff;
+    color: #f3f3f3;
     text-align: center;
     padding: 0.5rem;
 
@@ -121,7 +121,7 @@ footer {
     width: 600px; /* Largura do formulário (ajuste conforme necessário) */
     margin: 0 auto; /* Centraliza horizontalmente */
     padding: 60px;
-    background-color: #f0f1f0cd;
+    background-color: #dfe5dfcd;
     border: 1px solid #71816D;
     
 }
