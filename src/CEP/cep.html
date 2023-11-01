@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<!-- cabeçalho -->
 
 <head>
     <meta charset="UTF-8">
@@ -29,7 +28,7 @@
         </div>
     </header>
 
-    <!-- daqui pra baixo é o conteúdo -->
+
 
     <script>
         function mascaraCep(cep) {
@@ -40,16 +39,22 @@
     </head>
 
     <body>
-        <content>
-            <label for="cep">CEP:</label>
-            <input type="text" id="cep" oninput="mascaraCep(this)" placeholder="Digite seu CEP">
-            <a href="../Mapa/index.html"><button>Buscar</button></a>
-        </content>
+        <div class="imagem3">
+            <img src="../img/imagemilustrativa3.png" alt="imagem3">
+        </div>
 
+        <div>
+            <h5>Antes de realizar sua doação, vamos ajudá-lo a encontrar pontos de coleta ou campanhas próximas à sua região. Para isso, insira seu CEP no campo abaixo.</h5>
+
+            <content class="campo">
+                <input type="text" id="cep" oninput="mascaraCep(this)" placeholder="Digite seu CEP">
+                <a href="../Mapa/index.html"><button id="botaoBuscar">Buscar</button></a>
+            </content>
+        </div>
 
         <footer class="py-1 my-1">
             <ul class="nav justify-content-center border-bottom pb-1 mb-1">
-                <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-body-secondary">Início</a></li>
+                <li class="nav-item"><a href="../home/index.html" class="nav-link px-2 text-body-secondary">Início</a></li>
                 <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Funcionalidades</a></li>
                 <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Sobre</a></li>
             </ul>
