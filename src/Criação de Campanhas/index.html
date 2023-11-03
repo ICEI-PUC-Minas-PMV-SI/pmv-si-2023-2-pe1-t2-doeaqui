@@ -28,11 +28,12 @@
             <button class="button">Quero Arrecadar</button>
         </div>
     </header>
-    <body>               
-        <div class="text-center">
+    <body>
+        <br><br>               
+        <div class="container">
+            <div class="text-center">
             <h2>Criação de Campanha</h2>
-        </div>
-        
+            </div>
         <form>
             <div>
              <label for="nomeCampanha">Nome da Campanha:</label>
@@ -41,19 +42,21 @@
     
             <label for="causasApoiadas">Causa(s) apoiada(s):</label>
             <input type="text" id="causasApoiadas" placeholder="Digite a causa apoiada" required>
-    
+    <br>
             <label for="vigencia">Vigência:</label>
             <select id="vigencia" required>
                 <option value="continua">Contínua</option>
                 <option value="temporaria">Temporária</option>
             </select>
-    
+            <br>
             <label for="itensArrecadados">Itens a serem arrecadados:</label>
+            <br>
             <textarea id="itensArrecadados" placeholder="Descreva os itens a serem arrecadados" required></textarea>
-    
-            <button type="submit">Criar Campanha</button>
+             <br><br>
+            <button class="button" type="submit">Criar Campanha</button>
         </form>
-    
+        
+    </div>
         <footer class="py-1 my-1">
             <ul class="nav justify-content-center border-bottom pb-1 mb-1">
                 <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-body-secondary">Início</a></li>

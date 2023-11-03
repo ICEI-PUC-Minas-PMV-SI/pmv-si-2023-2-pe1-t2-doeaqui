@@ -29,30 +29,30 @@
         </div>
     </header>
     <body>    
-        <div class="text-center"> 
-            <h2>Editar Campanha</h2>
-        </div>           
-       
+        <br><br>
+        <div class="container"> 
+            <div class="">
+            <h2>Editar Campanha</h2>  
+            </div>         
         <form>
          
             <label for="nomeCampanha">Nome da Campanha:</label>
             <input type="text" id="nomeCampanha" placeholder="Digite o nome da campanha" required>
-
+            <br>
             <label for="causasApoiadas">Causa(s) apoiada(s):</label>
             <input type="text" id="causasApoiadas" placeholder="Digite a causa apoiada" required>
-    
+            <br>
             <label for="vigencia">Vigência:</label>
             <select id="vigencia" required>
                 <option value="continua">Contínua</option>
                 <option value="temporaria">Temporária</option>
-            </select>
-    
-            <label for="itensArrecadados">Itens a serem arrecadados:</label>
-            <textarea id="itensArrecadados" placeholder="Descreva os itens a serem arrecadados" required></textarea>
-    
-            <button type="submit">Salvar alterações</button>
-       
+            </select><br>    
+            <label for="itensArrecadados">Itens a serem arrecadados:</label><br>
+            <div class="text-center"> <textarea id="itensArrecadados" placeholder="Descreva os itens a serem arrecadados" required></textarea></div>
+            
+            <button class="button" type="submit">Salvar alterações</button>
         </form>
+    </div>
     
         <footer class="py-1 my-1">
             <ul class="nav justify-content-center border-bottom pb-1 mb-1">

@@ -114,7 +114,7 @@ form {
 }
 
 label, input, select, textarea, button {
-    display: block;
+    display: flexbox;
     margin: 10px auto;
 }
 
@@ -128,5 +128,13 @@ footer {
     padding: 0.5rem;
 
   }
-
-
+  
+  .container {
+    width: 450px; ; 
+    margin: 50px; 
+    padding: 2%; 
+    background-color: #A3B18A; 
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+}
