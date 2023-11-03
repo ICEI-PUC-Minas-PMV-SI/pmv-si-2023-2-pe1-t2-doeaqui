@@ -106,6 +106,18 @@ p {
     }
 }
 
+form {
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+label, input, select, textarea, button {
+    display: block;
+    margin: 10px auto;
+}
+
 footer {
     position: absolute;
     bottom: 50px;
@@ -116,4 +128,5 @@ footer {
     padding: 0.5rem;
 
   }
+
 

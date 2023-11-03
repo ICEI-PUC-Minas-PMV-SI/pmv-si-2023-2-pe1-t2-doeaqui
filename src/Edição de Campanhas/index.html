@@ -28,5 +28,39 @@
             <button class="button">Quero Arrecadar</button>
         </div>
     </header>
+    <body>    
+        <div class="text-center"> 
+            <h2>Editar Campanha</h2>
+        </div>           
+       
+        <form>
+         
+            <label for="nomeCampanha">Nome da Campanha:</label>
+            <input type="text" id="nomeCampanha" placeholder="Digite o nome da campanha" required>
 
+            <label for="causasApoiadas">Causa(s) apoiada(s):</label>
+            <input type="text" id="causasApoiadas" placeholder="Digite a causa apoiada" required>
     
+            <label for="vigencia">Vigência:</label>
+            <select id="vigencia" required>
+                <option value="continua">Contínua</option>
+                <option value="temporaria">Temporária</option>
+            </select>
+    
+            <label for="itensArrecadados">Itens a serem arrecadados:</label>
+            <textarea id="itensArrecadados" placeholder="Descreva os itens a serem arrecadados" required></textarea>
+    
+            <button type="submit">Salvar alterações</button>
+       
+        </form>
+    
+        <footer class="py-1 my-1">
+            <ul class="nav justify-content-center border-bottom pb-1 mb-1">
+                <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-body-secondary">Início</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Funcionalidades</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Sobre</a></li>
+            </ul>
+            <p class="text-center text-body-secondary">Doe Aqui - 2023</p>
+        </footer>
+    </body>
+    </html>
