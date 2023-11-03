@@ -13,19 +13,16 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
 .logo {
     display: flex;
     align-items: center;
 }
-
 .logo img {
     width: 65px;
     height: 65px;
     margin-left: 15px;
     margin-right: 10px;
 }
-
 .logo h1 {
     margin: 0;
 }
@@ -33,31 +30,28 @@ header {
 .buttons {
     display: flex;
 }
-
 .button {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
     background-color: #283618;
     color: #EDEDE9;
     border: none;
-    padding: 10px 20px;
+    padding: 6px 15px;
     margin-left: 10px;
     margin-right: 30px;
     cursor: pointer;
     border-radius: 10px;
 }
-
 .button:hover {
     color: #283618;
     background-color: #f3f3f3;
 }
-
 .content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
-
 .text {
     text-align: left;
     position: relative;
@@ -67,7 +61,6 @@ header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #283618;
 }
-
 .image {
     max-width: 100%;
     height: auto;
@@ -86,39 +79,32 @@ h2 {
 p {
     font-size: 25px;
 }
-
-@media screen and (max-width: 1000px) {
-    
+@media screen and (max-width: 1000px) {  
     .content {
         flex-direction: column;
         text-align: center;
     }
-
     .text {
         margin-top: 0;
         margin-left: 0;
     }
-
     .image {
         
         margin-top: 0;
         margin-right: 5;
     }
 }
-
 form {
     max-width: 400px;
     width: 100%;
     text-align: center;
     margin: 0 auto;
 }
-
 label, input, select, textarea, button {
     display: flexbox;
     margin: 15px auto;
     clear: both;
 }
-
 footer {
     position: absolute;
     bottom: 50px;
@@ -129,7 +115,6 @@ footer {
     padding: 0.5rem;
 
   }
-
   .container {
     width: 450px; ; 
     margin: 50px; 
