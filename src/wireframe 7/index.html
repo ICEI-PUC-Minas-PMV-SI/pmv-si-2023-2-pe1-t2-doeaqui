@@ -19,7 +19,7 @@
     <header>
         <div class="logo">
             <img src="../img/logoc.png" alt="Logo">
-            <h1>Doe Aqui</h1>
+            <h1 class="title">Doe Aqui</h1>
         </div>
         <div class="buttons">
             <button class="button">Quero Doar</button>
@@ -32,13 +32,13 @@
         <div class="form">
             <form action="#">
                 <div class="form-header">
-                    <div class="title" style="position: relative;left: 40%; top: -20px;" >
+                    <div id="title" > 
                         <h1>Altere os dados</h1>
                     </div>
                 </div>
 
                 <div class="input-group">
-                <div class="input-box" style=" position: relative; top: 50px;">
+                <div class="input-box" style=" position: relative; top: 100px;">
                     <div class="Username" >
                         <label for="Username">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nome de Usuario:</label>
                         <input type="text" id="Username" name="Username" placeholder="Digite seu nome" style="border-radius: 4px;" >
@@ -52,12 +52,13 @@
                         <input type="password" id="password" name="password" placeholder="********" style="border-radius: 4px;" >
                     </div>
                 </div>
-                &nbsp;&nbsp;&nbsp;<div class="column2">
-                        <div class="insiranome/razaosocial">
-                        <label for="insiranome/razaosocial">Insira nome/Razão Social</label>
-                        <input type="text" id="insiranome/razaosocial" name="insiranome/razãosocial" placeholder=" Insira o nome/Razãosocial" style="border-radius: 4px;">
+                &nbsp;<div class="column2"style="margin-top: 40px;">
+                        <div class="insiranomerazaosocial">
+                        <label for="insiranome/razaosocial">Insira nome/Razão Social:</label>
+                        <input type="text" id="insiranomerazaosocial" name="insiranome/razãosocial" placeholder=" Insira o nome/Razãosocial" style="border-radius: 4px;">
 
                     </div>
+                    &nbsp;
                     <div class="CNPJ">
                         <label for="CNPJ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CNPJ:</label>
                         <input type="text" id="CNPJ" name="CNPJ" placeholder="00.000.000/0000-00" style="border-radius: 4px;" >
@@ -79,30 +80,40 @@
                         <label for="RedesSocias">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rede Social:</label>
                         <input type="text" id="RedesSocial" name="RedesSocial" placeholder="@"style="border-radius: 4px;">
                     </div>
+                    
                 </div>
-                <div class="column3"style=" position: relative; top: 60px;" >
-                    <div class="CausasqueapoiaDescriçãodotrabalho">
+                
+                <div id="column3" style="margin-top: 90px;" >
+                    &nbsp; <div class="CausasqueapoiaDescriçãodotrabalho">
                         <label for="Causas que apoia/Descrição do trabalho">Descrição do trabalho:</label>
-                        <input type="text" id="CausasqueapoiaDescriçãodotrabalho" name="Causas que apoia/Descrição do trabalho" placeholder="Causas que apoiam" >
+                        <input type="text" id="CausasqueapoiaDescriçãodotrabalho" name="Causas que apoia/Descrição do trabalho" placeholder="Causas que apoiam" style="padding: 5px;" >
                     </div>
                     <div class="Dados Bancarios">
                         <label for="Dados Bancarios">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dados Bancarios:</label>
-                        <input type="text" id="DadosBancarios" name="Dados Bancarios" placeholder="Dados Bancarios" >
+                        <input type="text" id="DadosBancarios" name="Dados Bancarios" placeholder="Dados Bancarios" style="padding: 5px;" >
                     </div>
+                
                 </div>
+                
             </div>
-            <input type="submit" value="Enviar"  style=" position: relative;left: 95%; border-radius: 4px; background-color: #283618; color: #fff;" >
+            <input class="enviar" type="submit" value="Enviar"  style=" border-radius: 4px; background-color: #283618; color: #fff; position: relative; left: 50%; top: 15px;"  >
             </form>
         </div>
 
 
 
-
-
-
+       
 
 
 
 
 
     </div>
+    <footer class="py-1 my-1">
+        <ul class="nav justify-content-center border-bottom pb-1 mb-1">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Início</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Funcionalidades</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Sobre</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">Doe Aqui - 2023 </p>
+    </footer>
