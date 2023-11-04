@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <!-- cabeçalho -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doe Aqui</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../img/logofavicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@300&display=swap" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../img/logoc.png" alt="Logo">
+            <h1>Doe Aqui</h1>
+        </div>
+        <div class="buttons">
+            <button class="button">Quero Doar</button>
+            <button class="button">Quero Arrecadar</button>
+        </div>
+    </header>
+    <!-- daqui pra baixo é o conteúdo -->
+    
+    <div id="container">
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title" style="position: relative;left: 40%; top: -20px;" >
+                        <h1>Altere os dados</h1>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                <div class="input-box" style=" position: relative; top: 50px;">
+                    <div class="Username" >
+                        <label for="Username">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nome de Usuario:</label>
+                        <input type="text" id="Username" name="Username" placeholder="Digite seu nome" style="border-radius: 4px;" >
+                    </div>
+                    <div class="Password">
+                        <label for="Password">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Senha:</label>
+                        <input type="password" id="password" name="password" placeholder="********"style="border-radius: 4px;" >
+                    </div>
+                    <div class="password">
+                        <label for="password">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Confirme sua senha:</label>
+                        <input type="password" id="password" name="password" placeholder="********" style="border-radius: 4px;" >
+                    </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;<div class="column2">
+                        <div class="insiranome/razaosocial">
+                        <label for="insiranome/razaosocial">Insira nome/Razão Social</label>
+                        <input type="text" id="insiranome/razaosocial" name="insiranome/razãosocial" placeholder=" Insira o nome/Razãosocial" style="border-radius: 4px;">
+                    </div>
+                    <div class="CNPJ">
+                        <label for="CNPJ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CNPJ:</label>
+                        <input type="text" id="CNPJ" name="CNPJ" placeholder="00.000.000/0000-00" style="border-radius: 4px;" >
+                    </div>
+                    <div class="localizaçao/endereco">
+                        <label for="localizaçao/endereco">&nbsp;&nbsp;&nbsp;&nbsp;Localização/Endereço:</label>
+                        <input type="text" id="localizaçao/endereco" name="localizaçao/endereco"
+                        placeholder="Localização/Endereço" style="border-radius: 4px;">
+                    </div>
+                    <div class="e-mail">
+                        <label for="e-mail">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-mail:</label>
+                        <input type="email" id="e-mail" name="e-mail" placeholder="E-mail" style="border-radius: 4px;">
+                    </div>
+                    <div class="telefone">
+                        <label for="telefone">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxx-xxxx"style="border-radius: 4px;">
+                    </div>
+                    <div class="RedesSocias">
+                        <label for="RedesSocias">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rede Social:</label>
+                        <input type="text" id="RedesSocial" name="RedesSocial" placeholder="@"style="border-radius: 4px;">
+                    </div>
+                </div>
+                <div class="column3"style=" position: relative; top: 20px;" >
+                    <div class="CausasqueapoiaDescriçãodotrabalho">
+                        <label for="Causas que apoia/Descrição do trabalho">Descrição do trabalho:</label>
+                        <input type="text" id="CausasqueapoiaDescriçãodotrabalho" name="Causas que apoia/Descrição do trabalho" placeholder="Causas que apoiam"style="padding: 2rem;" >
+                    </div>
+                    <div class="Dados Bancarios">
+                        <label for="Dados Bancarios">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dados Bancarios:</label>
+                        <input type="text" id="DadosBancarios" name="Dados Bancarios" placeholder="Dados Bancarios" style="padding: 2rem;">
+                    </div>
+                </div>
+            </div>
+            <input type="submit" value="Enviar"  style=" position: relative;left: 95%; border-radius: 4px; background-color: #283618; color: #fff;" >
+            </form>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
