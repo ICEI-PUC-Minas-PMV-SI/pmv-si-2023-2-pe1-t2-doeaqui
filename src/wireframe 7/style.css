@@ -1,8 +1,11 @@
+
 body {
     margin: 0;
+    
     font-family: Arial, sans-serif;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 header {
@@ -132,13 +135,14 @@ footer {
   }
 
 
-#container {
+  #container {
    
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     top: -50px;
+    border-width: 0;
     
 }
 
