@@ -37,12 +37,12 @@
 
     </header>
     <!-- daqui pra baixo é o conteúdo -->
-    <div class="container text-center d-flex justify-content-center">
-        <div class="row">
-            <div class="row container col-sm">
-                <div class="col">
-                    <div class="overflow-hidden rounded-1">
-                        <div class="list-group">
+    <div class="container row text-center d-flex justify-content-center">
+        <div class="col-12 col-md-12 col-lg-12 col-xl">
+            <div class="container container-md col-11 col-sm col-md-12 col-lg-9 col-xl-12 justify-content-xl-end">
+                <div id="modal" class="row col-12 col-md-12 col-lg-6 col-xl-4">
+                    <div class="container-xl container-md container overflow-hidden rounded-1 col-12 col-md-5 col-lg col-xl-9">
+                        <div class="container col-md col-lg-8 list-group">
                             <span class="list-group-item list-group-item-action active" aria-current="true" style="background-color: #71816d; border-color: #71816d;">
                                 Lista de locais de doação
                             </span>
@@ -53,34 +53,90 @@
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <section id="mapa" class="container text-center d-flex justify-content-center col-sm">
-                <div class="mapouter d-flex justify-content-center">
-                    <div class="gmap_canvas">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15016.604117841202!2d-43.92639940000001!3d-19.791192849999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1698201685842!5m2!1spt-BR!2sbr" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        <style>
-                            .mapouter {
-                                position: relative;
-                                height: 400px;
-                                width: 520px;
-                                background: #fff;
-                            }
+                <div class="row col-12 col-md-12 col-lg-3 col-xl-8">
+                    <section id="mapa" class="container text-center d-flex justify-content-center col-12 col-sm row col-md-12 col-xl-12">
+                        <div class="row mapouter d-flex justify-content-center col-lg-1 col-xl">
+                            <div class="gmap_canvas">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15016.604117841202!2d-43.92639940000001!3d-19.791192849999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1698201685842!5m2!1spt-BR!2sbr" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <style>
+                                    .mapouter {
+                                        position: relative;
+                                        height: 256px;
+                                        width: 390px;
+                                        background: #fff;
+                                    }
 
-                            .gmap_canvas {
-                                overflow: hidden;
-                                height: 400px;
-                                width: 520px
-                            }
+                                    .gmap_canvas {
+                                        overflow: hidden;
+                                        height: 290px;
+                                        width: 650px;
+                                    }
 
-                            .gmap_canvas iframe {
-                                position: relative;
-                                z-index: 2
-                            }
-                        </style>
-                    </div>
+
+                                    .gmap_canvas iframe {
+                                        position: relative;
+                                        z-index: 2
+                                    }
+
+                                    @media screen and (max-width: 1440px) {
+                                        .mapouter {
+                                            position: absolute;
+                                            height: 360px;
+                                            width: 700px;
+                                            background: #fff;
+                                            padding-top: 40px;
+                                        }
+                                    }
+
+                                    @media screen and (max-width: 1024px) {
+                                        .mapouter {
+                                            position: absolute;
+                                            height: 320px;
+                                            width: 600px;
+                                            background: #fff;
+                                            padding-top: 18px;
+                                        }
+                                    }
+
+                                    @media screen and (max-width: 768px) {
+                                        .mapouter {
+                                            position: fixed;
+                                            height: 90px;
+                                            width: 495px;
+                                            background: #fff;
+                                        }
+
+                                        .gmap_canvas {
+                                            overflow: hidden;
+                                            height: 270px;
+                                            width: 490px;
+                                        }
+                                    }
+
+                                    @media (max-width: 425px) {
+                                        .mapouter {
+                                            position: relative;
+                                            height: 200px;
+                                            width: 530px;
+                                            background: #ffffff;
+                                            padding-top: 20px;
+                                            padding-left: 25px;
+                                        }
+
+                                        .gmap_canvas {
+                                            overflow: hidden;
+                                            height: 290px;
+                                            width: 420px;
+                                        }
+                                    }
+                                </style>
+                            </div>
+                        </div>
+                    </section>
                 </div>
-            </section>
+
+            </div>
 
             <div class="modalLocais">
                 <!-- Modal -->
@@ -104,16 +160,17 @@
                 </div>
 
             </div>
+            <footer class="my-1 col-10 col-md-10 col-lg-10 col-xl-10">
+                <ul class="nav justify-content-center border-bottom">
+                    <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-body-secondary">Início</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Funcionalidades</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Sobre</a></li>
+                </ul>
+                <p class="text-center text-body-secondary justify-content-center">Doe Aqui - 2023 </p>
+            </footer>
         </div>
+
     </div>
-    <footer class="py-1 my-1">
-        <ul class="nav justify-content-center border-bottom pb-1 mb-1">
-            <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-body-secondary">Início</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Funcionalidades</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Sobre</a></li>
-        </ul>
-        <p class="text-center text-body-secondary">Doe Aqui - 2023 </p>
-    </footer>
 </body>
 
 </html>

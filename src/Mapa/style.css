@@ -124,4 +124,42 @@ footer {
   .pesquisar {
     display: none;
   }
+  .container {
+    display: flex;
+    padding: 15px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: stretch;
+    height: 100%;
+  }
+
+  .d-flex {
+    display: flex !important;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    padding: 15px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: stretch;
+    height: 100%;
+  }
+  .col-md-12 {
+    flex: 0 0 auto;
+    width: auto;
+  }
+  /* .d-flex {
+    display: flex !important;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+  } */
 }
