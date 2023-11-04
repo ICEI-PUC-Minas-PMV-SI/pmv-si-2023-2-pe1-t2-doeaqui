@@ -32,7 +32,7 @@
     <!-- daqui pra baixo é o conteúdo -->
 
     <div class="container">
-        <form action="processar.php" method="post">
+        <form class="form" action="#">
             <h2>Insira os dados para acessar</h2>
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required><br><br>
@@ -41,8 +41,8 @@
             <input type="password" id="password" name="password" required><br><br>
     
     
-            <input type="button" value="Entrar"> <br>
-          <a href="../Cadastro/FormUsuario.html" class="link-button">Cadastre-se</a>
+            <input class="button" id="entrar" type="button" value="Entrar"> <br><br>
+          <a href="../Cadastro/FormUsuario.html" class="button">Cadastre-se</a>
         </form>
         </div>
     </div>
@@ -55,7 +55,7 @@
         </ul>
         <p class="text-center text-body-secondary">Doe Aqui - 2023 </p>
     </footer>
-
+    <script src="../login/functions1.js"></script>
 </body>
 
 </html>
