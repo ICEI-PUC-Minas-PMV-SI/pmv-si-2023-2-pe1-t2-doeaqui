@@ -13,6 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #78909C;
+    overflow-y: hidden;
 
 }
 header {
@@ -20,10 +21,11 @@ header {
     font-size: 12px;
     background-color: #A3B18A;
     color: #ffffff;
-    padding: 8px 0;
+    padding: 6px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 }
 
 
@@ -83,6 +85,7 @@ footer {
     color: #ffffff;
     text-align: center;
     padding: 0.5rem;
+    
 
   }
     
@@ -144,12 +147,64 @@ footer {
         height: 60px;
         cursor: pointer;
         position: relative;
-        top: -30%;
+        top: -36%;
         left: 49%;
         text-decoration: none;
         color: #000;
-        
+        font-size: 5vh;
      }
+
+
+     @media screen and (max-width: 768px) {
+        header {
+            flex-direction: column;
+            text-align: center;
+            height: 100px;
+        }
+    
+        .logo img {
+            margin: 10px auto;
+            display: flex;
+            position: relative;
+            top: -23px;
+            
+        }
+    
+        .buttons {
+            
+            margin: 10px auto;
+            align-items: center;
+            display: flex;
+            position: relative; top: -44px;
+        }
+        
+        #container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 95%;
+            position: relative;
+            left: -10%;
+        }
+        body {
+            overflow-x: hidden;
+          }
+
+          .bi-person-circle {
+            position: relative;
+            left: 130px;
+
+          }
+          
+          .title {
+            position: relative;
+            top: -23px;
+          }
+          
+          footer {
+            bottom:30px; 
+        }
+    }
 
      
     
