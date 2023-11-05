@@ -187,6 +187,7 @@ footer {
         position: relative;
         top: -50px;
         
+        
     }
 
     .column2 {
@@ -218,7 +219,25 @@ footer {
     footer {
         bottom:auto; 
     }
+
+    @media screen and (min-width: 768px) {
+     #column3 {
+        position: relative;
+        left: 19px;
+        position: relative;
+        top: -2rem;
+        
+     }
+     .column2 {
+        position: relative;
+        left: 7px;
+     }
+        
+
+    }
 }
+
+ 
 
 
 
