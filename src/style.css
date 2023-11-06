@@ -114,23 +114,26 @@ p {
     
     .content {
         flex-direction: column;
-        text-align: center;
+        max-width: 100%;
+        width: auto;
     }
 
     .text {
-        margin-top: 0;
-        margin-left: 0;
+       text-align: justify;
+       margin-left: -10px;
+       padding: 0;
     }
 
-    .image {
-        
-        margin-top: 0;
-        margin-right: 5;
+    .imagem {
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0
     }
 }
 
 footer {
-    position: absolute;
     bottom: 50px;
     width: 100%;
     height: 2.5rem;

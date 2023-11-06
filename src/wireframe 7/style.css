@@ -92,9 +92,11 @@ h2 {
 p {
     font-size: 25px;
 }
-label{
-    padding: 8px;
+
+label {
+        padding: 8px;
 }
+
 input {
     border-radius: 4px;
     align-items: center;
@@ -112,7 +114,6 @@ input {
     
   }
 
-
   #container {
     justify-content: center;
     align-items: center;
@@ -120,9 +121,6 @@ input {
     top: -100px;
     
 }
-
-
-
 
 h1 {
     position: relative; left: auto;
@@ -179,7 +177,7 @@ p {
     
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1000px) {
     
     header {
         flex-direction: column;

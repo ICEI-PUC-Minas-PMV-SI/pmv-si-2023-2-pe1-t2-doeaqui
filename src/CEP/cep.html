@@ -27,12 +27,12 @@
             <a href="../login/index.html"><button class="button">Quero Arrecadar</button></a>
         </div>
     </header>
-
-
-
+    
     <script>
         function mascaraCep(cep) {
-            cep.value = cep.value.replace(/\D/g, '').replace(/(\d{5})(\d{0,3})/, '$1-$2');
+            cep.value = cep.value.replace(/\D/g, '')
+            cep.value = cep.value.substring(0, 8);
+            cep.value = cep.value.replace(/(\d{5})(\d{0,3})/, '$1-$2');
         }
     </script>
 
@@ -43,7 +43,7 @@
             <img src="../img/imagemilustrativa3.png" alt="imagem3">
         </div>
 
-        <div>
+        <div class= "textoecep">
             <h5>Antes de realizar sua doação, vamos ajudá-lo a encontrar pontos de coleta ou campanhas próximas à sua região. Para isso, insira seu CEP no campo abaixo.</h5>
 
             <content class="campo">
@@ -66,7 +66,6 @@
                 </div>
             </div>
         </div>
-
         <footer class="py-1 my-1">
             <ul class="nav justify-content-center border-bottom pb-1 mb-1">
                 <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-body-secondary">Início</a></li>
