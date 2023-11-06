@@ -98,20 +98,39 @@ p {
 }
 
 @media screen and (max-width: 1000px) {
+  
+  
   .content {
     flex-direction: column;
     text-align: center;
   }
 
-  .text {
-    margin-top: 0;
-    margin-left: 0;
+  h5 {
+    margin-bottom: ;
+    margin-left: -90px;
+    margin-right: -50px;
+  }
+  .textoecep{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
   }
 
-  .image {
-    margin-top: 0;
-    margin-right: 5;
+  .imagem3 {
+    display: none;
+    
   }
+
+  .campo {
+    margin-top: 30px;
+    margin-left: -80px;
+  }
+
+  #botaoBuscar {
+    margin-top: 10px;
+  }
+ 
 }
 
 footer {
