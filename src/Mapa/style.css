@@ -119,30 +119,7 @@ footer {
   bottom: 150px;
 }
 
-/* se a tela tiver menos de 425px remove campo de pesquisa */
-@media screen and (max-width: 425px) {
-  .pesquisar {
-    display: none;
-  }
-  .container {
-    display: flex;
-    padding: 15px;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    align-items: center;
-    align-content: stretch;
-    height: 100%;
-  }
-
-  .d-flex {
-    display: flex !important;
-    flex-wrap: nowrap;
-    align-items: center;
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .container {
     display: flex;
     padding: 15px;
@@ -162,4 +139,26 @@ footer {
     align-items: center;
     flex-direction: column;
   } */
+}
+
+@media (max-width: 425px) {
+  .pesquisar {
+    display: none;
+  }
+  .container {
+    display: flex;
+    padding: 15px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: stretch;
+    height: 100%;
+  }
+
+  .d-flex {
+    display: flex !important;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+  }
 }
