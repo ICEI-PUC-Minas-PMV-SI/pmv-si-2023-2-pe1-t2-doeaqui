@@ -8,24 +8,24 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="../img/logofavicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Onest:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@300&display=swap" rel="stylesheet">
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 </head>
-<body>
-    <header>
-        <div class="logo">
-            <img src="../img/logoc.png" alt="Logo">
-            <h1 class="title">Doe Aqui</h1>
-        </div>
-        <div class="buttons">
-            <button class="button">Quero Doar</button>
-            <button class="button">Quero Arrecadar</button>
-        </div>
-    </header>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="../img/logoc.png" alt="Logo">
+                <h1>Doe Aqui</h1>
+            </div>
+                <div class="buttons">
+                    <a href="../CEP/cep.html"><button class="button">Quero Doar</button></a>
+                    <a href="../login/index.html"><button class="button">Quero Arrecadar</button></a>
+                </div>
+        </header>
     <!-- daqui pra baixo é o conteúdo -->
     
     <div id="container">
@@ -109,10 +109,29 @@
 
 
     </div>
+
+    <div class="modal fade" id="modalSobre" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Sobre o Doe Aqui</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Buscamos simplificar o processo de doação, estabelecendo uma conexão direta entre doadores e destinatários. Nosso objetivo é oferecer uma solução prática e transparente que não apenas facilita as doações, mas também fortalece a confiança na generosidade compartilhada, fazendo com que cada contribuição faça a diferença onde é mais necessária.</p>
+                    <button type="button" class="botaoFechar" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>  
+
     <footer class="py-1 my-1">
         <ul class="nav justify-content-center border-bottom pb-1 mb-1">
             <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-body-secondary">Início</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Sobre</a></li>
+            <li class="nav-item"><a href= "#" class="nav-link px-2 text-body-secondary" data-bs-target="#modalSobre" data-bs-toggle="modal">Sobre</a></li>
         </ul>
         <p class="text-center text-body-secondary">Doe Aqui - 2023 </p>
     </footer>
+</body>
+</html>
+    
