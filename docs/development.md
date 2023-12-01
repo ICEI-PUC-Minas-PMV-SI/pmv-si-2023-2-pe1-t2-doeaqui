@@ -32,11 +32,28 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ## Descrição das estruturas:
 
-## Notícia
+## LOGIN ONGS
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
+| Id             | Numero (Inteiro)  | Identificador único da organizadora da ONG            | 0001                                              |
+| Nome         | Texto             | Nome para acessar o portal e perfil da ONG                         | Corações Bondosos                                   |
+| Senha       | Texto             | Identificador único para cada ONG                       | 00000                            |
+
+## CADASTRO ONGS
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Id             | Numero (Inteiro)  | Identificador único da organizadora da ONG            | 0001                                              |
+| Nome         | Texto             | Nome para acessar o portal e perfil da ONG                         | CampanhaLopes                                   |
+| CNPJ       | Numero (Inteiro)             | Número de CNPJ da ONG                       | 65948129000167                            |
+| CEP       | Numero (Inteiro)             | Código de Endereçamento Postal (CEP)                       | 30285560                            |
+| Logradouro       | Texto             | Endereço de onde está localizado a ONG                       | Rua Sergipe                            |
+| Camplemento       | Numero (Inteiro)             | Número da rua da ONG                       | 836                            |
+| Bairro       | Texto             | Bairro da ONG                       | Funcionários                            |
+| Cidade       | Texto             | Cidade situada da ONG                       | Belo Horizonte                            |
+| Estado       | Seletor             | Seletor do Estado                       | Minas Gerais                             |
+| E-mail       | Texto             | e-mail da ONG                       | doare@gmail.com                            |
+| Telefone       | Texto             | Número de contado da ONG                       | (31)983937546                            |
+| Facebook       | Texto             | Facebook da ONG                       | @doare.oficial                            |
+| Instagram       | Texto             | Instagram da ONG                       | @doeaqui                            |
+
 
