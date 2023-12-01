@@ -37,7 +37,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | Id             | Numero (Inteiro)  | Identificador único da organizadora da ONG            | 0001                                              |
 | Nome         | Texto             | Nome para acessar o portal e perfil da ONG                         | Corações Bondosos                                   |
-| Senha       | Texto             | Identificador único para cada ONG                       | 00000                            |
+| Senha       | Texto             | Identificador único para cada ONG                       | 123Abc!@#                            |
 
 ## CADASTRO ONGS
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
@@ -52,7 +52,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Cidade       | Texto             | Cidade situada da ONG                       | Belo Horizonte                            |
 | Estado       | Seletor             | Seletor do Estado                       | Minas Gerais                             |
 | E-mail       | Texto             | e-mail da ONG                       | doare@gmail.com                            |
-| Telefone       | Texto             | Número de contado da ONG                       | (31)983937546                            |
+| Telefone       | Texto             | Número de contado da ONG                       | (31) 983937546                            |
 | Facebook       | Texto             | Facebook da ONG                       | @doare.oficial                            |
 | Instagram       | Texto             | Instagram da ONG                       | @doeaqui                            |
 
