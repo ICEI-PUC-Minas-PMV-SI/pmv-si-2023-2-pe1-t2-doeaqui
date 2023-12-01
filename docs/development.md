@@ -36,8 +36,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | Id             | Numero (Inteiro)  | Identificador único da organizadora da ONG            | 0001                                              |
-| Nome         | Texto             | Nome para acessar o portal e perfil da ONG                         | Corações Bondosos                                   |
-| Senha       | Texto             | Identificador único para cada ONG                       | 123Abc!@#                            |
+| Nome         | Texto             | Nome para acessar o portal e perfil da ONG                         | pessoasdobem                                   |
+| Senha       | Texto             | Senha de acesso à conta da ONG                      | 123Abc!@#                            |
 
 ## CADASTRO ONGS
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
