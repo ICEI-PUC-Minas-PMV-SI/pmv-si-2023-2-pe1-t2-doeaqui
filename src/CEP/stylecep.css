@@ -134,6 +134,7 @@ p {
 }
 
 footer {
+  margin-top: auto;
   position: absolute;
   bottom: 50px;
   width: 100%;

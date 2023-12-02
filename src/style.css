@@ -134,6 +134,7 @@ p {
 }
 
 footer {
+    margin-top: auto;
     bottom: 50px;
     width: 100%;
     height: 2.5rem;
