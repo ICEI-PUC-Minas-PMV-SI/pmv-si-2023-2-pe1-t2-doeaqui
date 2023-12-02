@@ -41,19 +41,19 @@
       
         <form id="Formcadastro" name="Formcadastro" action="#">
            <b><h3>Cadastro</h3></b> 
-            <label for="nome">Nome do usuario :</label>
-            <input type="text" id="nome" name="nome" required><br><br>
+            <label for="nome">Nome da ONG</label>
+            <input type="text" id="nomeONG" name="nome"  placeholder="Nome do Usuario" required>
             <label for="Nome">Razão Social </label>
-            <input type="text" id="Nome" name="Nome" required> <br><br>
+            <input type="text" id="Razao" name="Nome"  required>
 
             <label for="CNPJ">CNPJ </label>
-            <input type="text" placeholder="Digite apenas numeros" id="CNPJ" name="CNPJ" maxlength="14" minlength="14"required> <br><br>
+            <input type="text" placeholder="XX.XXX.XXX/0001-XX" id="CNPJ" name="CNPJ" maxlength="18" minlength="18"required>
             <label for="password">Senha</label>
-            <input type="password" id="password" name="password" required><br>
-           
+            <input type="password" id="password" name="password" required>
             <label for="confirm_password">Confirme Senha</label>
-            <input type="password" id="confirm_password" name="confirm_password" required><br><br>
-            <button  id="FormUsuario">Próximo> </button> 
+            <input type="password" id="confirm_password" name="confirm_password" required>
+            <button type="submit" id="btnFormUsuario">Próximo </button> 
+          
         </form>
 
      
