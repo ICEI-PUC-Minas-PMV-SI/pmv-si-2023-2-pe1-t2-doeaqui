@@ -61,17 +61,19 @@
        
         <form id="Formcadastro2" name="Formcadastro" action="#">
             <b><h3>Cadastro</h3></b>
+            <label for="CEP">CEP</label>
+            <input type="text" id="CEP" name="CEP" placeholder="00000-000" minlength="9" maxlength="9" required> 
             <label for="Logradouro">Logradouro </label>
-            <input type="text" id="Logradouro" name="Logradouro" required><br><br>
+            <input type="text" id="Logradouro" name="Logradouro" required>
  
             <label for="Complento">Complemento </label>
-            <input type="text" id="Complemnto" name="Complemnto"><br><br>
+            <input type="text" id="Complemnto" name="Complemnto">
 
             <label for="Bairro">Bairro</label>
-            <input type="text" id="Bairro" name="Bairro" required><br><br>
+            <input type="text" id="Bairro" name="Bairro" required>
 
             <label for="Cidade">Cidade</label>
-            <input type="text" id="Cidade" name="Cidade" required><br>
+            <input type="text" id="Cidade" name="Cidade" required>
 
             <label for="Estado">Estado </label>
             <select id="estado" name="estado" required>
@@ -104,7 +106,8 @@
                 <option value="TO">Tocantins</option>
             </select>
            <br><br>
-            <button id="FormEndereco" >Próximo> </button>
+           <button id="buttonUsuario"> Anterior </button>
+            <button type="submit" id="btnFormEndereco" >Próximo> </button>
         </form>
       
         </div> 

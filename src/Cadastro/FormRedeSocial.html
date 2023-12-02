@@ -59,28 +59,27 @@
 
     <div class="container">
        
-        <form onsubmit="return senha();">
+        <form id="Formcadastro3" name="Formcadastro3" action="#">
 
            <b> <h3>Cadastro</h3></b>
             <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required> <br>
+            <input type="email" id="email" name="email" placeholder="nomedeusuario@gmail.com" required>
 
             <label for="Telefone">Telefone:</label>
-            <input type="tel" id="Telefone" name="Telefone" required><br>
-
+            <input type="tel" id="Telefone" name="Telefone"required>
             
             <label for="Facebook">Facebook:</label>
-            <input type="url" id="Facebook" name="Facebook"><br>
+            <input type="url" id="Facebook" name="Facebook">
 
       
             <label for="Instagram">Instagram:</label>
-            <input type="url" id="Instagram" name="Instagram"><br> 
+            <input type="url" id="Instagram" name="Instagram">
 
             <label for="outros">Outros:</label>
-            <input type="url" id="outros" name="outros"><br> 
+            <input type="url" id="outros" name="outros">
             
-
-            <button type="submit" value="Finalizar">Finalizar</button>
+            <button id="buttonUsuario"> Anterior </button>
+            <button type="submit" value="Finalizar" id="btnFinalizar">Finalizar</button>
           
         </form>
         </div>
@@ -108,7 +107,7 @@
         </ul>
         <p class="text-center text-body-secondary">Doe Aqui - 2023 </p>
     </footer>
-
+    <script src="../Cadastro/functions3.js"></script>
 </body>
 
 </html>
