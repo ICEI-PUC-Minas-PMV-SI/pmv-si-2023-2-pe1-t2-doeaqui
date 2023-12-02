@@ -22,8 +22,9 @@
 
     <style>
         #mapid {
-            height: 300px;
-            width: 50%;
+            height: 840px;
+            width: 85%;
+            margin-left: 15%;
         }
     </style>
 </head>
@@ -35,88 +36,55 @@
             <h1>Doe Aqui</h1>
         </div>
 
-        <div class="pesquisar">
-            <form class="d-flex" role="search">
-                <input type="search" class="form-control me-2" placeholder="Pesquisar..." aria-label="Search" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #EDEDE9;">
-            </form>
-        </div>
-
         <div class=" buttons">
             <a href="../CEP/cep.html"><button class="button">Quero Doar</button></a>
             <a href="../login/index.html"><button class="button">Quero Arrecadar</button></a>
         </div>
 
     </header>
-    <!-- daqui pra baixo é o conteúdo -->
-    <div class="container row text-center d-flex justify-content-center">
-        <div class="col-12 col-md-12 col-lg-12 col-xl">
-            <div class="container container-md col-11 col-sm col-md-12 col-lg-9 col-xl-12 justify-content-xl-end">
-                <div id="modal" class="row col-12 col-md-12 col-lg-6 col-xl-4">
-                    <div class="container-xl container-md container overflow-hidden rounded-1 col-12 col-md-5 col-lg col-xl-9">
-                        <div class="container col-md col-lg-8 list-group">
-                            <span class="list-group-item list-group-item-action active" aria-current="true" style="background-color: #71816d; border-color: #71816d;">
-                                Lista de locais de doação
-                            </span>
-                            <button data-bs-target="#modalLocais" data-bs-toggle="modal" class="list-group-item list-group-item-action">Local de doação 1</button>
-                            <button data-bs-target="#modalLocais" data-bs-toggle="modal" class="list-group-item list-group-item-action">Local de doação 2</button>
-                            <button data-bs-target="#modalLocais" data-bs-toggle="modal" class="list-group-item list-group-item-action">Local de doação 3</button>
-                            <button data-bs-target="#modalLocais" data-bs-toggle="modal" class="list-group-item list-group-item-action disabled" aria-disabled="true">Local de doação 4</button>
-                        </div>
+    <main>
+        <div style="display: flex; flex-direction: column; align-items: flex-start; justify-content: left; width: 100%;">
+            <div class="listCardLateral" style="display: flex; flex-basis: 100%; justify-content: left; position: absolute">
+                <div class="d-flex flex-column align-items-stretch flex-shrink-0 bg-body-tertiary" style="width: 380px;">
+                    <a href="/" class="d-flex align-items-center flex-shrink-0 p-3 link-body-emphasis text-decoration-none border-bottom">
+                        <span class="fs-5 fw-semibold">Lista de Locais</span>
+                    </a>
+                    <div class="list-group list-group-flush border-bottom scrollarea">
+                        <a href="#" class="list-group-item list-group-item-action py-3 lh-tight" aria-current="true">
+                            <div class="d-flex w-100 align-items-center justify-content-between" id="nomeLocal">
+                                <strong class="mb-1">Nome do Local</strong>
+                                <small>Distância</small>
+                            </div>
+                            <div class="col-10 mb-1 small" id="endereco">Endereço</div>
+                            <div class="col-10 mb-1 small" id="horarioFuncionamento">Horário de Funcionamento</div>
+                            <div class="col-10 mb-1 small" id="tipoDoacao">Tipo de Doação</div>
+                        </a>
                     </div>
                 </div>
 
-                <h2></h2>
-                <div id="mapid" class="row col-12 col-md-11 col-lg-4 col-xl-6"></div>
-            </div>
-
-
-            <div class="modalLocais">
-                <!-- Modal -->
-                <div class="modal fade" id="modalLocais" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="modalSobre" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Local de doação</h1>
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Sobre o Doe Aqui</h1>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-
-                                <p>Endereço: Rua dos Bobos, nº 0</p>
-                                <p>Telefone: (00) 00000-0000</p>
-                                <p>Horário de funcionamento: 00:00 às 00:00</p>
-                                <p>Descrição: Lorem ipsum dolor sit amet consectetur adipi</p>
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <p>Buscamos simplificar o processo de doação, estabelecendo uma conexão direta entre doadores e destinatários. Nosso objetivo é oferecer uma solução prática e transparente que não apenas facilita as doações, mas também fortalece a confiança na generosidade compartilhada, fazendo com que cada contribuição faça a diferença onde é mais necessária.</p>
+                                <button type="button" class="botaoFechar" data-bs-dismiss="modal">Fechar</button>
                             </div>
                         </div>
                     </div>
                 </div>
 
             </div>
-            <div class="modal fade" id="modalSobre" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Sobre o Doe Aqui</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <p>Buscamos simplificar o processo de doação, estabelecendo uma conexão direta entre doadores e destinatários. Nosso objetivo é oferecer uma solução prática e transparente que não apenas facilita as doações, mas também fortalece a confiança na generosidade compartilhada, fazendo com que cada contribuição faça a diferença onde é mais necessária.</p>
-                            <button type="button" class="botaoFechar" data-bs-dismiss="modal">Fechar</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <footer class="my-1 col-10 col-md-11 col-lg-11 col-xl-11">
-                <ul class="nav justify-content-center border-bottom">
-                    <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-body-secondary">Início</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary" data-bs-target="#modalSobre" data-bs-toggle="modal">Sobre</a></li>
-                </ul>
-                <p class="text-center text-body-secondary justify-content-center">Doe Aqui - 2023 </p>
-            </footer>
         </div>
-        <script src="./script.js"></script>
-    </div>
+        <div class="mapaContainer" style="display: flex; position: relative;">
+            <div id="mapid"></div>
+        </div>
+
+    </main>
+    <script src="./script.js"></script>
 </body>
 
 </html>
