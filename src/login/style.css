@@ -48,8 +48,8 @@ header {
 }
 
 .button:hover {
-    color: #e5e5e5;
-    background-color: #848484;
+    color: #283618;
+    background-color: #f3f3f3;
 }
 
 .content {
@@ -109,13 +109,14 @@ p {
 
 .botaoFechar:hover {
     color: #283618;
-    background-color:#A3B18A
+    background-color:#EDEDE9
 }
 
 p {
     font-size: 22px;
     
 }
+
 
 @media screen and (max-width: 1064) {
  
