@@ -1,19 +1,15 @@
-document.getElementById("formCampanha").addEventListener("submit", function(e) {
+
+
+const formCampanha= document.querySelector("formCampanha");
+formCampanha.addEventListener("submit", (e) => {
     e.preventDefault();
+    const nomeCampanha = document.querySelector("nomeCampanha") ;
+    const causasApoiadas = document.querySelector("causasApoiadas") ;
+    const vigencia = document.querySelector("vigencia") ;
+    const itensArrecadados = document.querySelector("itensArrecadados") ;
+    localStorage.setItem("nomeCampanha", nomeCampanha.value);
+    localStorage.setItem("causasApoiadas", causasApoiadas.value);
+    localStorage.setItem("vigencia",vigencia.value);
+    localStorage.setItem("itensArrecadados",itensArrecadados.value);
 
-    const nomeCampanha = document.getElementById('nomeCampanha').value;
-    const causasApoiadas = document.getElementById('causasApoiadas').value;
-    const vigencia = document.getElementById('vigencia').value;
-    const itensArrecadados = document.getElementById('itensArrecadados').value;
-
-    const campanha = {
-        "nomeCampanha": nomeCampanha,
-        "causasApoiadas": causasApoiadas,
-        "vigencia": vigencia,
-        "itensArrecadados": itensArrecadados
-    };
-    
-    const campanhaJSON = JSON.stringify(campanha);
-    console.log(campanhaJSON);
-    // Aqui você pode enviar ou armazenar campanhaJSON como necessário
 });
