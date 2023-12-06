@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
         alert("Dados salvos com sucesso!");
 
         // Redireciona o usuário para outra página
-        window.location.href = "";
+        window.location.href = ""; 
     });
 });
 
