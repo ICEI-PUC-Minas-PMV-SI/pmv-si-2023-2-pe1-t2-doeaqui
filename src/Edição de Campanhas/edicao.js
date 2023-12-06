@@ -1,5 +1,3 @@
-
-
 const formCampanha= document.querySelector("formCampanha");
 formCampanha.addEventListener("submit", (e) => {
     e.preventDefault();
