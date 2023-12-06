@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Onest:wght@300&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
@@ -19,8 +20,8 @@
         <header>
             <div class="logo">
                 <a href="../index.html">
-                    <img src="../img/logoc.png" alt="Logo">
-                </a>
+                <img src="../img/logoc.png" alt="Logo">
+            </a>
                 <h1>Doe Aqui</h1>
             </div>
                 <div class="buttons">
@@ -32,7 +33,7 @@
     
     <div id="container">
         <div class="form">
-            <form action="#">
+            <form id="meuFormulario" action="#"> 
                 <div class="form-header">
                     <div id="title" > 
                         <h1>Altere os dados</h1>
@@ -40,66 +41,129 @@
                 </div>
 
                 <div class="input-group">
-                <div class="input-box" style=" position: relative; top: 100px; flex-direction: column;" >
-                    <div class="Username" >
-                        <label for="Username">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nome de Usuario:</label>
-                        <input type="text" id="Username" name="Username" placeholder="Digite seu nome" style="border-radius: 4px;" >
+                <div class="input-box" style="margin-top:85px;" >
+                    <div class="NomeDaONG" >
+                        <label for="NomeDaONG">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nome Da ONG:</label>
+                        <input type="text" id="nomeONG" name="NomeDaONG" placeholder="Digite o nome da ONG" style="border-radius: 4px;" >
                     </div>
+                    <div class="CNPJ">
+                        <label for="CNPJ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CNPJ:</label>
+                        <input type="text" id="CNPJ" name="CNPJ" placeholder="00.000.000/0000-00" maxlength="18" minlength="18" style="border-radius: 4px;" >
+                    </div>
+                    <div class="insiranomerazaosocial">
+                        <label for="insiranome/razaosocial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Razão Social:</label>
+                        <input type="text" id="Razao" name="insiranome/razãosocial" placeholder=" Insira o nome/Razãosocial" style="border-radius: 4px;">
+
+                        </div>
+                    
                     <div class="Password">
                         <label for="Password">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Senha:</label>
                         <input type="password" id="password" name="password" placeholder="********"style="border-radius: 4px;" >
                     </div>
                     <div class="password">
-                        <label for="password">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Confirme sua senha:</label>
-                        <input type="password" id="password" name="password" placeholder="********" style="border-radius: 4px;" >
+                        <label for="password">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Confirme sua Senha:</label>
+                        <input type="password" id="confirm_password" name="password" placeholder="********" style="border-radius: 4px;" >
                     </div>
                 </div>
-                &nbsp;<div class="column2"style="margin-top: 40px;">
-                        <div class="insiranomerazaosocial">
-                        <label for="insiranome/razaosocial" style="margin-left: -5px;">Insira nome/Razão Social:</label>
-                        <input type="text" id="insiranomerazaosocial" name="insiranome/razãosocial" placeholder=" Insira o nome/Razãosocial" style="border-radius: 4px;">
-
-                        </div>
+                <div class="column2"style="margin-top: 40px;">
                     &nbsp;
-                    <div class="CNPJ">
-                        <label for="CNPJ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CNPJ:</label>
-                        <input type="text" id="CNPJ" name="CNPJ" placeholder="00.000.000/0000-00" style="border-radius: 4px;" >
+                    
+                    <div class="CEP">
+                        <label for="CEP">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CEP:</label>
+                        <input type="text" id="CEP" name="CEP" placeholder="00000-000" minlength="9" maxlength="9" style="border-radius: 4px;" >
                     </div>
-                    <div class="localizaçao/endereco">
-                        <label for="localizaçao/endereco">&nbsp;&nbsp;&nbsp;&nbsp;Localização/Endereço:</label>
-                        <input type="text" id="localizaçao/endereco" name="localizaçao/endereco"
-                        placeholder="Localização/Endereço" style="border-radius: 4px;">
+                    <div class="Logradouro">
+                        <label for="Logradouro">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Logradouro:</label>
+                        <input type="text" id="Logradouro" name="Logradouro"
+                        placeholder="Logradouro" style="border-radius: 4px;">
                     </div>
-                    <div class="e-mail">
-                        <label for="e-mail">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-mail:</label>
-                        <input type="email" id="e-mail" name="e-mail" placeholder="E-mail" style="border-radius: 4px;">
+                    <div class="Complemento">
+                    <label for="Complento">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Complemento </label>
+                    <input type="text" id="Complemnto" name="Complemnto" placeholder="Complemento">
+                     </div>
+
+                    <div class="Bairro">
+                    <label for="Bairro">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bairro</label>
+                    <input type="text" id="Bairro" name="Bairro" placeholder="Bairro">
                     </div>
-                    <div class="telefone">
-                        <label for="telefone">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Telefone:</label>
-                        <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxx-xxxx"style="border-radius: 4px;">
-                    </div>
-                    <div class="RedesSocias">
-                        <label for="RedesSocias">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rede Social:</label>
-                        <input type="text" id="RedesSocial" name="RedesSocial" placeholder="@"style="border-radius: 4px;">
-                    </div>
+
+                   <div class="Cidade">
+                   <label for="Cidade">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cidade</label>
+                   <input type="text" id="Cidade" name="Cidade" placeholder="Cidade">
+                   </div>
+
+                  <div class="estado">
+                   <label for="Estado" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Estado </label>
+            <select id="estado" name="estado"  style="border-radius: 4px; padding: 3px;" >
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+                  </div>
+
+
+                   
                     
                 </div>
                 
-                <div id="column3" style="margin-top: 90px;" >
-                    &nbsp; <div class="CausasqueapoiaDescriçãodotrabalho">
-                        <label for="Causas que apoia/Descrição do trabalho">Descrição do trabalho:</label>
-                        <input type="text" id="CausasqueapoiaDescriçãodotrabalho" name="Causas que apoia/Descrição do trabalho" placeholder="Causas que apoiam"  >
+                <div id="column3" style="margin-top:85px;" >
+                
+            
+                    <div class="e-mail">
+                        <label for="e-mail">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-mail:</label>
+                        <input type="email" id="email" name="e-mail" placeholder="E-mail" style="border-radius: 4px;">
                     </div>
-                    <div class="Dados Bancarios">
-                        <label for="Dados Bancarios">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dados Bancarios:</label>
-                        <input type="text" id="DadosBancarios" name="Dados Bancarios" placeholder="Dados Bancarios" style=" margin-left: 2px;" >
+                    <div class="telefone">
+                        <label for="telefone">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Telefone:</label>
+                        <input type="tel" id="Telefone" name="telefone" placeholder="(xx) xxxx-xxxx"style="border-radius: 4px;">
+                    </div>
+
+                    <div class="Facebook">
+                        <label for="Facebook">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Facebook:</label>
+                        <input type="url" id="Facebook" name="Facebook" placeholder="Facebook">
+                    </div>
+
+                    <div class="Instagram">
+                        <label for="Instagram">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Instagram:</label>
+                         <input type="url" id="Instagram" name="Instagram" placeholder="@">
+                    </div>
+
+                    <div class="outros">
+                        <label for="outros">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Outros:</label>
+                        <input type="url" id="outros" name="outros" placeholder="Outros">
                     </div>
                 
                 </div>
                 
             </div>
-            <input class="enviar" type="submit" value="Enviar"  style=" border-radius: 4px; background-color: #283618; color: #fff; position: relative; left: 50%; top: 15px;"  >
+            <input class="enviar" type="submit" value="Enviar"  style=" border-radius: 4px; background-color: #283618; color: #fff; position: relative; left: 94%; top: 15px;"  >
+            
             </form>
+            
         </div>
     </div>
 
@@ -120,11 +184,11 @@
 
     <footer class="py-1 my-1">
         <ul class="nav justify-content-center border-bottom pb-1 mb-1">
-            <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-body-secondary">Início</a></li>
             <li class="nav-item"><a href= "#" class="nav-link px-2 text-body-secondary" data-bs-target="#modalSobre" data-bs-toggle="modal">Sobre</a></li>
         </ul>
         <p class="text-center text-body-secondary">Doe Aqui - 2023 </p>
     </footer>
+
+
 </body>
 </html>
-    
