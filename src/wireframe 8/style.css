@@ -232,6 +232,11 @@ footer {
           footer {
             bottom:30px; 
         }
+
+        h1 {
+            position: relative;
+            top: -24px;
+        }
     }
 
      
