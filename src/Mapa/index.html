@@ -43,34 +43,27 @@
                     <a href="/" class="d-flex align-items-center flex-shrink-0 p-3 link-body-emphasis text-decoration-none border-bottom">
                         <span class="fs-5 fw-semibold">Lista de Locais</span>
                     </a>
-                    <div class="list-group list-group-flush border-bottom scrollarea">
-                        <a href="#" class="list-group-item list-group-item-action py-3 lh-tight" aria-current="true">
-                            <div class="d-flex w-100 align-items-center justify-content-between" id="nomeLocal">
-                                <strong class="mb-1">Nome do Local</strong>
-                                <small>Distância</small>
+                    <div class="list-group list-group-flush border-bottom scrollarea" id="locaisListCard">
+                        <span class="list-group-item list-group-item-action py-3 lh-tight scrollarea">
+                            <!-- <div class="d-flex w-100 align-items-center justify-content-between">
+                                <div class="mb-1 small">Nome do Local: <span class="nomeLocal" id="nomeLocal"></span> </div>
+                                
                             </div>
-                            <div class="col-10 mb-1 small" id="endereco">Endereço</div>
-                            <div class="col-10 mb-1 small" id="horarioFuncionamento">Horário de Funcionamento</div>
-                            <div class="col-10 mb-1 small" id="tipoDoacao">Tipo de Doação</div>
-                        </a>
+                            <div class="col-10 mb-1 small">Nome da Campanha:
+                                <span id="nomeCampanha" class="nomeCampanha"></span>
+                            </div>
+                            <div class="col-10 mb-1 small">Endereço:
+                                <span id="endereco" class="endereco"></span>
+                            </div>
+                            <div class="col-10 mb-1 small">Vigência:
+                                <span id="vigencia" class="vigencia">
+                            </div>
+                            <div class="col-10 mb-1 small">Tipo de Doação:
+                                <span id="tipoDoacao" class="tipoDoacao">
+                            </div> -->
+                        </span>
                     </div>
                 </div>
-
-                <div class="modal fade" id="modalSobre" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Sobre o Doe Aqui</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <p>Buscamos simplificar o processo de doação, estabelecendo uma conexão direta entre doadores e destinatários. Nosso objetivo é oferecer uma solução prática e transparente que não apenas facilita as doações, mas também fortalece a confiança na generosidade compartilhada, fazendo com que cada contribuição faça a diferença onde é mais necessária.</p>
-                                <button type="button" class="botaoFechar" data-bs-dismiss="modal">Fechar</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
         <div class="mapaContainer" style="display: flex; position: relative;">
@@ -78,7 +71,8 @@
         </div>
 
     </main>
-    <script src="./script.js"></script>
+    <script src="./scriptMapa.js"></script>
+    <script src="./scriptListaLocais.js"></script>
 </body>
 
 </html>

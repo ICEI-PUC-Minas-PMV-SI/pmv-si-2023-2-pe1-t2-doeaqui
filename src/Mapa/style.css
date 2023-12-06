@@ -1,190 +1,188 @@
 body {
-    margin: 0;
-    font-family: var(--bs-body-font-family);
-    font-size: var(--bs-body-font-size);
-    font-weight: var(--bs-body-font-weight);
-    line-height: var(--bs-body-line-height);
-    color: var(--bs-body-color);
-    text-align: var(--bs-body-text-align);
-    background-color: var(--bs-body-bg);
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
-  }
-   
-  header {
-    font-family: "Onest", sans-serif;
-    font-size: 12px;
-    background-color: #a3b18a;
-    color: #ffffff;
-    padding: 8px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-   
-  .logo {
-    display: flex;
-    align-items: center;
-  }
-   
-  .logo img {
-    width: 65px;
-    height: 65px;
-    margin-left: 15px;
-    margin-right: 10px;
-  }
-   
-  .logo h1 {
-    margin: 0;
-  }
-   
-  .buttons {
-    display: flex;
-  }
-   
-  .button {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #283618;
-    color: #edede9;
-    border: none;
-    padding: 10px 20px;
-    margin-left: 10px;
-    margin-right: 30px;
-    cursor: pointer;
-    border-radius: 10px;
-  }
-   
-  .button:hover {
-    color: #283618;
-    background-color: #f3f3f3;
-  }
-   
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-  }
-   
-  .text {
-    text-align: left;
-    position: relative;
-    margin-left: 100px;
-    flex: 1;
-    text-align: left;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    color: #283618;
-  }
-   
-  .image {
-    max-width: 100%;
-    height: auto;
-    margin-right: 70px;
-    margin-top: 55px;
-    flex: 1;
-    text-align: right;
-  }
-   
-  h2 {
-    font-size: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #71816d;
-  }
-   
-  p {
-    font-size: 25px;
-  }
-   
-  .modalLocais {
-    text-align: justify;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  }
-   
-  .botaoFechar {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    background-color: #283618;
-    color: #edede9;
-    border: none;
-    padding: 6px 15px;
-    margin-left: 10px;
-    margin-right: 30px;
-    cursor: pointer;
-    border-radius: 10px;
-  }
-   
-  .botaoFechar:hover {
-    color: #283618;
-    background-color: #a3b18a;
-  }
-   
-  p {
-    font-size: 22px;
-  }
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
 
-  @media only screen and (min-width: 1442px) {
-    #mapid {
-        height: 975px;
-        width: 100%;
-        margin-left: 15%;
-    }
-  }
+header {
+  font-family: "Onest", sans-serif;
+  font-size: 12px;
+  background-color: #a3b18a;
+  color: #ffffff;
+  padding: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  @media only screen and (max-width: 1440px) {
-    #mapid {
-        height: 502px;
-        width: 100%;
-        margin-left: 26%;
-    }
-  }
+.logo {
+  display: flex;
+  align-items: center;
+}
 
-  @media only screen and (max-width: 1025px) {
-    #mapid {
-        height: 449px;
-        width: 100%;
-        margin-left: 37%;
-    }
-  }
+.logo img {
+  width: 65px;
+  height: 65px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
 
-  @media only screen and (max-width: 769px) {
-    #mapid {
-        height: 449px;
-        width: 500px;
-        margin-left: 40%;
-    }
+.logo h1 {
+  margin: 0;
+}
+
+.buttons {
+  display: flex;
+}
+
+.button {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #283618;
+  color: #edede9;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-right: 30px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.button:hover {
+  color: #283618;
+  background-color: #f3f3f3;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.text {
+  text-align: left;
+  position: relative;
+  margin-left: 100px;
+  flex: 1;
+  text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #283618;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  margin-right: 70px;
+  margin-top: 55px;
+  flex: 1;
+  text-align: right;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #71816d;
+}
+
+p {
+  font-size: 25px;
+}
+
+.modalLocais {
+  text-align: justify;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.botaoFechar {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  background-color: #283618;
+  color: #edede9;
+  border: none;
+  padding: 6px 15px;
+  margin-left: 10px;
+  margin-right: 30px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.botaoFechar:hover {
+  color: #283618;
+  background-color: #a3b18a;
+}
+
+p {
+  font-size: 22px;
+}
+
+@media only screen and (min-width: 1442px) {
+  #mapid {
+    height: 975px;
+    width: 100%;
+    margin-left: 15%;
   }
+}
+
+@media only screen and (max-width: 1440px) {
+  #mapid {
+    height: 502px;
+    width: 100%;
+    margin-left: 26%;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  #mapid {
+    height: 449px;
+    width: 100%;
+    margin-left: 37%;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  #mapid {
+    height: 449px;
+    width: 500px;
+    margin-left: 40%;
+  }
+}
 
 @media only screen and (max-width: 512px) {
-    header {
-        width: 100%;
-        position: relative;
-        overflow: hidden;
-    }
+  header {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
 
-    .button {
-        margin: 8px;
-        margin-left: 2px;
-        overflow: hidden;
-    }
-
+  .button {
+    margin: 8px;
+    margin-left: 2px;
+    overflow: hidden;
+  }
 
   main {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   #mapid {
     flex: 1;
-      width: 250px;
-      height: 250px;
-      margin: 0;
-      
+    width: 250px;
+    height: 250px;
+    margin: 0;
   }
 
   .mapaContainer {
-      width: 100%;
-      position: relative;
+    width: 100%;
+    position: relative;
   }
 
   .listCardLateral {
@@ -194,47 +192,45 @@ body {
     flex-basis: 100%;
     justify-content: center;
     position: absolute;
-      
   }
 
   .list-group-item {
-      text-align: left;
-      justify-content: center;
+    text-align: left;
+    justify-content: center;
   }
 }
 
 /* Estilos para telas de computador */
 @media only screen and (max-width: 376px) {
+  header {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
 
-    header {
-        width: 100%;
-        position: relative;
-        overflow: hidden;
-    }
-
-    .button {
-        margin: 8px;
-        margin-left: 2px;
-        overflow: hidden;
-    }
+  .button {
+    margin: 8px;
+    margin-left: 2px;
+    overflow: hidden;
+  }
 
   main {
-      display: flex;
-      align-items: stretch;
-      margin-top: 0px; /* Espaçamento superior para separar do cabeçalho */
+    display: flex;
+    align-items: stretch;
+    margin-top: 0px; /* Espaçamento superior para separar do cabeçalho */
   }
 
   #mapid {
-      flex: 1;
-      height: 250px;
-      width: 250px;
-      margin: 0;
-      overflow: hidden;
+    flex: 1;
+    height: 250px;
+    width: 250px;
+    margin: 0;
+    overflow: hidden;
   }
 
   .mapaContainer {
-      width: 100%; /* Ajuste conforme necessário */
-      position: relative;
+    width: 100%; /* Ajuste conforme necessário */
+    position: relative;
   }
 
   .listCardLateral {
@@ -244,9 +240,9 @@ body {
   }
 
   .list-group-item {
-      text-align: center;
+    text-align: center;
   }
 }
-
-
-
+.scrollarea {
+  overflow-y: auto;
+}
