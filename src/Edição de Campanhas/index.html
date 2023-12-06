@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<!-- cabeçalho -->
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,12 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Onest:wght@300&display=swap" rel="stylesheet">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
 </head>
-
 <body>
     <header>
         <div class="logo">
@@ -34,42 +29,41 @@
         <br><br>
         <div class="container"> 
             <div class="">
-            <h2>Editar Campanha</h2>  
+                <h2>Editar Campanha</h2>  
             </div>         
-        <form>
-         
-            <label for="nomeCampanha">Nome da Campanha:</label>
-            <input type="text" id="nomeCampanha" placeholder="Digite o nome da campanha" required>
-            <br>
-            <label for="causasApoiadas">Causa(s) apoiada(s):</label>
-            <input type="text" id="causasApoiadas" placeholder="Digite a causa apoiada" required>
-            <br>
-            <label for="vigencia">Vigência:</label>
-            <select id="vigencia" required>
-                <option value="continua">Contínua</option>
-                <option value="temporaria">Temporária</option>
-            </select><br>    
-            <label for="itensArrecadados">Itens a serem arrecadados:</label><br>
-            <div class="text-center"> <textarea id="itensArrecadados" placeholder="Descreva os itens a serem arrecadados" required></textarea></div>
-            
-            <button class="button" type="submit">Salvar alterações</button>
-        </form>
-    </div>
-    
-    <div class="modal fade" id="modalSobre" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Sobre o Doe Aqui</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Buscamos simplificar o processo de doação, estabelecendo uma conexão direta entre doadores e destinatários. Nosso objetivo é oferecer uma solução prática e transparente que não apenas facilita as doações, mas também fortalece a confiança na generosidade compartilhada, fazendo com que cada contribuição faça a diferença onde é mais necessária.</p>
-                    <button type="button" class="botaoFechar" data-bs-dismiss="modal">Fechar</button>
+            <form id="editForm">
+                <label for="nomeCampanha">Nome da Campanha:</label>
+                <input type="text" id="nomeCampanha" placeholder="Digite o nome da campanha" required>
+                <br>
+                <label for="causasApoiadas">Causa(s) apoiada(s):</label>
+                <input type="text" id="causasApoiadas" placeholder="Digite a causa apoiada" required>
+                <br>
+                <label for="vigencia">Vigência:</label>
+                <select id="vigencia" required>
+                    <option value="continua">Contínua</option>
+                    <option value="temporaria">Temporária</option>
+                </select><br>    
+                <label for="itensArrecadados">Itens a serem arrecadados:</label><br>
+                <div class="text-center"> <textarea id="itensArrecadados" placeholder="Descreva os itens a serem arrecadados" required></textarea></div>
+                
+                <button class="button" type="submit">Salvar alterações</button>
+            </form>
+        </div>
+        
+        <div class="modal fade" id="modalSobre" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Sobre o Doe Aqui</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Buscamos simplificar o processo de doação, estabelecendo uma conexão direta entre doadores e destinatários. Nosso objetivo é oferecer uma solução prática e transparente que não apenas facilita as doações, mas também fortalece a confiança na generosidade compartilhada, fazendo com que cada contribuição faça a diferença onde é mais necessária.</p>
+                        <button type="button" class="botaoFechar" data-bs-dismiss="modal">Fechar</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
         <footer class="py-1 my-1">
             <ul class="nav justify-content-center border-bottom pb-1 mb-1">
@@ -80,4 +74,4 @@
         </footer>
         <script src="../Edição de Campanhas/edicao.js"></script>
     </body>
-    </html>
+</html>

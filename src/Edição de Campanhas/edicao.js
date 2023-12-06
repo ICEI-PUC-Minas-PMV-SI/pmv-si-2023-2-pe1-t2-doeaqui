@@ -9,13 +9,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
     editForm.addEventListener("submit", function(e) {
         e.preventDefault();
-
+    
         dadosCampanha.nomeCampanha = document.querySelector("#nomeCampanha").value;
         dadosCampanha.causasApoiadas = document.querySelector("#causasApoiadas").value;
         dadosCampanha.vigencia = document.querySelector("#vigencia").value;
         dadosCampanha.itensArrecadados = document.querySelector("#itensArrecadados").value;
-
+    
         localStorage.setItem("dadosCampanha", JSON.stringify(dadosCampanha));
         alert("Alterações salvas com sucesso!");
+        
+        console.log("Dados alterados:", dadosCampanha);
     });
 });
+
