@@ -10,9 +10,9 @@ function populateCampaignDropdown() {
 
     dropdown.innerHTML = '';
 
-    campanhas.forEach((campanha, index) => {
+    campanhas.forEach((campanha, campanhaID) => {
         const option = document.createElement('option');
-        option.value = index; 
+        option.value = campanhaID; 
         option.textContent = campanha.nomeCampanha;
         dropdown.appendChild(option);
     });
@@ -25,17 +25,22 @@ document.getElementById('deleteButton').addEventListener('click', function() {
 
 
 document.getElementById('confirmDelete').addEventListener('click', function() {
-    const selectedIndex = document.getElementById('campaignDropdown').value;
-    const campanhas = getStoredCampanhas();
-
-    if (selectedIndex !== '') {
-        campanhas.splice(selectedIndex, 1); 
-        localStorage.setItem('campanhas', JSON.stringify(campanhas));
+    const selectedCampaignId = document.getElementById('campaignDropdown').value;
+ 
+    if (selectedCampaignId !== '') {
+        localStorage.removeItem(selectedCampaignId);
+ 
+        const campaigns = JSON.parse(localStorage.getItem('campanhas')) || [];
+        const campaignIndex = campaigns.indexOf(selectedCampaignId);
+ 
+        if (campaignIndex !== -1) {
+            campaigns.splice(campaignIndex, 1);
+            localStorage.setItem('campanhas', JSON.stringify(campaigns));
+        }
+ 
         alert('Campanha excluída com sucesso!');
-        populateCampaignDropdown(); 
-
-  window.location.reload();
+        window.location.reload();
     } else {
         alert('Por favor, selecione uma campanha para excluir.');
     }
-});
+ });
