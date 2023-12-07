@@ -1,6 +1,7 @@
 
 document.addEventListener("DOMContentLoaded", function() {
     const formCampanha = document.querySelector("form");
+    
     formCampanha.addEventListener("submit", function(e) {
         e.preventDefault();
 
@@ -9,14 +10,22 @@ document.addEventListener("DOMContentLoaded", function() {
         const vigencia = document.querySelector("#vigencia").value;
         const itensArrecadados = document.querySelector("#itensArrecadados").value;
 
-        const dadosCampanha = {
+        const novaCampanha = {
             nomeCampanha,
             causasApoiadas,
             vigencia,
             itensArrecadados
         };
 
-        localStorage.setItem("dadosCampanha", JSON.stringify(dadosCampanha));
+        const campanhaID = `campanha_${Date.now()}`;
+
+        let campanhas = JSON.parse(localStorage.getItem("campanhas")) || [];
+
+        campanhas.push(campanhaID);
+
+        localStorage.setItem(campanhaID, JSON.stringify(novaCampanha));
+
+        localStorage.setItem("campanhas", JSON.stringify(campanhas));
 
         alert("Campanha criada com sucesso!");
         formCampanha.reset();
