@@ -27,16 +27,14 @@
     </header>
     <body>    
         <br><br>
-        <div class="container">
-            <h2>Selecione a Campanha para Editar</h2>
-    
-            <div>
-                <label for="campanhas">Selecione a campanha para editar:</label>
-                <select id="campanhas">
-                </select>
-                <button id="editButton" class="button">Editar</button>
-            </div>
+       <div class="container">
+        <h2>Selecione a Campanha para Editar</h2>
+        <div>
+            <label for="campanhas">Selecione a campanha para editar:</label>
+            <select id="campanhas"></select>
+            <button id="editButton" class="button">Editar</button>
         </div>
+    </div>
         
         <div class="modal fade" id="modalSobre" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -64,9 +62,9 @@
             document.addEventListener("DOMContentLoaded", function() {
                 const campanhasDropdown = document.querySelector("#campanhas");
                 const editButton = document.querySelector("#editButton");
-    
+        
                 const campanhas = JSON.parse(localStorage.getItem("campanhas")) || [];
-    
+        
                 campanhas.forEach(function(campanhaID) {
                     const campanhaData = JSON.parse(localStorage.getItem(campanhaID));
                     const option = document.createElement("option");
@@ -74,22 +72,15 @@
                     option.textContent = campanhaData.nomeCampanha;
                     campanhasDropdown.appendChild(option);
                 });
-
-                if (!selectedCampaignID) {
-                    alert("Não existem campanhas criadas para edição.");
-                    return;
-                }
-
     
                 editButton.addEventListener("click", function() {
-                     const selectedCampaignID = campanhasDropdown.value;
-                        if (!selectedCampaignID) {
-                     alert("Por favor, selecione uma campanha.");
-                     return;
-    }
-    window.location.href = `index.html?ID=${selectedCampaignID}`;
-});
-
+                    const selectedCampaignID = campanhasDropdown.value;
+                    if (!selectedCampaignID) {
+                        alert("Por favor, selecione uma campanha.");
+                        return;
+                    }
+                    window.location.href = `index.html?ID=${selectedCampaignID}`;
+                });
             });
         </script>
     </body>
