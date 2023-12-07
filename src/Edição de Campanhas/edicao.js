@@ -1,30 +1,23 @@
 document.addEventListener("DOMContentLoaded", function() {
     const editForm = document.querySelector("#editForm");
-    const selectCampaign = document.querySelector("#selectCampaign");
-    const editButton = document.querySelector("#editButton");
+    const queryParams = new URLSearchParams(window.location.search);
+    const selectedCampaignKey = queryParams.get("ID");
+    const selectedCampaignData = JSON.parse(localStorage.getItem(selectedCampaignID));
 
-    editButton.addEventListener("click", function() {
-        const selectedCampaignID = document.querySelector("#campanhas").value;
+    document.querySelector("#nomeCampanha").value = selectedCampaignData.nomeCampanha;
+    document.querySelector("#causasApoiadas").value = selectedCampaignData.causasApoiadas;
+    document.querySelector("#vigencia").value = selectedCampaignData.vigencia;
+    document.querySelector("#itensArrecadados").value = selectedCampaignData.itensArrecadados;
 
-        if (!selectedCampaignID) {
-            alert("Não existem campanhas criadas para edição.");
-            return;
-        }
+    editForm.addEventListener("submit", function(e) {
+        e.preventDefault();
 
-        const selectedCampaignData = JSON.parse(localStorage.getItem(selectedCampaignID));
+        selectedCampaignData.nomeCampanha = document.querySelector("#nomeCampanha").value;
+        selectedCampaignData.causasApoiadas = document.querySelector("#causasApoiadas").value;
+        selectedCampaignData.vigencia = document.querySelector("#vigencia").value;
+        selectedCampaignData.itensArrecadados = document.querySelector("#itensArrecadados").value;
 
-        if (!selectedCampaignData) {
-            alert("Campanha selecionada não encontrada.");
-            return;
-        }
-
-        document.querySelector("#nomeCampanha").value = selectedCampaignData.nomeCampanha;
-        document.querySelector("#causasApoiadas").value = selectedCampaignData.causasApoiadas;
-        document.querySelector("#vigencia").value = selectedCampaignData.vigencia;
-        document.querySelector("#itensArrecadados").value = selectedCampaignData.itensArrecadados;
-
-
-        selectCampaign.style.display = "none";
-        editForm.style.display = "block";
+        localStorage.setItem(selectedCampaignID, JSON.stringify(selectedCampaignData));
+        alert("Alterações salvas com sucesso!");
     });
 });
