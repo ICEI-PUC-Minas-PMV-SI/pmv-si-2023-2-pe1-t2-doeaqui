@@ -48,18 +48,16 @@
 
         <form id="Altere">
             <div class="form-header">
-                <h4>Gerenciamento de Campanha</h4>
+                <h4>Excluir Campanha</h4>
             </div>
-
+            <div>
+                <label for="campanhas">Selecione a campanha para Excluir:</label>
+                <select id="campanhas"></select>
+                <br><br>
+                <button id="deleteButton" class="button">Confirmar</button>
+            </div>
             <div id="buttons">
 
-                <div class="button-box">
-                  <a  class="btn" href="../Criação de Campanhas/index.html" style="background-color: #283618; color: #fff; width: 180px;">Criar Campanha</a>
-                  <br><br>
-                   <a  class="btn" href="../Edição de Campanhas/selecaocampanha.html" style="background-color: #283618; color: #fff;width: 180px;">Editar Campanha</a>
-                  <br><br>
-                  <a  class="btn" href="../wireframe 8/exclusaodecampanha.html" style="background-color: #283618; color: #fff;width: 180px;">Excluir Campanha</a>
-                </div>
                </div>
         </form>
     </main>
@@ -90,6 +88,35 @@
         </ul>
         <p class="text-center text-body-secondary">Doe Aqui - 2023 </p>
     </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const campanhasDropdown = document.querySelector("#campanhas");
+            const deleteButton = document.querySelector("#deleteButton");
+    
+            const campanhas = JSON.parse(localStorage.getItem("campanhas")) || [];
+    
+            campanhas.forEach(function(campanhaID) {
+                const campanhaData = JSON.parse(localStorage.getItem(campanhaID));
+                const option = document.createElement("option");
+                option.value = campanhaID;
+                option.textContent = campanhaData.nomeCampanha;
+                campanhasDropdown.appendChild(option);
+            });
+
+            deleteButton.addEventListener("click", function() {
+                const selectedCampaignID = campanhasDropdown.value;
+                if (!selectedCampaignID) {
+                    alert("Por favor, selecione uma campanha.");
+                    return;
+                }
+                localStorage.removeItem(selectedCampaignID);
+                const updatedCampanhas = campanhas.filter(id => id !== selectedCampaignID);
+                alert("Campanha excluída com sucesso!");
+                window.location.reload();
+            });
+        });
+    </script>
 </body>
 
 </html>
