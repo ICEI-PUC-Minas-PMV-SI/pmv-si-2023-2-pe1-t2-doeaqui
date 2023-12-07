@@ -27,33 +27,15 @@
     </header>
     <body>    
         <br><br>
-        <div class="container"> 
-            <div class="">
-                <h2>Editar Campanha</h2>  
-            </div>   
-            <div id="selectCampaign">
+        <div class="container">
+            <h2>Selecione a Campanha para Editar</h2>
+    
+            <div>
                 <label for="campanhas">Selecione a campanha para editar:</label>
                 <select id="campanhas">
                 </select>
                 <button id="editButton" class="button">Editar</button>
-            </div>      
-            <form id="editForm">
-                <label for="nomeCampanha">Nome da Campanha:</label>
-                <input type="text" id="nomeCampanha" placeholder="Digite o nome da campanha" required>
-                <br>
-                <label for="causasApoiadas">Causa(s) apoiada(s):</label>
-                <input type="text" id="causasApoiadas" placeholder="Digite a causa apoiada" required>
-                <br>
-                <label for="vigencia">Vigência:</label>
-                <select id="vigencia" required>
-                    <option value="continua">Contínua</option>
-                    <option value="temporaria">Temporária</option>
-                </select><br>    
-                <label for="itensArrecadados">Itens a serem arrecadados:</label><br>
-                <div class="text-center"> <textarea id="itensArrecadados" placeholder="Descreva os itens a serem arrecadados" required></textarea></div>
-                
-                <button class="button" type="submit">Salvar alterações</button>
-            </form>
+            </div>
         </div>
         
         <div class="modal fade" id="modalSobre" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -78,6 +60,30 @@
             </ul>
             <p class="text-center text-body-secondary">Doe Aqui - 2023</p>
         </footer>
-        <script src="../Edição de Campanhas/edicao.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const campanhasDropdown = document.querySelector("#campanhas");
+                const editButton = document.querySelector("#editButton");
+    
+                const campanhas = JSON.parse(localStorage.getItem("campanhas")) || [];
+    
+                campanhas.forEach(function(campanhaID) {
+                    const campanhaData = JSON.parse(localStorage.getItem(campanhaID));
+                    const option = document.createElement("option");
+                    option.value = campanhaID;
+                    option.textContent = campanhaData.nomeCampanha;
+                    campanhasDropdown.appendChild(option);
+                });
+    
+                editButton.addEventListener("click", function() {
+                    const selectedCampaignKey = campanhasDropdown.value;
+                    if (!selectedCampaignKey) {
+                        alert("Por favor, selecione uma campanha.");
+                        return;
+                    }
+                    window.location.href = `edicaoCampanha.html?key=${selectedCampaignID}`;
+                });
+            });
+        </script>
     </body>
 </html>
