@@ -82,15 +82,14 @@
 
     
                 editButton.addEventListener("click", function() {
-                    const selectedCampaignID = campanhasDropdown.value;
-                    if (!selectedCampaignID) {
-                        alert("Por favor, selecione uma campanha.");
-                        return;
-                    }
-                  
-                    window.location.href = `index.html?ID=${selectedCampaignID}`;
+                     const selectedCampaignID = campanhasDropdown.value;
+                        if (!selectedCampaignID) {
+                     alert("Por favor, selecione uma campanha.");
+                     return;
+    }
+    window.location.href = `index.html?ID=${selectedCampaignID}`;
+});
 
-                });
             });
         </script>
     </body>
