@@ -74,6 +74,12 @@
                     option.textContent = campanhaData.nomeCampanha;
                     campanhasDropdown.appendChild(option);
                 });
+
+                if (!selectedCampaignID) {
+                    alert("Não existem campanhas criadas para edição.");
+                    return;
+                }
+
     
                 editButton.addEventListener("click", function() {
                     const selectedCampaignID = campanhasDropdown.value;
