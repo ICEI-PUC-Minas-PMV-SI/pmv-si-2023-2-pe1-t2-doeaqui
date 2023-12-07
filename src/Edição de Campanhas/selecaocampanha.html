@@ -76,12 +76,12 @@
                 });
     
                 editButton.addEventListener("click", function() {
-                    const selectedCampaignKey = campanhasDropdown.value;
-                    if (!selectedCampaignKey) {
+                    const selectedCampaignID = campanhasDropdown.value;
+                    if (!selectedCampaignID) {
                         alert("Por favor, selecione uma campanha.");
                         return;
                     }
-                    window.location.href = `edicaoCampanha.html?key=${selectedCampaignID}`;
+                    window.location.href = `edicaoCampanha.html?ID=${selectedCampaignID}`;
                 });
             });
         </script>
