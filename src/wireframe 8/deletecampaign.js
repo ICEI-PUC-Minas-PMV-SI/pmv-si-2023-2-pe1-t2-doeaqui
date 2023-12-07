@@ -1,31 +1,41 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const deleteButton = document.querySelector("#deleteButton");
 
-    deleteButton.addEventListener("click", function() {
-        const campanhas = JSON.parse(localStorage.getItem("campanhas")) || [];
-        const campanhaSelecionada = prompt("Selecione a campanha que quer excluir:");
+function getStoredCampanhas() {
+    const campanhas = JSON.parse(localStorage.getItem('campanhas'));
+    return campanhas || []; 
+}
 
-        if (campanhaSelecionada) {
-            const confirmDelete = confirm(`Tem certeza de que deseja excluir a campanha "${campanhaSelecionada}"?`);
+function populateCampaignDropdown() {
+    const campanhas = getStoredCampanhas();
+    const dropdown = document.getElementById('campaignDropdown');
 
-            if (confirmDelete) {
-                const campanhaEncontrada = campanhas.find(campanhaID => {
-                    const campanhaData = JSON.parse(localStorage.getItem(campanhaID));
-                    return campanhaData.nomeCampanha === campanhaSelecionada;
-                });
+    dropdown.innerHTML = '';
 
-                if (campanhaEncontrada) {
-                    localStorage.removeItem(campanhaEncontrada);
-                    const updatedCampanhas = campanhas.filter(id => id !== campanhaEncontrada);
-                    localStorage.setItem("campanhas", JSON.stringify(updatedCampanhas));
-
-                    alert(`Campanha "${campanhaSelecionada}" excluída com sucesso!`);
-                } else {
-                    alert(`A campanha "${campanhaSelecionada}" não foi encontrada.`);
-                }
-            }
-        } else {
-            alert("Por favor, Selecione a campanha que quer excluir.");
-        }
+    campanhas.forEach((campanha, index) => {
+        const option = document.createElement('option');
+        option.value = index; 
+        option.textContent = campanha.nomeCampanha;
+        dropdown.appendChild(option);
     });
+}
+
+
+document.getElementById('deleteButton').addEventListener('click', function() {
+    populateCampaignDropdown();
+});
+
+
+document.getElementById('confirmDelete').addEventListener('click', function() {
+    const selectedIndex = document.getElementById('campaignDropdown').value;
+    const campanhas = getStoredCampanhas();
+
+    if (selectedIndex !== '') {
+        campanhas.splice(selectedIndex, 1); 
+        localStorage.setItem('campanhas', JSON.stringify(campanhas));
+        alert('Campanha excluída com sucesso!');
+        populateCampaignDropdown(); 
+
+  window.location.reload();
+    } else {
+        alert('Por favor, selecione uma campanha para excluir.');
+    }
 });
