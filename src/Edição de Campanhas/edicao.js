@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const editForm = document.querySelector("#editForm");
     const queryParams = new URLSearchParams(window.location.search);
-    const selectedCampaignKey = queryParams.get("ID");
+    const selectedCampaignID = queryParams.get("ID");
     const selectedCampaignData = JSON.parse(localStorage.getItem(selectedCampaignID));
 
     document.querySelector("#nomeCampanha").value = selectedCampaignData.nomeCampanha;
