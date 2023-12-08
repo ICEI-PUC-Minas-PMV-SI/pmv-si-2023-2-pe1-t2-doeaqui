@@ -5,15 +5,18 @@ Formlogin.addEventListener("submit",
     e.preventDefault()
 const Email = document.querySelector("#Email");
 const password = document.querySelector("#password");
-
+alert(Email.value)
+alert(password.value)
 let usuarios = JSON.parse(localStorage.getItem("usuarios")) || [];
-let usuario = usuarios.find(u => u.email=== Email.value); 
-console.log(usuario);
-if (usuario.password === password.value) {
-    alert("funfou e tudo igual");
-    } else {
-    alert("não encontrado");
-    };
+
+let usuario = usuarios.forEach(function(usuario){
+    if (usuario.email == Email.value && usuario.password == password.value) {
+return usuario;
+} else {
+return null;
+}
+});
+alert(usuario);
 
 logar()
 });
