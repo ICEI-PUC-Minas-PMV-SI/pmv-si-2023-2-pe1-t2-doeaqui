@@ -9,6 +9,7 @@ const Bairro =document.querySelector("#Bairro") ;
 const Cidade =document.querySelector("#Cidade") ;
 const estado =document.querySelector("#estado") ;
 
+localStorage.setItem("CEP", CEP.value);
 localStorage.setItem("Logradouro", Logradouro.value);
 localStorage.setItem("Complemnto", Complemnto.value);
 localStorage.setItem("Bairro", Bairro.value);
@@ -23,4 +24,5 @@ function proximo() {
 
     window.location.href = "../Cadastro/FormRedeSocial.html" ; 
 
-}
+};
+
