@@ -219,8 +219,20 @@ p {
         margin-bottom: 10px;
     }
     
-   
+    #CNPJ {
+        position: relative;
+        top: -20px;
 
+    }
+
+    .Razão {
+        position: relative;
+        top: -48px;
+    }
+    #Razao{
+        position: relative;
+        top: -40px;
+    }
     .input-group {
         align-items: center;
         flex-direction: column;
@@ -247,7 +259,7 @@ p {
     @media screen and (min-width: 768px) {
      #column3 {
         position: relative;
-        left: 19px;
+        left: 9px;
         position: relative;
         top: -2rem;
         
@@ -255,6 +267,15 @@ p {
      .column2 {
         position: relative;
         left: 7px;
+     }
+
+     #CNPJ{
+        position: relative;
+        top: -7px;
+     }
+     .CNPJ{
+        position: relative;
+        top: -7px;
      }
         
 
