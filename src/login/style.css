@@ -46,6 +46,11 @@ header {
     border-radius: 10px;
     text-decoration: none;
 }
+.buttonCadastro{
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+   
+}
 
 .button:hover {
     color: #283618;
