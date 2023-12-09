@@ -42,10 +42,10 @@ Facebook,
 Instagram,
 outros,
         };
-
+        
 localStorage.clear();
-        usuarios.push(usuario);
-        localStorage.setItem("usuarios", JSON.stringify(usuarios));
+usuarios.push(usuario);
+localStorage.setItem("usuarios", JSON.stringify(usuarios));
 proximo();
 
 });

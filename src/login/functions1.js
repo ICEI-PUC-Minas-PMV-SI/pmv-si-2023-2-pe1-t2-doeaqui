@@ -3,23 +3,27 @@ const Formlogin = document.querySelector("#Formlogin")
 Formlogin.addEventListener("submit", 
 (e) => { 
     e.preventDefault()
-const Email = document.querySelector("#Email");
+const email = document.querySelector("#input_button");
 const password = document.querySelector("#password");
 
-let usuarios = JSON.parse(localStorage.getItem("usuarios")) || [];
-let usuario = usuarios.find(u => u.email=== Email.value); 
-console.log(usuario);
-if (usuario.password === password.value) {
-    alert("funfou e tudo igual");
-    } else {
-    alert("não encontrado");
-    };
-
-logar()
+logar(email.value, password.value)
 });
 
 
-function logar() {
+function logar(email, password) {
 
-    window.location.href ="../wireframe 8/index.html"; 
+    let usuarios = JSON.parse(localStorage.getItem("usuarios")) || [];
+    let usuario;
+    usuarios.find(function(curUser){
+        if (curUser.email == email && curUser.password == password) {
+            usuario = curUser;
+            localStorage.setItem("section_id", usuario.id);
+
+            window.location.href ="../wireframe 8/index.html"; 
+    };
+    });
+    if(usuario == null)
+    {
+        alert ("Usuário ou Senha não conferem. Caso não possua credencial, favor se cadastrar")
+    };
 };
