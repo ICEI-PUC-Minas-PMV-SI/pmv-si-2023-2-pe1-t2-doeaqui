@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <!-- Make sure you put this AFTER Leaflet's CSS -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-    
+
 </head>
 
 <body>
@@ -38,29 +38,13 @@
     </header>
     <main>
         <div style="display: flex; flex-direction: column; align-items: flex-start; justify-content: left; width: 100%;">
-            <div class="listCardLateral" style="display: flex; flex-basis: 100%; justify-content: left; position: absolute">
-                <div class="d-flex flex-column align-items-stretch flex-shrink-0 bg-body-tertiary" style="width: 380px;">
-                    <a href="/" class="d-flex align-items-center flex-shrink-0 p-3 link-body-emphasis text-decoration-none border-bottom">
+            <div class="listCardLateral" style="display: flex; flex-basis: 100%; justify-content: left; position: absolute" style="overflow: auto;">
+                <div class="d-flex flex-column align-items-stretch flex-shrink-0 bg-body-tertiary" style="width: 380px; overflow: auto;">
+                    <a href="#" class="d-flex align-items-center flex-shrink-0 p-3 link-body-emphasis text-decoration-none border-bottom">
                         <span class="fs-5 fw-semibold">Lista de Locais</span>
                     </a>
-                    <div class="list-group list-group-flush border-bottom scrollarea" id="locaisListCard">
-                        <span class="list-group-item list-group-item-action py-3 lh-tight scrollarea">
-                            <!-- <div class="d-flex w-100 align-items-center justify-content-between">
-                                <div class="mb-1 small">Nome do Local: <span class="nomeLocal" id="nomeLocal"></span> </div>
-                                
-                            </div>
-                            <div class="col-10 mb-1 small">Nome da Campanha:
-                                <span id="nomeCampanha" class="nomeCampanha"></span>
-                            </div>
-                            <div class="col-10 mb-1 small">Endereço:
-                                <span id="endereco" class="endereco"></span>
-                            </div>
-                            <div class="col-10 mb-1 small">Vigência:
-                                <span id="vigencia" class="vigencia">
-                            </div>
-                            <div class="col-10 mb-1 small">Tipo de Doação:
-                                <span id="tipoDoacao" class="tipoDoacao">
-                            </div> -->
+                    <div class="list-group list-group-flush border-bottom" id="locaisListCard" style="overflow: auto">
+                        <span class="list-group-item list-group-item-action py-3 lh-tight" style="overflow: auto">
                         </span>
                     </div>
                 </div>
