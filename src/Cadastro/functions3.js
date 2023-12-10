@@ -55,6 +55,6 @@ proximo();
 
 function proximo() {
     
- window.location.href ="../wireframe 8/index.html" ; 
+ window.location.href ="../wireframe 8/index.html"; 
 
 }
