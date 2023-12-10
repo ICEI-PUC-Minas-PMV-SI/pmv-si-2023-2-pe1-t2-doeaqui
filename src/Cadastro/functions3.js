@@ -11,6 +11,7 @@ const Complemento = localStorage.getItem("Complemento");
 const bairro = localStorage.getItem("Bairro");
 const cidade = localStorage.getItem("Cidade");
 const estado = localStorage.getItem("estado");
+
 localStorage.setItem( "email", document.querySelector("#email").value)
 const email = localStorage.getItem("email");
 localStorage.setItem( "Telefone", document.querySelector("#Telefone").value)
@@ -23,9 +24,9 @@ localStorage.setItem( "outros", document.querySelector("#outros").value)
 const outros = localStorage.getItem("outros");
 
     let usuarios = JSON.parse(localStorage.getItem("usuarios")) || [];
-
+    const idusuario =  usuarios.length + 1
         const usuario = {
-            id: usuarios.length + 1, // ID único baseado na quantidade de usuários cadastrados
+            idusuario, // ID único baseado na quantidade de usuários cadastrados
 nomeONG,
 cnpj,
 password,
@@ -42,16 +43,18 @@ Facebook,
 Instagram,
 outros,
         };
-        
+        let campanhas = JSON.parse(localStorage.getItem("campanhas")) || [];
 localStorage.clear();
 usuarios.push(usuario);
 localStorage.setItem("usuarios", JSON.stringify(usuarios));
+localStorage.setItem("campanhas", JSON.stringify(campanhas));
+localStorage.setItem("section_id", idusuario);
 proximo();
 
 });
 
 function proximo() {
-
-    window.location.href ="../wireframe 8/index.html" ; 
+    
+ window.location.href ="../wireframe 8/index.html"; 
 
 }
