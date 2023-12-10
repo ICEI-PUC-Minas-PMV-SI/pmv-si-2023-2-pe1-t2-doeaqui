@@ -16,6 +16,7 @@ O professor Rommel Carneiro apresenta alguns exemplos prontos para serem utiliza
 > - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
 > - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
 > - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+> - [leafletjs - Map (Map-Tuturial)](https://leafletjs.com/reference.html#map-factory)
 
 ## Exemplo
 
@@ -36,6 +37,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-007| O sistema deve ter uma ferramenta que é acessada ao clicar em "Criar campanha", que permita que o usuário insira os dados: Nome da Campanha (Campo de Texto), Causa apoiada (Campo de Texto), Vigência (seleção entre contínua ou temporária), Itens a serem arrecadados (Campo de palavras chaves múltiplas). | MÉDIA | CriaçãodeCampanhas/index.html |
 |RF-008| O sistema deve permitir que o usuário ao clicar em "quero doar" informe seu CEP para que a aplicação retorne as instituições/campanhas mais próximas do CEP informado. Após o usuário visitante inserir um CEP válido, exibir uma interface em formato de mapa, centralizada no CEP informado, e que exiba todas as instituições cadastradas num raio de 40km do ponto escolhido. As instituições devem ser clicláveis e ao serem clicadas, devem exibir as informações: Nome/Razão social, CNPJ (se houver), localização/endereço, e-mail, telefone, redes sociais, causas que apoiam, dados bancários para doação e campanhas ativas. | MÉDIA | CEP/cep.html |
 |RF-009|  O sistema deve, na mesma página da interface de mapa, exibir uma lista que contenha todas as instituições exibidas no mapa dentro do raio. As instituições devem ser clicláveis e ao serem clicadas, devem exibir as informações: Nome/Razão social, CNPJ (se houver), localização/endereço, e-mail, telefone, redes sociais, causas que apoiam, dados bancários para doação e campanhas ativas. | MÉDIA | Mapa/index.html |
+|RF-010| O sistema deve, na mesma página da interface de mapa, exibir uma caixa de texto com uma lupa. Essa caixa de texto deverá permitir que o usuário insira palavras de itens de doação ou de causas de apoio. Ao inserir as palavras, o mapa e a lista lateral devem ser ajustadas para ser exibidas somente as organizações que tenham nos campos "Causas que apoia", em seu cadastro, e no campo "Itens a serem arrecadados", em sua campanha, a palavra pesquisada pelo usuário. | BAIXO | Mapa/index.html |
 
 ## Descrição das estruturas:
 
