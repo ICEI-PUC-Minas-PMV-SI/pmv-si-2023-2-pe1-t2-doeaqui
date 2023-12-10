@@ -52,13 +52,14 @@
 
         <form id="Altere">
             <div class="form-header">
-                <h4>Excluir Campanha</h4>
+                <h3>Selecione a campanha:</h3>
             </div>
             <div>
-                <label for="campanhas">Selecione a campanha para Excluir:</label>
-                <select id="campanhas"></select>
+                
+                <select id="campanhas"><option value="" disabled selected>Selecione sua campanha</option>
+                </select>
                 <br><br>
-                <button id="deleteButton" class="button">Confirmar</button>
+                <button id="deleteButton" class="button">Confirmar Exclusão</button>
             </div>
             <div id="buttons">
 
@@ -94,33 +95,42 @@
     </footer>
 
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
+
             const campanhasDropdown = document.querySelector("#campanhas");
-            const deleteButton = document.querySelector("#deleteButton");
+            const deleteButton = document.querySelector("#deleteButton"); 
     
-            const campanhas = JSON.parse(localStorage.getItem("campanhas")) || [];
+            let campanhas = JSON.parse(localStorage.getItem("campanhas")) || [];
     
-            campanhas.forEach(function(campanhaID) {
-                const campanhaData = JSON.parse(localStorage.getItem(campanhaID));
-                const option = document.createElement("option");
-                option.value = campanhaID;
-                option.textContent = campanhaData.nomeCampanha;
-                campanhasDropdown.appendChild(option);
-            });
+            campanhas.forEach((campanha) => {
+                    option = new Option(campanha.nomeCampanha, campanha.nomeCampanha.toLowerCase());
+                   campanhasDropdown.options[campanhasDropdown.options.length] = option;
+                });
 
             deleteButton.addEventListener("click", function() {
                 const selectedCampaignID = campanhasDropdown.value;
-                if (!selectedCampaignID) {
+                if (selectedCampaignID != "" ) {
+                    campanhas.find(function(e){
+                        if(
+                            e.nomeCampanha.toLowerCase == selectedCampaignID.toLowerCase
+                    ){
+                        campanhas.splice(e.idcampanha-1, 1);
+                       // localStorage.removeItem("campanhas");
+                        localStorage.setItem("campanhas", JSON.stringify (campanhas));
+
+                        alert("Campanha excluída com sucesso!");
+                    window.location.reload();
+                    }
+                    });
+                   
+                }
+                else{
                     alert("Por favor, selecione uma campanha.");
                     return;
-                }
-                localStorage.removeItem(selectedCampaignID);
-                const updatedCampanhas = campanhas.filter(id => id !== selectedCampaignID);
-                alert("Campanha excluída com sucesso!");
-                window.location.reload();
+                };
+
             });
-        });
-    </script>
+
+</script>
 </body>
 
 </html>

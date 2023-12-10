@@ -36,7 +36,7 @@
         localStorage.clear //apaga localstorage para otimizar espaço
         localStorage.setItem("campanhas", JSON.stringify(campanhas));
         localStorage.setItem("usuarios", JSON.stringify(usuarios));
-        localStorage.setItem("section_id");
+        localStorage.setItem("section_id",idusuario );
         // salva a nova lista de usuarios, a lista de campnhas e a section do usuario atual tudo ja atualizado
         alert("Campanha criada com sucesso!");
 
