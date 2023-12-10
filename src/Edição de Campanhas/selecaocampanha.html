@@ -73,12 +73,15 @@
                 });
     
                 editButton.addEventListener("click", function() {
-                    const selectedCampaignID = campanhasDropdown.value;
-                    if (!selectedCampaignID) {
+                    const selectedCampaign = selecaocampanhas.value;
+                    if (selectedCampaign !="" ) {
+                    
+                        window.location.href = `index.html?ID=${selectedCampaign}`;
+                    }
+                    else{ 
                         alert("Por favor, selecione uma campanha.");
                         return;
-                    }
-                    window.location.href = `index.html?ID=${selectedCampaignID}`;
+                    };
                 });
 
         </script>
