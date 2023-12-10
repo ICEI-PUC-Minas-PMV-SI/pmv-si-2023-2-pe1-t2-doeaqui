@@ -1,4 +1,3 @@
-
 const Formlogin = document.querySelector("#Formlogin")
 Formlogin.addEventListener("submit", 
 (e) => { 
@@ -18,12 +17,13 @@ function logar(email, password) {
         if (curUser.email == email && curUser.password == password) {
             usuario = curUser;
             localStorage.setItem("section_id", usuario.id);
-
+            console.log("Usuário encontrado:", usuario);
+            localStorage.setItem("section_id", usuario.idusuario);
             window.location.href ="../wireframe 8/index.html"; 
     };
     });
     if(usuario == null)
     {
         alert ("Usuário ou Senha não conferem. Caso não possua credencial, favor se cadastrar")
-    };
+    };
 };
