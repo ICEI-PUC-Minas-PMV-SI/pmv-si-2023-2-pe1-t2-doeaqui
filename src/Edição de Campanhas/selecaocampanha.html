@@ -28,10 +28,12 @@
     <body>    
         <br><br>
        <div class="container">
-        <h2>Selecione a Campanha para Editar</h2>
+        <h2>Selecione a Campanha</h2>
         <div>
-            <label for="campanhas">Selecione a campanha para editar:</label>
-            <select id="campanhas"></select>
+
+        <select id="selecaocampanhas">
+         <option value="" disabled selected>Selecione sua campanha</option>
+        </select>
             <button id="editButton" class="button">Editar</button>
         </div>
     </div>
@@ -59,18 +61,15 @@
             <p class="text-center text-body-secondary">Doe Aqui - 2023</p>
         </footer>
         <script>
-            document.addEventListener("DOMContentLoaded", function() {
-                const campanhasDropdown = document.querySelector("#campanhas");
+
+                const selecaocampanhas = document.querySelector("#selecaocampanhas");
                 const editButton = document.querySelector("#editButton");
         
-                const campanhas = JSON.parse(localStorage.getItem("campanhas")) || [];
+                let campanhas = JSON.parse(localStorage.getItem("campanhas")) || [];
         
-                campanhas.forEach(function(campanhaID) {
-                    const campanhaData = JSON.parse(localStorage.getItem(campanhaID));
-                    const option = document.createElement("option");
-                    option.value = campanhaID;
-                    option.textContent = campanhaData.nomeCampanha;
-                    campanhasDropdown.appendChild(option);
+                    campanhas.forEach((campanha) => {
+                    option = new Option(campanha.nomeCampanha, campanha.nomeCampanha.toLowerCase());
+                   selecaocampanhas.options[selecaocampanhas.options.length] = option;
                 });
     
                 editButton.addEventListener("click", function() {
@@ -81,7 +80,7 @@
                     }
                     window.location.href = `index.html?ID=${selectedCampaignID}`;
                 });
-            });
+
         </script>
     </body>
 </html>
