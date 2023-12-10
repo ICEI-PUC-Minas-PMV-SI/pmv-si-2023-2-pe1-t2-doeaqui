@@ -25,21 +25,38 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito  Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
 
-**Caso de Teste** | **CT01 - Criar conta parte 1**
- :--------------: | ------------
-**Procedimento**  | 1) Usuário informa nome, sobrenome, email, senha, Estado e Cidade e clica no botão "Continuar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro.
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
-**Resultado obtido** | Sucesso.
+**Caso de Teste** | **CT01 - Cadastro na plataforma**
+:--------------: | ------------
+**Procedimento**  | 1) Usuário preenche os campos obrigatórios do formulário de cadastro (nome, sobrenome, email, senha, Estado, Cidade).<br>2) Clica em "Registrar".<br>3) O sistema valida os dados e cria a conta do usuário.<br>4) Verificação dos requisitos RF-002 e RF-003.
+**Requisitos associados** | RF-002, RF-003
+**Resultado esperado** | Sucesso no registro do usuário na plataforma.
+**Dados de entrada** | Informações válidas nos campos obrigatórios do formulário de cadastro.
+**Resultado obtido** | Conta criada com sucesso.
 
-**Caso de Teste** | **CT02 - Criar conta parte 2**
- :--------------: | ------------
-**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
-**Resultado obtido** | Sucesso.
+**Caso de Teste** | **CT02 - Edição de perfil**
+:--------------: | ------------
+**Procedimento**  | 1) Usuário acessa a seção de edição de perfil.<br>2) Realiza as alterações desejadas (por exemplo: foto de perfil, informações pessoais).<br>3) Salva as mudanças.<br>4) Verificação do requisito RF-004.
+**Requisitos associados** | RF-004
+**Resultado esperado** | Alterações no perfil salvas com sucesso.
+**Dados de entrada** | Edição válida nas informações do perfil.
+**Resultado obtido** | Perfil atualizado com sucesso.
+
+**Caso de Teste** | **CT03 - Criação de campanhas**
+:--------------: | ------------
+**Procedimento**  | 1) Usuário acessa a seção de criação de campanhas.<br>2) Preenche os campos necessários (título, descrição, imagens, etc.).<br>3) Publica a campanha.<br>4) Verificação dos requisitos RF-005, RF-006 e RF-007.
+**Requisitos associados** | RF-005, RF-006, RF-007
+**Resultado esperado** | Campanha criada e disponível na plataforma.
+**Dados de entrada** | Dados válidos preenchidos no formulário de criação de campanhas.
+**Resultado obtido** | Campanha publicada com sucesso.
+
+**Caso de Teste** | **CT04 - Localização de campanhas por CEP**
+:--------------: | ------------
+**Procedimento**  | 1) Usuário insere um CEP na barra de busca de campanhas.<br>2) O sistema localiza campanhas próximas ao CEP inserido.<br>3) Exibe as campanhas encontradas.<br>4) Verificação dos requisitos RF-008 e RF-009.
+**Requisitos associados** | RF-008, RF-009
+**Resultado esperado** | Campanhas próximas ao CEP exibidas corretamente.
+**Dados de entrada** | Inserção válida de um CEP na barra de busca.
+**Resultado obtido** | Campanhas próximas ao CEP exibidas com sucesso.
+
 
 ## Registro dos Testes de Software
 
