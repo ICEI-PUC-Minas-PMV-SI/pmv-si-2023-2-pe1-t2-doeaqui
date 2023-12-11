@@ -1,5 +1,7 @@
 
-const Formcadastro2=document.querySelector("#Formcadastro2");
+const Formcadastro2=document.querySelector("#Formcadastro2")
+
+
 Formcadastro2.addEventListener("submit",  (e) => {
     e.preventDefault(); 
 const CEP =document.querySelector("#CEP") ;
@@ -25,4 +27,5 @@ function proximo() {
     window.location.href = "../Cadastro/FormRedeSocial.html" ; 
 
 };
+
 
