@@ -42,6 +42,9 @@ formCampanha.addEventListener("submit", function (e) {
         // salva a nova lista de usuarios, a lista de campnhas e a section do usuario atual tudo ja atualizado
         alert("Campanha criada com sucesso!");
 
+        window.location.href = "../wireframe 8/index.html";
+
     formCampanha.reset();
+
 });
 
