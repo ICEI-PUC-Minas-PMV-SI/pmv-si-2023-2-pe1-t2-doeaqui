@@ -1,77 +1,70 @@
-var valores = [
-    {
-        nomeONG: localStorage.getItem("nomeONG"),
-        endereco: localStorage.getItem("Logradouro"),
-        nomeCampanha: localStorage.getItem("nomeCampanha"),
-        vigencia: localStorage.getItem("vigencia"),
-        tipoDoacao: localStorage.getItem("tipoDoacao")
-
-    }
-]
 const listElement = document.getElementById("locaisListCard");
+const campanha = JSON.parse(localStorage.getItem("campanhas"));
+const usuario = JSON.parse(localStorage.getItem("usuarios"));
 
-function mostrarListas(valores) {
+const idcampanha = campanha.map(function (campanha) {
+    return campanha.idUsuario;
+})
+
+const idUsuario = usuario.map(function (usuario) {
+    return usuario.idusuario;
+})
+
+const valoresCampanha = campanha.map(function (campanha) {
+    return {
+        idUsuario: campanha.idusuario,
+        nomeCampanha: campanha.nomeCampanha,
+        vigencia: campanha.vigencia,
+        itensArrecadados: campanha.itensArrecadados
+    }
+})
+
+const valoresUsuario = usuario.map(function (usuario) {
+    return {
+        idUsuario: usuario.idusuario,
+        nomeONG: usuario.nomeONG,
+        endereco: usuario.logradouro
+    }
+})
+
+const valoresConcatenados = valoresCampanha.map(campanha => {
+    const usuario = valoresUsuario.map(function (usuario) {
+        if (campanha.idUsuario == usuario.idUsuario) {
+            return usuario;
+        }
+    }).filter(usuario => usuario != undefined)[0];
+    if (usuario) {
+        return {
+            ...campanha,
+            ...usuario
+        };
+    } else {
+        return campanha;
+    }
+});
+
+
+function listarUsuario() {
     listElement.innerHTML = "";
 
-    for (let i = 0; i < valores.length; i++) {
-        let valor = valores[i];
+    for (let i = 0; i < valoresConcatenados.length; i++) {
+        let valor = valoresConcatenados[i];
         listElement.innerHTML += `
-        <div class="list-group-item"> 
-            <span> 
+        <div class="list-group-item">
+            <span>
                 <span class="nomeLocal"> <b>Nome do Local:</b> ${valor.nomeONG} </span>
-                <br>
-                <span class="nomeCampanha"> <b>Nome da Campanha:</b> ${valor.nomeCampanha} </span>
                 <br>
                 <span class="endereco"> <b>Endereço:</b> ${valor.endereco} </span>
                 <br>
-                <span class="vigencia"> <b>Vigência:</b> ${valor.vigencia} </span> 
+                <span class="nomeCampanha"> <b>Nome da Campanha:</b> ${valor.nomeCampanha} </span>
                 <br>
-                <span class="tipoDoacao"> <b>Tipo de Doação:</b> ${valor.tipoDoacao} </span>
+                <span class="vigencia"> <b>Vigência:</b> ${valor.vigencia} </span>
+                <br>
+                <span class="tipoDoacao"> <b>Tipo de Doação:</b> ${valor.itensArrecadados} </span>
             </span>
         </div>
-    `;
+        `;
     }
 }
 
-mostrarListas(valores);
-
-// function exibirContatos() {
-//     getValues();
-
-//     locaisListCard = document.getElementById("locaisListCard");
-
-//     locaisListCard.innerHTML = "";
-
-//     readContato(dados => {
-//         for (let i = 0; i < dados.length; i++) {
-//             let contato = dados[i];
-//             locaisListCard.innerHTML += `
-//                 <div class="#locaisListCard"> 
-//                     <span> 
-//                         <span> ${contato[i].nomeONG} </span>
-//                         <span> ${contato[i].endereco} </span>
-//                         <span> ${contato[i].distancia} </span>
-//                         <span> ${contato[i].horarioFuncionamento} </span>
-//                     </span>
-//                 </div>
-//             `;
-//         }
-//     })
-
-
-// }
-console.log(valores);
-// const nomeONGElement = document.querySelector("#nomeLocal");
-//         nomeONGElement.textContent = valores.map(valores => valores.nomeONG);
-
-//         const nomeCampanhaElement = document.querySelector("#nomeCampanha");
-//         nomeCampanhaElement.textContent = valores.map(valores => valores.nomeCampanha);
-
-//         const nomeEnderecoElement = document.querySelector("#endereco");
-//         nomeEnderecoElement.textContent = valores.map(valores => valores.endereco);
-
-//         const vigenciaElement = document.querySelector("#vigencia");
-//         vigenciaElement.textContent = valores.map(valores => valores.vigencia);
-
-//         const tipoDoacaoElement = document.querySelector("#tipoDoacao");
-//         tipoDoacaoElement.textContent = valores.map(valores => valores.tipoDoacao);
+listarUsuario();
