@@ -1,47 +1,60 @@
+const Formcadastro3 = document.querySelector("#Formcadastro3");
+Formcadastro3.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const nomeONG = localStorage.getItem("nomeONG");
+    const cnpj = localStorage.getItem("CNPJ");
+    const password = localStorage.getItem("password");
+    const confirm_password = localStorage.getItem("confirm_password");
+    const cep = localStorage.getItem("CEP");
+    const logradouro = localStorage.getItem("Logradouro");
+    const Complemento = localStorage.getItem("Complemento");
+    const bairro = localStorage.getItem("Bairro");
+    const cidade = localStorage.getItem("Cidade");
+    const estado = localStorage.getItem("estado");
 
-const btnfinaizar = document.querySelector("#finalizar");
-btnfinaizar.addEventListener("click", (e) => {
-    e.preventDefault()
+    localStorage.setItem("email", document.querySelector("#email").value)
+    const email = localStorage.getItem("email");
+    localStorage.setItem("Telefone", document.querySelector("#Telefone").value)
+    const Telefone = localStorage.getItem("Telefone");
+    localStorage.setItem("Facebook", document.querySelector("#Facebook").value)
+    const Facebook = localStorage.getItem("Facebook");
+    localStorage.setItem("Instagram", document.querySelector("#Instagram").value)
+    const Instagram = localStorage.getItem("Instagram");
+    localStorage.setItem("outros", document.querySelector("#outros").value)
+    const outros = localStorage.getItem("outros");
 
+    let usuarios = JSON.parse(localStorage.getItem("usuarios")) || [];
+    const idusuario = usuarios.length + 1
+    const usuario = {
+        idusuario, // ID único baseado na quantidade de usuários cadastrados
+        nomeONG,
+        cnpj,
+        password,
+        confirm_password,
+        cep,
+        logradouro,
+        Complemento,
+        bairro,
+        cidade,
+        estado,
+        email,
+        Telefone,
+        Facebook,
+        Instagram,
+        outros,
+    };
+    let campanhas = JSON.parse(localStorage.getItem("campanhas")) || [];
+    localStorage.clear();
+    usuarios.push(usuario);
+    localStorage.setItem("usuarios", JSON.stringify(usuarios));
+    localStorage.setItem("campanhas", JSON.stringify(campanhas));
+    localStorage.setItem("section_id", idusuario);
+    proximo();
+
+});
+
+function proximo() {
 
     window.location.href = "../wireframe 8/index.html";
-});
 
-const formCampanha = document.querySelector("#formcampanha");
-
-
-formCampanha.addEventListener("submit", function (e) {
-    e.preventDefault();
-
-    const nomeCampanha = document.querySelector("#nomeCampanha").value;
-    const causasApoiadas = document.querySelector("#causasApoiadas").value;
-    const vigencia = document.querySelector("#vigencia").value;
-    const itensArrecadados = document.querySelector("#itensArrecadados").value;
-    // const idusuario = localStorage.getItem("section_id");
-    // Coloquei pra salvar oq esta dentro do localstorage (let)
-    let campanhas = JSON.parse(localStorage.getItem("campanhas")) || [];     // Coloquei pra salvar oq esta dentro do localstorage (let)
-    let usuarios = JSON.parse(localStorage.getItem("usuarios")) || [];    // Coloquei pra salvar oq esta dentro do localstorage (let)
-    const idcampanha = campanhas.length + 1;
-
-    const idusuario = usuarios.length
-
-    const novaCampanha = {
-        idusuario,
-        idcampanha,
-        nomeCampanha,
-        causasApoiadas,
-        vigencia,
-        itensArrecadados
-    };
-
-    campanhas.push(novaCampanha);
-    localStorage.clear //apaga localstorage para otimizar espaço
-    localStorage.setItem("campanhas", JSON.stringify(campanhas));
-    localStorage.setItem("usuarios", JSON.stringify(usuarios));
-    localStorage.setItem("section_id");
-    // salva a nova lista de usuarios, a lista de campnhas e a section do usuario atual tudo ja atualizado
-    alert("Campanha criada com sucesso!");
-
-    formCampanha.reset();
-});
-
+}
