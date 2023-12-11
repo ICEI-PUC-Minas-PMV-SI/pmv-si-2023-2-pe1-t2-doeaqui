@@ -33,6 +33,8 @@
         localStorage.removeItem(campanhas)
         localStorage.setItem("campanhas", JSON.stringify(campanhas));
                 alert("Alterações salvas com sucesso!");
+
+                window.location.href = "../wireframe 8/index.html";
                 
     });
 
