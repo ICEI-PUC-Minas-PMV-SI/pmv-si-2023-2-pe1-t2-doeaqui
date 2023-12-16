@@ -1,29 +1,27 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title:
-authors:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - name-suffix: Professor XXXX
+title: Doe Aqui
+authors: 
+  - family-names: Carvalho 
+    given-names: Isaac
+  - family-names: Amancio de Oliveira
+    given-names: Gabriel
+  - family-names: Melo
+    given-names: Caio
+  - family-names: Mendonça
+    given-names: Guilherme
+  - family-names: Alfreu
+    given-names: Bruno
+  - name-suffix: Professor
     affiliation: PUC Minas
-    family-names:
-    given-names:
-keywords:
-  -
-  -
-repository-code:
+    family-names: De Nardin
+    given-names: Luciana
+keywords: 
+  - Doações
+  - Arrecadações
+  - Caridade
+  - ONG
+repository-code: 
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2023-06-30
+date-released: 2023-12-16
